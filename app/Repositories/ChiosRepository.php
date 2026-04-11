@@ -1,0 +1,138 @@
+<?php
+
+namespace App\Repositories;
+
+use Illuminate\Support\Collection;
+use Illuminate\Pagination\LengthAwarePaginator;
+
+class ChiosRepository
+{
+    protected Collection $items;
+
+    public function __construct()
+    {
+        $this->items = collect(config('chios'));
+    }
+
+    public static function query(): self
+    {
+        return new self();
+    }
+
+    public function where(string $key, $value): self
+    {
+        $this->items = $this->items->where($key, $value);
+        return $this;
+    }
+
+    public function search(string $term): self
+    {
+        $term = strtolower($term);
+
+        $this->items = $this->items->filter(function ($item) use ($term) {
+            return str_contains(strtolower($item['description']), $term)
+                || str_contains(strtolower($item['slug']), $term);
+        });
+
+        return $this;
+    }
+
+    public function orderBy(string $key, string $direction = 'asc'): self
+    {
+        $this->items = $direction === 'asc'
+            ? $this->items->sortBy($key)
+            : $this->items->sortByDesc($key);
+
+        return $this;
+    }
+
+    public function paginate(int $perPage = 15): LengthAwarePaginator
+    {
+        $page = request('page', 1);
+
+        $results = $this->items
+            ->slice(($page - 1) * $perPage, $perPage)
+            ->values();
+
+        return new LengthAwarePaginator(
+            $results,
+            $this->items->count(),
+            $perPage,
+            $page,
+            [
+                'path' => request()->url(),
+                'query' => request()->query(),
+            ]
+        );
+    }
+
+    public function get(): Collection
+    {
+        return $this->items->values();
+    }
+
+    public static function find($id): ?array
+    {
+        return collect(config('chios'))->firstWhere('id', $id);
+    }
+
+    public static function findBySlug($slug): ?array
+    {
+        return collect(config('chios'))->firstWhere('slug', $slug);
+    }
+
+    public function filterByCategory(string $category): self
+    {
+        // Vous pouvez ajouter une logique de catégorie si vous ajoutez ce champ plus tard
+        return $this;
+    }
+
+    public function limit(int $limit): self
+    {
+        $this->items = $this->items->take($limit);
+        return $this;
+    }
+
+
+    public static function paginateByRaza($raza, $perPage = 23, $page = 1): LengthAwarePaginator
+    {
+        $items = collect(config('chios'))
+            ->filter(function ($item) use ($raza) {
+                return $item['raza'] === $raza;
+            })
+            ->values();
+
+        $offset = ($page - 1) * $perPage;
+        $currentPageItems = $items->slice($offset, $perPage);
+
+        return new LengthAwarePaginator(
+            $currentPageItems,
+            $items->count(),
+            $perPage,
+            $page,
+            [
+                'path' => request()->url(),
+                'query' => request()->query(),
+            ]
+        );
+    }
+
+    public function filterByRaza(string $raza): self
+    {
+        $this->items = $this->items->filter(function ($item) use ($raza) {
+            return $item['raza'] === $raza;
+        });
+
+        return $this;
+    }
+// Dans ChiosRepository.php - Ajoutez cette méthode
+    public static function getAllByRaza($raza)
+    {
+        return collect(config('chios'))
+            ->filter(function ($item) use ($raza) {
+                return $item['raza'] === $raza;
+            })
+            ->values()
+            ->all();
+    }
+}
