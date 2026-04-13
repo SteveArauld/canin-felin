@@ -14,7 +14,7 @@
                      width="100">
 
                 <div class="footer-info">
-                    <p><strong>Dulce Mascota SL</strong><br>
+                    <p><strong>Centro Cuccioli Milano SL</strong><br>
                         NIF : B74839261<br>
                         Registro Núcleo Zoológico : ES320540000287</p>
                 </div>
@@ -42,7 +42,7 @@
 
             <!-- Boutons de contact -->
             <div class="footer-contact">
-                <a href="https://wa.me/34613313103?text={{ urlencode(__('whatsapp_message')) }}"
+                <a href="https://wa.me/393508724295?text={{ urlencode(__('whatsapp_message')) }}"
                    class="footer-btn-wa"
                    target="_blank">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -52,7 +52,7 @@
                     {{ __('footer.whatsapp_button') }}
                 </a>
 
-                <a href="mailto:atencionalcliente@dulcemascota.eu" class="footer-btn-email">
+                <a href="mailto:contatto@centrocucciolimilano.it" class="footer-btn-email">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                     </svg>
@@ -69,7 +69,7 @@
 </footer>
 
 <!-- BOUTON WHATSAPP FLOTTANT -->
-<a href="https://wa.me/34613313103?text={{ urlencode(__('whatsapp_message')) }}"
+<a href="https://wa.me/393508724295?text={{ urlencode(__('whatsapp_message')) }}"
    class="floating-wa"
    target="_blank"
    rel="noopener noreferrer"

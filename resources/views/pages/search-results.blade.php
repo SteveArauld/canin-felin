@@ -3,7 +3,7 @@
 @section('title', __('Resultados de búsqueda'))
 
 @push('styles')
-    <title>Resultados de búsqueda: {{ $query }} - Dulce Mascota</title>
+    <title>Resultados de búsqueda: {{ $query }} - Centro Cuccioli Milano</title>
     @include('pages.style')
     @vite(['resources/css/venta.css'])
 @endpush

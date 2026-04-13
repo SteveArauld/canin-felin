@@ -274,7 +274,7 @@
                     <!-- FOOTER -->
                     <tr>
                         <td bgcolor="#f8fafc" style="background:#f8fafc; border-top:1px solid #e2e8f0; padding:25px 30px; text-align:center; border-radius:0 0 24px 24px;">
-                            <p style="font-size:20px; font-weight:700; color:#667eea; margin:0 0 10px 0;">🐾 Dulce Mascota En Venta</p>
+                            <p style="font-size:20px; font-weight:700; color:#667eea; margin:0 0 10px 0;">🐾 Centro Cuccioli Milano En Venta</p>
                             <p style="color:#64748b; font-size:12px; margin:5px 0;">
                                 📍 <a href="{{ config('app.url') }}" style="color:#667eea; text-decoration:none;">{{ config('app.url') }}</a>
                             </p>

@@ -7835,10 +7835,6 @@ body.single-product .product_meta .tagged_as {
     border-radius: 5px;
 }
 
-.brz .brz-css-mrd97t > .brz-bg > .brz-bg-color {
-    background-color: rgba(0, 116, 249, 0.5);
-}
-
 @media (min-width: 991px) {
     .brz .brz-css-mrd97t {
         z-index: auto;

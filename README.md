@@ -1,59 +1,142 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# CachorrosDirecto
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+![Logo du projet](public/wp-content/logo/logo.png)
 
-## About Laravel
+## Description
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+CachorrosDirecto est une application Laravel 12 pour un site multilingue de présentation et de vente de chiots. Le projet propose une page d'accueil avec chiots mâles et femelles, des fiches détaillées par chiot, un filtrage par race, une page de vente, une recherche avec suggestions et un formulaire de commande par email.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Fonctionnalités principales
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- Site multilingue avec sélection de langue via le préfixe d'URL.
+- Page d'accueil dynamique affichant les chiots mâles et femelles.
+- Pages de détails de chiots accessibles par slug.
+- Pages de race qui listent tous les chiots d'une race donnée.
+- Page de vente avec pagination et filtres de race.
+- Recherche de chiots par nom, race et description.
+- Autocomplétion de recherche et détails de race via AJAX.
+- Formulaire de commande qui envoie un email de confirmation au client et une notification à l'administrateur.
+- Pages statiques : Qui sommes-nous, Envoi, Garantie sanitaire, Références, Contact, Politique de confidentialité, Politique de retour, Cookies.
 
-## Learning Laravel
+## Architecture du projet
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+- `app/Http/Controllers/CachorroController.php` : contrôleur principal gérant l'affichage des pages, la recherche, l'autocomplétion et le traitement des commandes.
+- `app/Repositories/ChiosRepository.php` et `app/Repositories/CachorroRepository*.php` : gestion des données des chiots à partir de configurations.
+- `app/Http/Requests/OrderRequest.php` : validation des données du formulaire de commande.
+- `app/Mail/OrderConfirmationMail.php` : message email de confirmation pour le client et l'administrateur.
+- `routes/web.php` : routes publiques et multilingues.
+- `resources/views/` : vues Blade pour l'interface utilisateur.
+- `public/wp-content/logo/` : logo du site et favicon.
+- `config/` : configuration de l'application et listes de races / chiots.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Pages et routes importantes
 
-## Laravel Sponsors
+- `/{lang}` : page d'accueil.
+- `/{lang}/cachorros-disponibles/{slug}` : fiche détaillée d'un chiot.
+- `/{lang}/cachorrosraza/{slug}` : liste des chiots par race.
+- `/{lang}/cachorros-en-venta` : page de vente principale.
+- `/search` : recherche de chiots.
+- `/search/autocomplete` : autocomplétion de recherche.
+- `/search/race-details` : chargement des détails d'une race.
+- `/{lang}/order/{slug}` : envoi de commande.
+- Pages statiques : `quienes-somos`, `envio-de-cachorros`, `garantia-sanitaria`, `referencias`, `contacto`, `politica-de-privacidad`, `politica-de-devoluciones`, `politica-de-cookies`.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Prérequis
 
-### Premium Partners
+- PHP 8.2 ou supérieur.
+- Composer.
+- Node.js et npm.
+- Base de données MySQL / MariaDB / SQLite / autre supporté par Laravel.
+- Serveur web local (Apache, Nginx) ou `php artisan serve`.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## Installation sur une autre machine
 
-## Contributing
+1. Cloner le dépôt :
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```bash
+git clone <url-du-repo>
+cd cachorrosnew
+```
 
-## Code of Conduct
+2. Installer les dépendances PHP :
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+```bash
+composer install
+```
 
-## Security Vulnerabilities
+3. Copier le fichier d'environnement :
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+```bash
+cp .env.example .env
+```
 
-## License
+4. Configurer le fichier `.env` :
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- `APP_NAME`, `APP_URL`
+- `DB_CONNECTION`, `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`
+- `MAIL_MAILER`, `MAIL_HOST`, `MAIL_PORT`, `MAIL_USERNAME`, `MAIL_PASSWORD`, `MAIL_ENCRYPTION`, `MAIL_FROM_ADDRESS`
+- `ADMIN_EMAIL` pour recevoir les notifications de commande.
+
+5. Générer la clé de l'application :
+
+```bash
+php artisan key:generate
+```
+
+6. Créer la base de données et lancer les migrations :
+
+```bash
+php artisan migrate
+```
+
+7. Installer les dépendances front-end :
+
+```bash
+npm install
+```
+
+8. Compiler les assets :
+
+```bash
+npm run build
+```
+
+9. Lancer le serveur local :
+
+```bash
+php artisan serve
+```
+
+Puis ouvrir l'URL affichée (par défaut `http://127.0.0.1:8000`).
+
+## Commandes utilitaires
+
+- `composer install` : installe les dépendances PHP.
+- `composer setup` : script personnalisé du projet qui installe les dépendances, copie `.env`, génère la clé, lance les migrations, installe npm et construit les assets.
+- `npm install` : installe les dépendances front-end.
+- `npm run build` : compile les assets avec Vite.
+- `php artisan migrate` : exécute les migrations.
+- `php artisan serve` : lance le serveur de développement.
+
+## Configuration email
+
+Le formulaire de commande envoie deux emails :
+
+- une confirmation au client (`MAIL_TO` défini depuis l'email du formulaire),
+- une notification à l'administrateur (`ADMIN_EMAIL` dans `.env`).
+
+Assurez-vous que la configuration SMTP est correcte dans le fichier `.env`.
+
+## Logo
+
+Le logo du projet est présent dans `public/wp-content/logo/logo.png` et est utilisé dans l'en-tête et le pied de page du site.
+
+## Notes de déploiement
+
+- En production, utiliser `npm run build` puis un serveur web stable.
+- Si vous utilisez SQLite, set `DB_CONNECTION=sqlite` et `DB_DATABASE=/chemin/vers/database/database.sqlite`.
+- Pour un environnement de test, activez la localisation et les traductions dans `config/languages.php`.
+
+---
+
+`README.md` mis à jour avec la documentation du projet et le logo intégré.

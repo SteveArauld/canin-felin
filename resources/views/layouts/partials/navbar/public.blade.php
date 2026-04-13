@@ -529,14 +529,14 @@
                     <div class="navbar-column">
                         <div class="navbar-action-wrapper">
                             <a class="navbar-btn navbar-btn-whatsapp"
-                               href="https://wa.me/34613313103?text={{ urlencode(__('whatsapp_message')) }}"
+                               href="https://wa.me/393508724295?text={{ urlencode(__('whatsapp_message')) }}"
                                target="_blank"
                                rel="noopener">
                                 <svg class="navbar-icon" viewBox="0 0 24 24" width="20" height="20">
                                     <path fill="currentColor" d="M19.05 4.91A9.816 9.816 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01zm-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.264 8.264 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.183 8.183 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23z"/>
                                     <path fill="currentColor" d="M16.6 14.52c-.26.74-1.48 1.36-2.42 1.45-.65.06-1.3-.12-2.84-.73-2.11-.83-3.42-2.86-3.52-2.99-.11-.13-1.16-1.54-1.16-2.93 0-1.4.74-2.09 1-2.38.26-.29.57-.36.76-.36.18 0 .36.01.52.01.17 0 .4-.06.63.48.23.54.8 1.87.87 2 .07.14.12.3.02.48-.09.18-.15.3-.3.48-.15.18-.3.36-.15.66.15.3.66 1.1 1.42 1.78.98.87 1.8 1.14 2.06 1.26.26.12.41.1.56-.06.15-.16.66-.77.84-1.03.18-.26.36-.22.61-.13.25.09 1.56.74 1.83.87.27.13.45.2.52.31.07.11.07.66-.19 1.4z"/>
                                 </svg>
-                                <span class="navbar-text">WhatsApp:+34 613 31 31 03</span>
+                                <span class="navbar-text">WhatsApp:+39 350 872 4295</span>
                             </a>
                         </div>
                     </div>
@@ -545,13 +545,13 @@
                     <div class="navbar-column">
                         <div class="navbar-action-wrapper">
                             <a class="navbar-btn navbar-btn-email"
-                               href="mailto:atencionalcliente@dulcemascota.eu"
+                               href="mailto:contatto@centrocucciolimilano.it"
                                target="_self"
                                rel="noopener">
                                 <svg class="navbar-icon" viewBox="0 0 24 24" width="20" height="20">
                                     <path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                                 </svg>
-                                <span class="navbar-text">atencionalcliente@dulcemascota.eu</span>
+                                <span class="navbar-text">contatto@centrocucciolimilano.it</span>
                             </a>
                         </div>
                     </div>

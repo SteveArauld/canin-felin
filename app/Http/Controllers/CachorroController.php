@@ -124,7 +124,7 @@ class CachorroController extends Controller
             Mail::to($orderData['email'])
                 ->send(new OrderConfirmationMail($orderData, $cachorro));
 
-            $adminEmail = env('ADMIN_EMAIL', 'atencionalcliente@dulcemascota.eu');
+            $adminEmail = env('ADMIN_EMAIL', 'contatto@centrocucciolimilano.it');
             Mail::to($adminEmail)
                 ->send(new OrderConfirmationMail($orderData, $cachorro, true));
 

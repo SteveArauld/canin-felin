@@ -3,7 +3,7 @@
 @section('title', __('Avisos legais'))
 
 @push('styles')
-    <title>Política De Privacidad - Dulce Mascota En Venta</title>
+    <title>Política De Privacidad - Centro Cuccioli Milano En Venta</title>
     @include('pages.style')
     @vite(['resources/css/privaciadad.css'])
 
@@ -23,12 +23,12 @@
             }</style>
 
         <!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
-        <title>Página De éxito - Dulce Mascota En Venta</title>
+        <title>Página De éxito - Centro Cuccioli Milano En Venta</title>
         <meta name="description" content="¡Gracias por contactar con nosotros!">
         <meta name="robots" content="follow, noindex">
         <meta property="og:locale" content="en_US">
         <meta property="og:type" content="article">
-        <meta property="og:title" content="Página De éxito - Dulce Mascota En Venta">
+        <meta property="og:title" content="Página De éxito - Centro Cuccioli Milano En Venta">
         <meta property="og:description" content="¡Gracias por contactar con nosotros!">
         <meta property="og:url" content="https://cachorrossanos.es/pagina-de-exito/">
         <meta property="og:site_name" content="Cachorros Directo">
@@ -36,7 +36,7 @@
         <meta property="article:published_time" content="2023-07-23T19:59:00+02:00">
         <meta property="article:modified_time" content="2025-10-13T14:56:54+02:00">
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Página De éxito - Dulce Mascota En Venta">
+        <meta name="twitter:title" content="Página De éxito - Centro Cuccioli Milano En Venta">
         <meta name="twitter:description" content="¡Gracias por contactar con nosotros!">
         <meta name="twitter:label1" content="Time to read">
         <meta name="twitter:data1" content="Less than a minute">
@@ -49,16 +49,16 @@
         <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-KB8XF8ZH"></script>
         <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-5KC2G4KV"></script>
         <script type="application/ld+json" class="rank-math-schema-pro">
-            {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://cachorrossanos.es/#organization","name":"Cachorros Directo","url":"https://cachorrossanos.es","logo":{"@type":"ImageObject","@id":"https://cachorrossanos.es/#logo","url":"https://cachorrossanos.es/wp-content/uploads/2025/09/cropped-orange-and-black-playful-pets-logo-1.webp","contentUrl":"https://cachorrossanos.es/wp-content/uploads/2025/09/cropped-orange-and-black-playful-pets-logo-1.webp","caption":"Cachorros Directo","inLanguage":"en-US","width":"512","height":"512"}},{"@type":"WebSite","@id":"https://cachorrossanos.es/#website","url":"https://cachorrossanos.es","name":"Cachorros Directo","publisher":{"@id":"https://cachorrossanos.es/#organization"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://cachorrossanos.es/pagina-de-exito/#breadcrumb","itemListElement":[{"@type":"ListItem","position":"1","item":{"@id":"https://cachorrossanos.es","name":"Home"}},{"@type":"ListItem","position":"2","item":{"@id":"https://cachorrossanos.es/pagina-de-exito/","name":"p\u00e1gina de \u00e9xito"}}]},{"@type":"WebPage","@id":"https://cachorrossanos.es/pagina-de-exito/#webpage","url":"https://cachorrossanos.es/pagina-de-exito/","name":"P\u00e1gina De \u00e9xito - Dulce Mascota En Venta","datePublished":"2023-07-23T19:59:00+02:00","dateModified":"2025-10-13T14:56:54+02:00","isPartOf":{"@id":"https://cachorrossanos.es/#website"},"inLanguage":"en-US","breadcrumb":{"@id":"https://cachorrossanos.es/pagina-de-exito/#breadcrumb"}},{"@type":"Person","@id":"https://cachorrossanos.es/author/deutschwelpenplatz-de/","name":"cachorros infinitos","url":"https://cachorrossanos.es/author/deutschwelpenplatz-de/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/c0615ac17dee210250e7ea6b8e797b3afbc1c3588c2e5a408ea9aab43cb9892d?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/c0615ac17dee210250e7ea6b8e797b3afbc1c3588c2e5a408ea9aab43cb9892d?s=96&amp;d=mm&amp;r=g","caption":"cachorros infinitos","inLanguage":"en-US"},"sameAs":["https://mintcream-herring-178514.hostingersite.com"],"worksFor":{"@id":"https://cachorrossanos.es/#organization"}},{"@type":"Article","headline":"P\u00e1gina De \u00e9xito - Dulce Mascota En Venta","datePublished":"2023-07-23T19:59:00+02:00","dateModified":"2025-10-13T14:56:54+02:00","author":{"@id":"https://cachorrossanos.es/author/deutschwelpenplatz-de/","name":"cachorros infinitos"},"publisher":{"@id":"https://cachorrossanos.es/#organization"},"description":"\u00a1Gracias por contactar con nosotros!","name":"P\u00e1gina De \u00e9xito - Dulce Mascota En Venta","@id":"https://cachorrossanos.es/pagina-de-exito/#richSnippet","isPartOf":{"@id":"https://cachorrossanos.es/pagina-de-exito/#webpage"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://cachorrossanos.es/pagina-de-exito/#webpage"}}]}
+            {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://cachorrossanos.es/#organization","name":"Cachorros Directo","url":"https://cachorrossanos.es","logo":{"@type":"ImageObject","@id":"https://cachorrossanos.es/#logo","url":"https://cachorrossanos.es/wp-content/uploads/2025/09/cropped-orange-and-black-playful-pets-logo-1.webp","contentUrl":"https://cachorrossanos.es/wp-content/uploads/2025/09/cropped-orange-and-black-playful-pets-logo-1.webp","caption":"Cachorros Directo","inLanguage":"en-US","width":"512","height":"512"}},{"@type":"WebSite","@id":"https://cachorrossanos.es/#website","url":"https://cachorrossanos.es","name":"Cachorros Directo","publisher":{"@id":"https://cachorrossanos.es/#organization"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://cachorrossanos.es/pagina-de-exito/#breadcrumb","itemListElement":[{"@type":"ListItem","position":"1","item":{"@id":"https://cachorrossanos.es","name":"Home"}},{"@type":"ListItem","position":"2","item":{"@id":"https://cachorrossanos.es/pagina-de-exito/","name":"p\u00e1gina de \u00e9xito"}}]},{"@type":"WebPage","@id":"https://cachorrossanos.es/pagina-de-exito/#webpage","url":"https://cachorrossanos.es/pagina-de-exito/","name":"P\u00e1gina De \u00e9xito - Centro Cuccioli Milano En Venta","datePublished":"2023-07-23T19:59:00+02:00","dateModified":"2025-10-13T14:56:54+02:00","isPartOf":{"@id":"https://cachorrossanos.es/#website"},"inLanguage":"en-US","breadcrumb":{"@id":"https://cachorrossanos.es/pagina-de-exito/#breadcrumb"}},{"@type":"Person","@id":"https://cachorrossanos.es/author/deutschwelpenplatz-de/","name":"cachorros infinitos","url":"https://cachorrossanos.es/author/deutschwelpenplatz-de/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/c0615ac17dee210250e7ea6b8e797b3afbc1c3588c2e5a408ea9aab43cb9892d?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/c0615ac17dee210250e7ea6b8e797b3afbc1c3588c2e5a408ea9aab43cb9892d?s=96&amp;d=mm&amp;r=g","caption":"cachorros infinitos","inLanguage":"en-US"},"sameAs":["https://mintcream-herring-178514.hostingersite.com"],"worksFor":{"@id":"https://cachorrossanos.es/#organization"}},{"@type":"Article","headline":"P\u00e1gina De \u00e9xito - Centro Cuccioli Milano En Venta","datePublished":"2023-07-23T19:59:00+02:00","dateModified":"2025-10-13T14:56:54+02:00","author":{"@id":"https://cachorrossanos.es/author/deutschwelpenplatz-de/","name":"cachorros infinitos"},"publisher":{"@id":"https://cachorrossanos.es/#organization"},"description":"\u00a1Gracias por contactar con nosotros!","name":"P\u00e1gina De \u00e9xito - Centro Cuccioli Milano En Venta","@id":"https://cachorrossanos.es/pagina-de-exito/#richSnippet","isPartOf":{"@id":"https://cachorrossanos.es/pagina-de-exito/#webpage"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://cachorrossanos.es/pagina-de-exito/#webpage"}}]}
         </script>
         <!-- /Rank Math WordPress SEO plugin -->
 
         <link rel="dns-prefetch" href="//cdn.canvasjs.com">
         <link rel="dns-prefetch" href="//www.googletagmanager.com">
         <link rel="dns-prefetch" href="//fonts.bunny.net">
-        <link rel="alternate" type="application/rss+xml" title="Dulce Mascota en venta » Feed"
+        <link rel="alternate" type="application/rss+xml" title="Centro Cuccioli Milano en venta » Feed"
               href="https://cachorrossanos.es/feed/">
-        <link rel="alternate" type="application/rss+xml" title="Dulce Mascota en venta » Comments Feed"
+        <link rel="alternate" type="application/rss+xml" title="Centro Cuccioli Milano en venta » Comments Feed"
               href="https://cachorrossanos.es/comments/feed/">
         <script>
             window._wpemojiSettings = {
@@ -12887,7 +12887,7 @@
                                                              src="https://cachorrossanos.es/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-205x205x15x46x175x112x1757510723.webp"
                                                              loading="lazy"
                                                              alt="{{brizy_dc_image_alt imageSrc=" wp-61730744a146ec2b3c33bd7303f756a4.webp"}}"=
-                                                        "" title="Dulce Mascota" draggable="false"></picture>
+                                                        "" title="Centro Cuccioli Milano" draggable="false"></picture>
                                                 </a></div>
                                         </div>
                                     </div>
@@ -13105,7 +13105,7 @@
                                                          src="https://cachorrossanos.es/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-442x442x41x101x360x240x1757510723.webp"
                                                          loading="lazy"
                                                          alt="{{brizy_dc_image_alt imageSrc=" wp-61730744a146ec2b3c33bd7303f756a4.webp"}}"=
-                                                    "" title="Dulce Mascota" draggable="false"></picture>
+                                                    "" title="Centro Cuccioli Milano" draggable="false"></picture>
                                             </div>
                                         </div>
                                     </div>
@@ -13121,7 +13121,7 @@
                                                         class="brz-tp-lg-paragraph brz-text-xs-center brz-css-ckEt0"
                                                         data-uniq-id="j_rG7" data-generated-css="brz-css-jdAM6"><span
                                                             class="brz-cp-color8"
-                                                            style="color: rgba(var(--brz-global-color8),1);">El proveedor de confianza en España de Dulce Mascota de criadores éticos. Especializados en las razas de perros más populares de España, como Setter Inglés, Caniche, Teckel, Golden Retriever, Chihuahua, Yorkshire Terrier y más. Criadero con licencia y entrega a nivel nacional en todas las provincias españolas. Garantías sanitarias completas y asistencia de por vida para cada cachorro.</span>
+                                                            style="color: rgba(var(--brz-global-color8),1);">El proveedor de confianza en España de Centro Cuccioli Milano de criadores éticos. Especializados en las razas de perros más populares de España, como Setter Inglés, Caniche, Teckel, Golden Retriever, Chihuahua, Yorkshire Terrier y más. Criadero con licencia y entrega a nivel nacional en todas las provincias españolas. Garantías sanitarias completas y asistencia de por vida para cada cachorro.</span>
                                                     </p></div>
                                             </div>
                                         </div>
@@ -13186,7 +13186,7 @@
                                         class="brz-fsft-lg-0 brz-fwdth-lg-100 brz-vfw-lg-400 brz-lh-lg-1_9 brz-ls-lg-0 brz-fw-lg-400 brz-fss-lg-px brz-fs-lg-16 brz-ft-google brz-ff-lexend_deca brz-tp-lg-empty brz-text-lg-center brz-tp-xs-empty brz-fs-xs-12 brz-fss-xs-px brz-fw-xs-400 brz-ls-xs-0 brz-lh-xs-1_9 brz-vfw-xs-400 brz-fwdth-xs-100 brz-fsft-xs-0 brz-css-urCHA"
                                         data-generated-css="brz-css-sQZNm" data-uniq-id="ba55R"><strong
                                             class="brz-italic-true brz-bold-true brz-cp-color8"
-                                            style="color: rgba(var(--brz-global-color8),1);"><em>2026 Dulce Mascota ©
+                                            style="color: rgba(var(--brz-global-color8),1);"><em>2026 Centro Cuccioli Milano ©
                                                 Todos los derechos reservados</em></strong></p></div>
                             </div>
                         </div>

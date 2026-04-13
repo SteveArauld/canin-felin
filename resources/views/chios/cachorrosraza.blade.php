@@ -4,7 +4,7 @@
 
 @push('styles')
 
-    <title>Cachorro Beagle - Dulce Mascota En Venta</title>
+    <title>Cachorro Beagle - Centro Cuccioli Milano En Venta</title>
     @include('pages.style')
     @vite(['resources/css/cachorrosraza.css'])
 
