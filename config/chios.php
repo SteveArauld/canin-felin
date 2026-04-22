@@ -1479,3 +1479,727 @@ return [
         "enlace" => "/cachorros-disponibles/loki-macho-beagle/"
     ]
 ];
+
+
+
+
+
+//prémière race chios husky 
+
+[
+    [
+        'id' => 1,
+        'nombre' => 'Allie',
+        'slug' => 'allie',
+        'raza' => 'CHIOT HUSKY SIBERIEN DISPONIBLE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/68609504_2417237978355474_7357081409552384000_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 2,
+        'nombre' => 'Addison',
+        'slug' => 'addison',
+        'raza' => 'CHIOT HUSKY SIBERIEN DISPONIBLE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/68450081_2415166305229308_5446809909117059072_n-1.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 3,
+        'nombre' => 'Adidas',
+        'slug' => 'adidas',
+        'raza' => 'CHIOT HUSKY SIBERIEN DISPONIBLE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/48419129_975213429341128_315009376983187456_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 4,
+        'nombre' => 'Asley',
+        'slug' => 'asley',
+        'raza' => 'CHIOT HUSKY SIBERIEN DISPONIBLE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/286831390_10166404127780298_7025392425684913633_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 5,
+        'nombre' => 'Asky',
+        'slug' => 'asky',
+        'raza' => 'CHIOT HUSKY SIBERIEN DISPONIBLE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/42980378_1995279290493901_5699000544673136640_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 6,
+        'nombre' => 'Axise',
+        'slug' => 'axise',
+        'raza' => 'CHIOT HUSKY SIBERIEN DISPONIBLE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/492411233_1289623979519124_1789800640989443573_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 7,
+        'nombre' => 'Alice',
+        'slug' => 'alice',
+        'raza' => 'CHIOT HUSKY SIBERIEN DISPONIBLE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/280029642_10166306455640298_177987502748321881_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 8,
+        'nombre' => 'Azuta',
+        'slug' => 'azuta',
+        'raza' => 'CHIOT HUSKY SIBERIEN DISPONIBLE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/279716879_10166306453490298_9198960370163285531_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 9,
+        'nombre' => 'Anitha',
+        'slug' => 'anitha',
+        'raza' => 'CHIOT HUSKY SIBERIEN DISPONIBLE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/470218569_2644024949133119_3295092251870641696_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 10,
+        'nombre' => 'Anix',
+        'slug' => 'anix',
+        'raza' => 'CHIOT HUSKY SIBERIEN DISPONIBLE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/209209293_851644589109109_519453069838955007_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 11,
+        'nombre' => 'Acajou',
+        'slug' => 'acajou',
+        'raza' => 'CHIOT HUSKY SIBERIEN DISPONIBLE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/48361862_515630145585672_4005418300463906816_o.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 12,
+        'nombre' => 'Axita',
+        'slug' => 'axita',
+        'raza' => 'CHIOT HUSKY SIBERIEN DISPONIBLE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/280357194_10166306454485298_4959735959598703780_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ]
+];
+
+
+//CHIOTS POMSKY
+
+[
+    [
+        'id' => 13,
+        'nombre' => 'Adams',
+        'slug' => 'adams',
+        'raza' => 'CHIOT POMSKY',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/475786019_940521514895057_8230092964834278254_n.jpg',
+        ],
+        'enlace' => 'https://elevageinfo.com/contactez-nous-vania/',
+        'precio' => '€ 750'
+    ],
+    [
+        'id' => 14,
+        'nombre' => 'Aky',
+        'slug' => 'aky',
+        'raza' => 'CHIOT POMSKY',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/471168568_18286547956241775_4762495772241256613_n.jpg',
+        ],
+        'enlace' => 'https://elevageinfo.com/contactez-nous-vespa/',
+        'precio' => '€ 750'
+    ],
+    [
+        'id' => 15,
+        'nombre' => 'Alf',
+        'slug' => 'alf',
+        'raza' => 'CHIOT POMSKY',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/59244002_276181346471255_9167992900338843648_o.jpg',
+        ],
+        'enlace' => 'https://elevageinfo.com/contactez-nous-viago/',
+        'precio' => '€ 750'
+    ],
+    [
+        'id' => 16,
+        'nombre' => 'Albator',
+        'slug' => 'albator',
+        'raza' => 'CHIOT POMSKY',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/480455032_1176221434073437_5377195583085835916_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 750'
+    ],
+    [
+        'id' => 17,
+        'nombre' => 'Amigo',
+        'slug' => 'amigo',
+        'raza' => 'CHIOT POMSKY',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/471276551_595874589512141_7589159887086805735_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 750'
+    ],
+    [
+        'id' => 18,
+        'nombre' => 'Apollon',
+        'slug' => 'apollon',
+        'raza' => 'CHIOT POMSKY',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/475184792_937979351815940_2572232428226685419_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 750'
+    ],
+    [
+        'id' => 19,
+        'nombre' => 'Altana',
+        'slug' => 'altana',
+        'raza' => 'CHIOT POMSKY',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/14054990_612464275581454_175099003712940862_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 750'
+    ],
+    [
+        'id' => 20,
+        'nombre' => 'Arcadie',
+        'slug' => 'arcadie',
+        'raza' => 'CHIOT POMSKY',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/50012411_2264919360463166_53716460186370048_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 750'
+    ],
+    [
+        'id' => 21,
+        'nombre' => 'Akino',
+        'slug' => 'akino',
+        'raza' => 'CHIOT POMSKY',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/493566219_1017352273878647_4804597477443604374_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 750'
+    ]
+];
+
+
+//CHIOTS GOLDEN RETRIEVER
+
+[
+    [
+        'id' => 22,
+        'nombre' => 'Arus',
+        'slug' => 'arus',
+        'raza' => 'CHIOT GOLDEN RETRIEVER',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/68799180_2702313999800615_6549623786923098112_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 23,
+        'nombre' => 'Anika',
+        'slug' => 'anika',
+        'raza' => 'CHIOT GOLDEN RETRIEVER',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/118244405_3366716466721755_5546470976775291996_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 24,
+        'nombre' => 'Appanella',
+        'slug' => 'appanella',
+        'raza' => 'CHIOT GOLDEN RETRIEVER',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/94884800_2696596577106047_5803019155024117760_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 25,
+        'nombre' => 'Ange',
+        'slug' => 'ange',
+        'raza' => 'CHIOT GOLDEN RETRIEVER',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/153930061_3487067788058918_8021663050975542609_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 26,
+        'nombre' => 'Ako',
+        'slug' => 'ako',
+        'raza' => 'CHIOT GOLDEN RETRIEVER',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/153506231_3487068004725563_6899965135833910114_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 27,
+        'nombre' => 'Akari',
+        'slug' => 'akari',
+        'raza' => 'CHIOT GOLDEN RETRIEVER',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/50028669_2324518784246807_2097442322609340416_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ]
+];
+
+
+//
+[
+    [
+        'id' => 28,
+        'nombre' => 'Azura',
+        'slug' => 'azura',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/83947161_2587870894871387_2649339693090471936_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 29,
+        'nombre' => 'Azerty',
+        'slug' => 'azerty',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/67108545_499988087209640_5981037882926694400_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 30,
+        'nombre' => 'Axis',
+        'slug' => 'axis',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/42321790_2184627971862350_4694263877158830080_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 31,
+        'nombre' => 'Aura',
+        'slug' => 'aura',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/80092693_2550675048590972_9210256104380956672_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 32,
+        'nombre' => 'Autruche',
+        'slug' => 'autruche',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/491477180_682908514254245_5957395554693948579_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 33,
+        'nombre' => 'Avatar',
+        'slug' => 'avatar',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/60581109_2356618297996649_6848666000213147648_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 34,
+        'nombre' => 'Astérix',
+        'slug' => 'asterix',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/58374924_2332147903777022_2590120546574270464_n-Copy.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 35,
+        'nombre' => 'Aska',
+        'slug' => 'aska',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/54207558_2308889839436162_6509523695914975232_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 36,
+        'nombre' => 'Aquila',
+        'slug' => 'aquila',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/70635249_2458505051141306_769513497829572608_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 37,
+        'nombre' => 'Acapella',
+        'slug' => 'acapella',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/281691584_5283543905035843_2999917343100329812_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 38,
+        'nombre' => 'Alpha',
+        'slug' => 'alpha',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/49694584_2264912653833881_168589565290872832_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 39,
+        'nombre' => 'Anis',
+        'slug' => 'anis',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/69700388_1251736728320975_8480785123522904064_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 40,
+        'nombre' => 'Adrénaline',
+        'slug' => 'adrenaline',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/75069646_466315064013846_8371402305177649152_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 41,
+        'nombre' => 'Aurelia',
+        'slug' => 'aurelia',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/480752873_1177670623928518_10458988084641387_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 42,
+        'nombre' => 'Anastasia',
+        'slug' => 'anastasia',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/480324940_1177792707249643_746145890683739333_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 43,
+        'nombre' => 'Aquarelle',
+        'slug' => 'aquarelle',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/345660832_960186971777285_5708053212027929819_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 44,
+        'nombre' => 'Appy',
+        'slug' => 'appy',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/345595798_1814456885607727_3645646017523423124_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ],
+    [
+        'id' => 45,
+        'nombre' => 'April',
+        'slug' => 'april',
+        'raza' => 'CHIOT SPITZ NAIN',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/277533092_131385302797929_4815272553393056963_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 1000'
+    ]
+];
+
+
+
+
+//
+
+
+[
+    [
+        'id' => 46,
+        'nombre' => 'Auria',
+        'slug' => 'auria',
+        'raza' => 'CHIOT YORKSHIRE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/502840897_large.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 47,
+        'nombre' => 'Axa',
+        'slug' => 'axa',
+        'raza' => 'CHIOT YORKSHIRE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/11334163_972711396154572_2948165478905641265_o.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 48,
+        'nombre' => 'Auriell',
+        'slug' => 'auriell',
+        'raza' => 'CHIOT YORKSHIRE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/152018522_111031194360118_2490968396609918113_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 49,
+        'nombre' => 'Awisto',
+        'slug' => 'awisto',
+        'raza' => 'CHIOT YORKSHIRE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/26165152_1842527429122376_3179588328356003742_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 50,
+        'nombre' => 'Anora',
+        'slug' => 'anora',
+        'raza' => 'CHIOT YORKSHIRE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/48356928_2421566557885124_3904719682652864512_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 51,
+        'nombre' => 'Anouk',
+        'slug' => 'anouk',
+        'raza' => 'CHIOT YORKSHIRE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/502819115_large.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 52,
+        'nombre' => 'Awina',
+        'slug' => 'awina',
+        'raza' => 'CHIOT YORKSHIRE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/51749966_2535227206519058_730724973869531136_n.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 53,
+        'nombre' => 'Ajax',
+        'slug' => 'ajax',
+        'raza' => 'CHIOT YORKSHIRE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/38446575_2170804546294661_307804672423362560_n-Copy.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 54,
+        'nombre' => 'Ano',
+        'slug' => 'ano',
+        'raza' => 'CHIOT YORKSHIRE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/502844609_large.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 55,
+        'nombre' => 'Anya',
+        'slug' => 'anya',
+        'raza' => 'CHIOT YORKSHIRE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, FEMELLE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/123345067_4684649351576822_5971080979620435655_o.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 56,
+        'nombre' => 'Amus',
+        'slug' => 'amus',
+        'raza' => 'CHIOT YORKSHIRE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/114111160_4214637455244683_8006505314181564568_o.jpg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ],
+    [
+        'id' => 57,
+        'nombre' => 'Aka',
+        'slug' => 'aka',
+        'raza' => 'CHIOT YORKSHIRE',
+        'descripcion' => 'AGE DU CHIOT 3 MOIS, MALE. Vacciné CHPPi, Vermifugé (extern and intern), Passeport Français, Carnet de santé, Certificat de bonne santé, Examen clinique, Certificat sanitaire, Déclarés LOF.',
+        'imagenes' => [
+            'https://infoschiotetchat.com/wp-content/uploads/2025/12/502828386_large.jpeg',
+        ],
+        'enlace' => 'https://infoschiotetchat.com/contact/',
+        'precio' => '€ 700'
+    ]
+];
+
+
+
+
+

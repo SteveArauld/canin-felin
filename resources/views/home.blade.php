@@ -1447,32 +1447,32 @@
                                                     notification.textContent = message;
 
                                                     notification.style.cssText = `
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            padding: 15px 25px;
-            border-radius: 5px;
-            color: white;
-            font-weight: 500;
-            z-index: 9999;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
-            animation: slideIn 0.3s ease;
-        `;
+                                                        position: fixed;
+                                                        top: 20px;
+                                                        right: 20px;
+                                                        padding: 15px 25px;
+                                                        border-radius: 5px;
+                                                        color: white;
+                                                        font-weight: 500;
+                                                        z-index: 9999;
+                                                        box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+                                                        animation: slideIn 0.3s ease;
+                                                    `;
                                                     notification.style.backgroundColor = type === 'success' ? '#25D366' : '#ff4444';
 
                                                     document.body.appendChild(notification);
 
                                                     const style = document.createElement('style');
                                                     style.textContent = `
-            @keyframes slideIn {
-                from { transform: translateX(100%); opacity: 0; }
-                to { transform: translateX(0); opacity: 1; }
-            }
-            @keyframes fadeOut {
-                from { transform: translateX(0); opacity: 1; }
-                to { transform: translateX(100%); opacity: 0; }
-            }
-        `;
+                                                        @keyframes slideIn {
+                                                            from { transform: translateX(100%); opacity: 0; }
+                                                            to { transform: translateX(0); opacity: 1; }
+                                                        }
+                                                        @keyframes fadeOut {
+                                                            from { transform: translateX(0); opacity: 1; }
+                                                            to { transform: translateX(100%); opacity: 0; }
+                                                        }
+                                                    `;
                                                     document.head.appendChild(style);
 
                                                     setTimeout(() => {

@@ -16,7 +16,7 @@
                 <div class="footer-info">
                     <p><strong>Centro Cuccioli Milano SL</strong><br>
                         NIF : B74839261<br>
-                        Registro Núcleo Zoológico : ES320540000287</p>
+                        Registro Núcleo Zoológico : IT410490000237</p>
                 </div>
             </div>
 

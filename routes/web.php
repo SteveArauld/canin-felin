@@ -11,65 +11,59 @@ Route::get('/', function () {
 
 
 
-Route::get('/search', [CachorroController::class, 'search'])->name('search');
-Route::get('/search/autocomplete', [CachorroController::class, 'autocomplete'])->name('search.autocomplete');
-Route::get('/search/race-details', [CachorroController::class, 'raceDetails'])->name('search.race-details');
+Route::get('/ricerca', [CachorroController::class, 'search'])->name('search');
+Route::get('/ricerca/autocompletamento', [CachorroController::class, 'autocomplete'])->name('search.autocomplete');
+Route::get('/ricerca/dettagli-razza', [CachorroController::class, 'raceDetails'])->name('search.race-details');
 
 Route::group([ 'prefix' => '{lang}','middleware' => 'setLocale','where' => ['lang' => implode('|', array_keys(config('languages')))],],
     function () {
 
         Route::get('/', [CachorroController::class, 'home'])->name('home');
 
-        Route::get('/cachorros-disponibles/{slug}', [CachorroController::class, 'show'])->name('cachorros.show');
+        Route::get('/cuccioli-disponibili/{slug}', [CachorroController::class, 'show'])->name('cachorros.show');
 
-        Route::get('/cachorrosraza/{slug}', [CachorroController::class, 'cachorrosraza'])->name('cachorrosraza');
+        Route::get('/cuccioli-per-razza/{slug}', [CachorroController::class, 'cachorrosraza'])->name('cachorrosraza');
 
-        Route::post('/order/{slug}', [CachorroController::class, 'processOrder'])->name('order.process');
+        Route::post('/ordine/{slug}', [CachorroController::class, 'processOrder'])->name('order.process');
 
-        Route::get('/cachorros-en-venta', [CachorroController::class, 'venta'])->name('venta');
+        Route::get('/cuccioli-in-vendita', [CachorroController::class, 'venta'])->name('venta');
 
 
 
-        Route::get('/quienes-somos', function () {
+        Route::get('/chi-siamo', function () {
             return view('pages.quienes');
         })->name('quienes');
 
 
-        Route::get('/envio-de-cachorros', function () {
+        Route::get('/spedizione-cuccioli', function () {
             return view('pages.envio');
         })->name('envio');
 
-        Route::get('/garantia-sanitaria', function () {
+        Route::get('/garanzia-sanitaria', function () {
             return view('pages.garantia');
         })->name('garantia');
 
-        Route::get('/referencias', function () {
+        Route::get('/referenze', function () {
             return view('pages.referencias');
         })->name('referencias');
 
-        Route::get('/contacto', function () {
+        Route::get('/contatti', function () {
             return view('pages.contacto');
         })->name('contacto');
 
 
 
-        Route::get('/politica-de-privacidad', function () {
+        Route::get('/politica-sulla-privacy', function () {
             return view('pages.privacidad');
         })->name('privacidad');
 
-        Route::get('/politica-de-devoluciones', function () {
+        Route::get('/politica-di-reso', function () {
             return view('pages.devoluciones');
         })->name('devoluciones');
 
-        Route::get('/politica-de-cookies', function () {
+        Route::get('/politica-dei-cookie', function () {
             return view('pages.cookies');
         })->name('cookies');
-
-
-
-
-
-
 
     }
 );

@@ -68,7 +68,15 @@
 
         }
        </style>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18095309673"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
+        gtag('config', 'AW-18095309673');
+        </script>
     </head>
 
     <body class="wp-singular page-template page-template-brizy-blank-template page-template-brizy-blank-template-php page page-id-535 wp-custom-logo wp-theme-astra theme-astra woocommerce-js wcz-woocommerce wcz-btns wcz-btn-style-default wcz-wooblocks wcz-soldout-style-plain ast-header-break-point ast-page-builder-template ast-no-sidebar astra-4.6.11 ast-single-post ast-inherit-site-logo-transparent ast-hfb-header brz ast-normal-title-enabled elementor-default elementor-kit-1877">

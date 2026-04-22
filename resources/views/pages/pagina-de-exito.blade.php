@@ -10,7 +10,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="profile" href="http://gmpg.org/xfn/11">
-        <link rel="pingback" href="https://cachorrossanos.es/xmlrpc.php">
+        <link rel="pingback" href="https://centrocucciolimilano.it/xmlrpc.php">
         <style>
             #wpadminbar #wp-admin-bar-wsm_free_top_button .ab-icon:before {
                 content: "\f239";
@@ -30,7 +30,7 @@
         <meta property="og:type" content="article">
         <meta property="og:title" content="Página De éxito - Centro Cuccioli Milano En Venta">
         <meta property="og:description" content="¡Gracias por contactar con nosotros!">
-        <meta property="og:url" content="https://cachorrossanos.es/pagina-de-exito/">
+        <meta property="og:url" content="https://centrocucciolimilano.it/pagina-de-exito/">
         <meta property="og:site_name" content="Cachorros Directo">
         <meta property="og:updated_time" content="2025-10-13T14:56:54+02:00">
         <meta property="article:published_time" content="2023-07-23T19:59:00+02:00">
@@ -45,11 +45,11 @@
         <script type="text/javascript" async=""
                 src="https://www.googletagmanager.com/gtag/destination?id=AW-16909792679&amp;cx=c&amp;gtm=4e61d1"></script>
         <script type="text/javascript" async="" defer=""
-                src="https://cachorrossanos.es/wp-content/plugins/wp-stats-manager/js/wsm_new.js"></script>
+                src="https://centrocucciolimilano.it/wp-content/plugins/wp-stats-manager/js/wsm_new.js"></script>
         <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-KB8XF8ZH"></script>
         <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-5KC2G4KV"></script>
         <script type="application/ld+json" class="rank-math-schema-pro">
-            {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://cachorrossanos.es/#organization","name":"Cachorros Directo","url":"https://cachorrossanos.es","logo":{"@type":"ImageObject","@id":"https://cachorrossanos.es/#logo","url":"https://cachorrossanos.es/wp-content/uploads/2025/09/cropped-orange-and-black-playful-pets-logo-1.webp","contentUrl":"https://cachorrossanos.es/wp-content/uploads/2025/09/cropped-orange-and-black-playful-pets-logo-1.webp","caption":"Cachorros Directo","inLanguage":"en-US","width":"512","height":"512"}},{"@type":"WebSite","@id":"https://cachorrossanos.es/#website","url":"https://cachorrossanos.es","name":"Cachorros Directo","publisher":{"@id":"https://cachorrossanos.es/#organization"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://cachorrossanos.es/pagina-de-exito/#breadcrumb","itemListElement":[{"@type":"ListItem","position":"1","item":{"@id":"https://cachorrossanos.es","name":"Home"}},{"@type":"ListItem","position":"2","item":{"@id":"https://cachorrossanos.es/pagina-de-exito/","name":"p\u00e1gina de \u00e9xito"}}]},{"@type":"WebPage","@id":"https://cachorrossanos.es/pagina-de-exito/#webpage","url":"https://cachorrossanos.es/pagina-de-exito/","name":"P\u00e1gina De \u00e9xito - Centro Cuccioli Milano En Venta","datePublished":"2023-07-23T19:59:00+02:00","dateModified":"2025-10-13T14:56:54+02:00","isPartOf":{"@id":"https://cachorrossanos.es/#website"},"inLanguage":"en-US","breadcrumb":{"@id":"https://cachorrossanos.es/pagina-de-exito/#breadcrumb"}},{"@type":"Person","@id":"https://cachorrossanos.es/author/deutschwelpenplatz-de/","name":"cachorros infinitos","url":"https://cachorrossanos.es/author/deutschwelpenplatz-de/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/c0615ac17dee210250e7ea6b8e797b3afbc1c3588c2e5a408ea9aab43cb9892d?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/c0615ac17dee210250e7ea6b8e797b3afbc1c3588c2e5a408ea9aab43cb9892d?s=96&amp;d=mm&amp;r=g","caption":"cachorros infinitos","inLanguage":"en-US"},"sameAs":["https://mintcream-herring-178514.hostingersite.com"],"worksFor":{"@id":"https://cachorrossanos.es/#organization"}},{"@type":"Article","headline":"P\u00e1gina De \u00e9xito - Centro Cuccioli Milano En Venta","datePublished":"2023-07-23T19:59:00+02:00","dateModified":"2025-10-13T14:56:54+02:00","author":{"@id":"https://cachorrossanos.es/author/deutschwelpenplatz-de/","name":"cachorros infinitos"},"publisher":{"@id":"https://cachorrossanos.es/#organization"},"description":"\u00a1Gracias por contactar con nosotros!","name":"P\u00e1gina De \u00e9xito - Centro Cuccioli Milano En Venta","@id":"https://cachorrossanos.es/pagina-de-exito/#richSnippet","isPartOf":{"@id":"https://cachorrossanos.es/pagina-de-exito/#webpage"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://cachorrossanos.es/pagina-de-exito/#webpage"}}]}
+            {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://centrocucciolimilano.it/#organization","name":"Cachorros Directo","url":"https://centrocucciolimilano.it","logo":{"@type":"ImageObject","@id":"https://centrocucciolimilano.it/#logo","url":"https://centrocucciolimilano.it/wp-content/uploads/2025/09/cropped-orange-and-black-playful-pets-logo-1.webp","contentUrl":"https://centrocucciolimilano.it/wp-content/uploads/2025/09/cropped-orange-and-black-playful-pets-logo-1.webp","caption":"Cachorros Directo","inLanguage":"en-US","width":"512","height":"512"}},{"@type":"WebSite","@id":"https://centrocucciolimilano.it/#website","url":"https://centrocucciolimilano.it","name":"Cachorros Directo","publisher":{"@id":"https://centrocucciolimilano.it/#organization"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://centrocucciolimilano.it/pagina-de-exito/#breadcrumb","itemListElement":[{"@type":"ListItem","position":"1","item":{"@id":"https://centrocucciolimilano.it","name":"Home"}},{"@type":"ListItem","position":"2","item":{"@id":"https://centrocucciolimilano.it/pagina-de-exito/","name":"p\u00e1gina de \u00e9xito"}}]},{"@type":"WebPage","@id":"https://centrocucciolimilano.it/pagina-de-exito/#webpage","url":"https://centrocucciolimilano.it/pagina-de-exito/","name":"P\u00e1gina De \u00e9xito - Centro Cuccioli Milano En Venta","datePublished":"2023-07-23T19:59:00+02:00","dateModified":"2025-10-13T14:56:54+02:00","isPartOf":{"@id":"https://centrocucciolimilano.it/#website"},"inLanguage":"en-US","breadcrumb":{"@id":"https://centrocucciolimilano.it/pagina-de-exito/#breadcrumb"}},{"@type":"Person","@id":"https://centrocucciolimilano.it/author/deutschwelpenplatz-de/","name":"cachorros infinitos","url":"https://centrocucciolimilano.it/author/deutschwelpenplatz-de/","image":{"@type":"ImageObject","@id":"https://secure.gravatar.com/avatar/c0615ac17dee210250e7ea6b8e797b3afbc1c3588c2e5a408ea9aab43cb9892d?s=96&amp;d=mm&amp;r=g","url":"https://secure.gravatar.com/avatar/c0615ac17dee210250e7ea6b8e797b3afbc1c3588c2e5a408ea9aab43cb9892d?s=96&amp;d=mm&amp;r=g","caption":"cachorros infinitos","inLanguage":"en-US"},"sameAs":["https://mintcream-herring-178514.hostingersite.com"],"worksFor":{"@id":"https://centrocucciolimilano.it/#organization"}},{"@type":"Article","headline":"P\u00e1gina De \u00e9xito - Centro Cuccioli Milano En Venta","datePublished":"2023-07-23T19:59:00+02:00","dateModified":"2025-10-13T14:56:54+02:00","author":{"@id":"https://centrocucciolimilano.it/author/deutschwelpenplatz-de/","name":"cachorros infinitos"},"publisher":{"@id":"https://centrocucciolimilano.it/#organization"},"description":"\u00a1Gracias por contactar con nosotros!","name":"P\u00e1gina De \u00e9xito - Centro Cuccioli Milano En Venta","@id":"https://centrocucciolimilano.it/pagina-de-exito/#richSnippet","isPartOf":{"@id":"https://centrocucciolimilano.it/pagina-de-exito/#webpage"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://centrocucciolimilano.it/pagina-de-exito/#webpage"}}]}
         </script>
         <!-- /Rank Math WordPress SEO plugin -->
 
@@ -57,9 +57,9 @@
         <link rel="dns-prefetch" href="//www.googletagmanager.com">
         <link rel="dns-prefetch" href="//fonts.bunny.net">
         <link rel="alternate" type="application/rss+xml" title="Centro Cuccioli Milano en venta » Feed"
-              href="https://cachorrossanos.es/feed/">
+              href="https://centrocucciolimilano.it/feed/">
         <link rel="alternate" type="application/rss+xml" title="Centro Cuccioli Milano en venta » Comments Feed"
-              href="https://cachorrossanos.es/comments/feed/">
+              href="https://centrocucciolimilano.it/comments/feed/">
         <script>
             window._wpemojiSettings = {
                 "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/",
@@ -161,7 +161,7 @@
         </script>
 
         <link rel="stylesheet" id="astra-theme-css-css"
-              href="https://cachorrossanos.es/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.6.11"
+              href="https://centrocucciolimilano.it/wp-content/themes/astra/assets/css/minified/main.min.css?ver=4.6.11"
               media="all">
         <style id="astra-theme-css-inline-css">
             :root {
@@ -2053,7 +2053,7 @@
             }
         </style>
         <link rel="stylesheet" id="wp-block-library-css"
-              href="https://cachorrossanos.es/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3" media="all">
+              href="https://centrocucciolimilano.it/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3" media="all">
         <style id="global-styles-inline-css">
             :root {
                 --wp--preset--aspect-ratio--square: 1;
@@ -2599,17 +2599,17 @@
             }
         </style>
         <link rel="stylesheet" id="contact-form-7-css"
-              href="https://cachorrossanos.es/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.3"
+              href="https://centrocucciolimilano.it/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.3"
               media="all">
         <link rel="stylesheet" id="astra-contact-form-7-css"
-              href="https://cachorrossanos.es/wp-content/themes/astra/assets/css/minified/compatibility/contact-form-7-main.min.css?ver=4.6.11"
+              href="https://centrocucciolimilano.it/wp-content/themes/astra/assets/css/minified/compatibility/contact-form-7-main.min.css?ver=4.6.11"
               media="all">
         <link rel="stylesheet" id="dashicons-css"
-              href="https://cachorrossanos.es/wp-includes/css/dashicons.min.css?ver=6.8.3" media="all">
+              href="https://centrocucciolimilano.it/wp-includes/css/dashicons.min.css?ver=6.8.3" media="all">
         <link rel="stylesheet" id="rmp-menu-styles-css"
-              href="https://cachorrossanos.es/wp-content/uploads/rmp-menu/css/rmp-menu.css?ver=14.13.06" media="all">
+              href="https://centrocucciolimilano.it/wp-content/uploads/rmp-menu/css/rmp-menu.css?ver=14.13.06" media="all">
         <link rel="stylesheet" id="admin-bar-css"
-              href="https://cachorrossanos.es/wp-includes/css/admin-bar.min.css?ver=6.8.3" media="all">
+              href="https://centrocucciolimilano.it/wp-includes/css/admin-bar.min.css?ver=6.8.3" media="all">
         <style id="admin-bar-inline-css">
 
             .canvasjs-chart-credit {
@@ -2808,13 +2808,13 @@
 
         </style>
         <link rel="stylesheet" id="woocommerce-layout-css"
-              href="https://cachorrossanos.es/wp-content/themes/astra/assets/css/minified/compatibility/woocommerce/woocommerce-layout-grid.min.css?ver=4.6.11"
+              href="https://centrocucciolimilano.it/wp-content/themes/astra/assets/css/minified/compatibility/woocommerce/woocommerce-layout-grid.min.css?ver=4.6.11"
               media="all">
         <link rel="stylesheet" id="woocommerce-smallscreen-css"
-              href="https://cachorrossanos.es/wp-content/themes/astra/assets/css/minified/compatibility/woocommerce/woocommerce-smallscreen-grid.min.css?ver=4.6.11"
+              href="https://centrocucciolimilano.it/wp-content/themes/astra/assets/css/minified/compatibility/woocommerce/woocommerce-smallscreen-grid.min.css?ver=4.6.11"
               media="only screen and (max-width: 921px)">
         <link rel="stylesheet" id="woocommerce-general-css"
-              href="https://cachorrossanos.es/wp-content/themes/astra/assets/css/minified/compatibility/woocommerce/woocommerce-grid.min.css?ver=4.6.11"
+              href="https://centrocucciolimilano.it/wp-content/themes/astra/assets/css/minified/compatibility/woocommerce/woocommerce-grid.min.css?ver=4.6.11"
               media="all">
         <style id="woocommerce-general-inline-css">
 
@@ -3359,18 +3359,18 @@
             }
         </style>
         <link rel="stylesheet" id="wcz-frontend-css"
-              href="https://cachorrossanos.es/wp-content/plugins/woocustomizer/assets/css/frontend.css?ver=2.6.3"
+              href="https://centrocucciolimilano.it/wp-content/plugins/woocustomizer/assets/css/frontend.css?ver=2.6.3"
               media="all">
         <link rel="stylesheet" id="wsm-style-css"
-              href="https://cachorrossanos.es/wp-content/plugins/wp-stats-manager/css/style.css?ver=1.2" media="all">
+              href="https://centrocucciolimilano.it/wp-content/plugins/wp-stats-manager/css/style.css?ver=1.2" media="all">
         <link rel="stylesheet" id="hostinger-reach-subscription-block-css"
-              href="https://cachorrossanos.es/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription.css?ver=1764726093"
+              href="https://centrocucciolimilano.it/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription.css?ver=1764726093"
               media="all">
         <link rel="stylesheet" id="dgwt-wcas-style-css"
-              href="https://cachorrossanos.es/wp-content/plugins/ajax-search-for-woocommerce/assets/css/style.min.css?ver=1.32.1"
+              href="https://centrocucciolimilano.it/wp-content/plugins/ajax-search-for-woocommerce/assets/css/style.min.css?ver=1.32.1"
               media="all">
         <link rel="stylesheet" id="wpdreams-asl-basic-css"
-              href="https://cachorrossanos.es/wp-content/plugins/ajax-search-lite/css/style.basic.css?ver=4.13.4"
+              href="https://centrocucciolimilano.it/wp-content/plugins/ajax-search-lite/css/style.basic.css?ver=4.13.4"
               media="all">
         <style id="wpdreams-asl-basic-inline-css">
 
@@ -3433,13 +3433,13 @@
 
         </style>
         <link rel="stylesheet" id="wpdreams-asl-instance-css"
-              href="https://cachorrossanos.es/wp-content/plugins/ajax-search-lite/css/style-simple-red.css?ver=4.13.4"
+              href="https://centrocucciolimilano.it/wp-content/plugins/ajax-search-lite/css/style-simple-red.css?ver=4.13.4"
               media="all">
         <link rel="stylesheet" id="taxopress-frontend-css-css"
-              href="https://cachorrossanos.es/wp-content/plugins/simple-tags/assets/frontend/css/frontend.css?ver=3.42.0"
+              href="https://centrocucciolimilano.it/wp-content/plugins/simple-tags/assets/frontend/css/frontend.css?ver=3.42.0"
               media="all">
         <link rel="stylesheet" id="chaty-front-css-css"
-              href="https://cachorrossanos.es/wp-content/plugins/chaty/css/chaty-front.min.css?ver=3.4.91768225561"
+              href="https://centrocucciolimilano.it/wp-content/plugins/chaty/css/chaty-front.min.css?ver=3.4.91768225561"
               media="all">
         <style id="wcz-customizer-custom-css-inline-css">
             body.woocommerce .woocommerce-breadcrumb {
@@ -3475,10 +3475,10 @@
               media="all">
         <link rel="stylesheet" id="brizy-asset-group-1_2-21-css" class="brz-link brz-link-preview-lib-pro"
               data-brz-group="group-1_2"
-              href="https://cachorrossanos.es/wp-content/plugins/brizy-pro/public/editor-build/prod/css/group-1_2-pro.min.css?ver=216-wp"
+              href="https://centrocucciolimilano.it/wp-content/plugins/brizy-pro/public/editor-build/prod/css/group-1_2-pro.min.css?ver=216-wp"
               media="all">
         <link rel="stylesheet" id="brizy-asset-main-30-css" class="brz-link brz-link-preview-pro"
-              href="https://cachorrossanos.es/wp-content/plugins/brizy-pro/public/editor-build/prod/css/preview.pro.min.css?ver=216-wp"
+              href="https://centrocucciolimilano.it/wp-content/plugins/brizy-pro/public/editor-build/prod/css/preview.pro.min.css?ver=216-wp"
               media="all">
         <style id="inline-handle-76dc611d6ebaafc66cc0879c71b5db5c-inline-css">
 
@@ -10806,7 +10806,7 @@
             var _ckyStyles = {"css": ".cky-overlay{background: #000000; opacity: 0.4; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 99999999;}.cky-hide{display: none;}.cky-btn-revisit-wrapper{display: flex; align-items: center; justify-content: center; background: #0056a7; width: 45px; height: 45px; border-radius: 50%; position: fixed; z-index: 999999; cursor: pointer;}.cky-revisit-bottom-left{bottom: 15px; left: 15px;}.cky-revisit-bottom-right{bottom: 15px; right: 15px;}.cky-btn-revisit-wrapper .cky-btn-revisit{display: flex; align-items: center; justify-content: center; background: none; border: none; cursor: pointer; position: relative; margin: 0; padding: 0;}.cky-btn-revisit-wrapper .cky-btn-revisit img{max-width: fit-content; margin: 0; height: 30px; width: 30px;}.cky-revisit-bottom-left:hover::before{content: attr(data-tooltip); position: absolute; background: #4e4b66; color: #ffffff; left: calc(100% + 7px); font-size: 12px; line-height: 16px; width: max-content; padding: 4px 8px; border-radius: 4px;}.cky-revisit-bottom-left:hover::after{position: absolute; content: \"\"; border: 5px solid transparent; left: calc(100% + 2px); border-left-width: 0; border-right-color: #4e4b66;}.cky-revisit-bottom-right:hover::before{content: attr(data-tooltip); position: absolute; background: #4e4b66; color: #ffffff; right: calc(100% + 7px); font-size: 12px; line-height: 16px; width: max-content; padding: 4px 8px; border-radius: 4px;}.cky-revisit-bottom-right:hover::after{position: absolute; content: \"\"; border: 5px solid transparent; right: calc(100% + 2px); border-right-width: 0; border-left-color: #4e4b66;}.cky-revisit-hide{display: none;}.cky-consent-container{position: fixed; width: 440px; box-sizing: border-box; z-index: 9999999; border-radius: 6px;}.cky-consent-container .cky-consent-bar{background: #ffffff; border: 1px solid; padding: 20px 26px; box-shadow: 0 -1px 10px 0 #acabab4d; border-radius: 6px;}.cky-box-bottom-left{bottom: 40px; left: 40px;}.cky-box-bottom-right{bottom: 40px; right: 40px;}.cky-box-top-left{top: 40px; left: 40px;}.cky-box-top-right{top: 40px; right: 40px;}.cky-custom-brand-logo-wrapper .cky-custom-brand-logo{width: 100px; height: auto; margin: 0 0 12px 0;}.cky-notice .cky-title{color: #212121; font-weight: 700; font-size: 18px; line-height: 24px; margin: 0 0 12px 0;}.cky-notice-des *,.cky-preference-content-wrapper *,.cky-accordion-header-des *,.cky-gpc-wrapper .cky-gpc-desc *{font-size: 14px;}.cky-notice-des{color: #212121; font-size: 14px; line-height: 24px; font-weight: 400;}.cky-notice-des img{height: 25px; width: 25px;}.cky-consent-bar .cky-notice-des p,.cky-gpc-wrapper .cky-gpc-desc p,.cky-preference-body-wrapper .cky-preference-content-wrapper p,.cky-accordion-header-wrapper .cky-accordion-header-des p,.cky-cookie-des-table li div:last-child p{color: inherit; margin-top: 0; overflow-wrap: break-word;}.cky-notice-des P:last-child,.cky-preference-content-wrapper p:last-child,.cky-cookie-des-table li div:last-child p:last-child,.cky-gpc-wrapper .cky-gpc-desc p:last-child{margin-bottom: 0;}.cky-notice-des a.cky-policy,.cky-notice-des button.cky-policy{font-size: 14px; color: #1863dc; white-space: nowrap; cursor: pointer; background: transparent; border: 1px solid; text-decoration: underline;}.cky-notice-des button.cky-policy{padding: 0;}.cky-notice-des a.cky-policy:focus-visible,.cky-notice-des button.cky-policy:focus-visible,.cky-preference-content-wrapper .cky-show-desc-btn:focus-visible,.cky-accordion-header .cky-accordion-btn:focus-visible,.cky-preference-header .cky-btn-close:focus-visible,.cky-switch input[type=\"checkbox\"]:focus-visible,.cky-footer-wrapper a:focus-visible,.cky-btn:focus-visible{outline: 2px solid #1863dc; outline-offset: 2px;}.cky-btn:focus:not(:focus-visible),.cky-accordion-header .cky-accordion-btn:focus:not(:focus-visible),.cky-preference-content-wrapper .cky-show-desc-btn:focus:not(:focus-visible),.cky-btn-revisit-wrapper .cky-btn-revisit:focus:not(:focus-visible),.cky-preference-header .cky-btn-close:focus:not(:focus-visible),.cky-consent-bar .cky-banner-btn-close:focus:not(:focus-visible){outline: 0;}button.cky-show-desc-btn:not(:hover):not(:active){color: #1863dc; background: transparent;}button.cky-accordion-btn:not(:hover):not(:active),button.cky-banner-btn-close:not(:hover):not(:active),button.cky-btn-revisit:not(:hover):not(:active),button.cky-btn-close:not(:hover):not(:active){background: transparent;}.cky-consent-bar button:hover,.cky-modal.cky-modal-open button:hover,.cky-consent-bar button:focus,.cky-modal.cky-modal-open button:focus{text-decoration: none;}.cky-notice-btn-wrapper{display: flex; justify-content: flex-start; align-items: center; flex-wrap: wrap; margin-top: 16px;}.cky-notice-btn-wrapper .cky-btn{text-shadow: none; box-shadow: none;}.cky-btn{flex: auto; max-width: 100%; font-size: 14px; font-family: inherit; line-height: 24px; padding: 8px; font-weight: 500; margin: 0 8px 0 0; border-radius: 2px; cursor: pointer; text-align: center; text-transform: none; min-height: 0;}.cky-btn:hover{opacity: 0.8;}.cky-btn-customize{color: #1863dc; background: transparent; border: 2px solid #1863dc;}.cky-btn-reject{color: #1863dc; background: transparent; border: 2px solid #1863dc;}.cky-btn-accept{background: #1863dc; color: #ffffff; border: 2px solid #1863dc;}.cky-btn:last-child{margin-right: 0;}@media (max-width: 576px){.cky-box-bottom-left{bottom: 0; left: 0;}.cky-box-bottom-right{bottom: 0; right: 0;}.cky-box-top-left{top: 0; left: 0;}.cky-box-top-right{top: 0; right: 0;}}@media (max-height: 480px){.cky-consent-container{max-height: 100vh;overflow-y: scroll}.cky-notice-des{max-height: unset !important;overflow-y: unset !important}.cky-preference-center{height: 100vh;overflow: auto !important}.cky-preference-center .cky-preference-body-wrapper{overflow: unset}}@media (max-width: 440px){.cky-box-bottom-left, .cky-box-bottom-right, .cky-box-top-left, .cky-box-top-right{width: 100%; max-width: 100%;}.cky-consent-container .cky-consent-bar{padding: 20px 0;}.cky-custom-brand-logo-wrapper, .cky-notice .cky-title, .cky-notice-des, .cky-notice-btn-wrapper{padding: 0 24px;}.cky-notice-des{max-height: 40vh; overflow-y: scroll;}.cky-notice-btn-wrapper{flex-direction: column; margin-top: 0;}.cky-btn{width: 100%; margin: 10px 0 0 0;}.cky-notice-btn-wrapper .cky-btn-customize{order: 2;}.cky-notice-btn-wrapper .cky-btn-reject{order: 3;}.cky-notice-btn-wrapper .cky-btn-accept{order: 1; margin-top: 16px;}}@media (max-width: 352px){.cky-notice .cky-title{font-size: 16px;}.cky-notice-des *{font-size: 12px;}.cky-notice-des, .cky-btn{font-size: 12px;}}.cky-modal.cky-modal-open{display: flex; visibility: visible; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); top: 50%; left: 50%; transition: all 1s ease;}.cky-modal{box-shadow: 0 32px 68px rgba(0, 0, 0, 0.3); margin: 0 auto; position: fixed; max-width: 100%; background: #ffffff; top: 50%; box-sizing: border-box; border-radius: 6px; z-index: 999999999; color: #212121; -webkit-transform: translate(-50%, 100%); -moz-transform: translate(-50%, 100%); -ms-transform: translate(-50%, 100%); -o-transform: translate(-50%, 100%); transform: translate(-50%, 100%); visibility: hidden; transition: all 0s ease;}.cky-preference-center{max-height: 79vh; overflow: hidden; width: 845px; overflow: hidden; flex: 1 1 0; display: flex; flex-direction: column; border-radius: 6px;}.cky-preference-header{display: flex; align-items: center; justify-content: space-between; padding: 22px 24px; border-bottom: 1px solid;}.cky-preference-header .cky-preference-title{font-size: 18px; font-weight: 700; line-height: 24px;}.cky-preference-header .cky-btn-close{margin: 0; cursor: pointer; vertical-align: middle; padding: 0; background: none; border: none; width: 24px; height: 24px; min-height: 0; line-height: 0; text-shadow: none; box-shadow: none;}.cky-preference-header .cky-btn-close img{margin: 0; height: 10px; width: 10px;}.cky-preference-body-wrapper{padding: 0 24px; flex: 1; overflow: auto; box-sizing: border-box;}.cky-preference-content-wrapper,.cky-gpc-wrapper .cky-gpc-desc{font-size: 14px; line-height: 24px; font-weight: 400; padding: 12px 0;}.cky-preference-content-wrapper{border-bottom: 1px solid;}.cky-preference-content-wrapper img{height: 25px; width: 25px;}.cky-preference-content-wrapper .cky-show-desc-btn{font-size: 14px; font-family: inherit; color: #1863dc; text-decoration: none; line-height: 24px; padding: 0; margin: 0; white-space: nowrap; cursor: pointer; background: transparent; border-color: transparent; text-transform: none; min-height: 0; text-shadow: none; box-shadow: none;}.cky-accordion-wrapper{margin-bottom: 10px;}.cky-accordion{border-bottom: 1px solid;}.cky-accordion:last-child{border-bottom: none;}.cky-accordion .cky-accordion-item{display: flex; margin-top: 10px;}.cky-accordion .cky-accordion-body{display: none;}.cky-accordion.cky-accordion-active .cky-accordion-body{display: block; padding: 0 22px; margin-bottom: 16px;}.cky-accordion-header-wrapper{cursor: pointer; width: 100%;}.cky-accordion-item .cky-accordion-header{display: flex; justify-content: space-between; align-items: center;}.cky-accordion-header .cky-accordion-btn{font-size: 16px; font-family: inherit; color: #212121; line-height: 24px; background: none; border: none; font-weight: 700; padding: 0; margin: 0; cursor: pointer; text-transform: none; min-height: 0; text-shadow: none; box-shadow: none;}.cky-accordion-header .cky-always-active{color: #008000; font-weight: 600; line-height: 24px; font-size: 14px;}.cky-accordion-header-des{font-size: 14px; line-height: 24px; margin: 10px 0 16px 0;}.cky-accordion-chevron{margin-right: 22px; position: relative; cursor: pointer;}.cky-accordion-chevron-hide{display: none;}.cky-accordion .cky-accordion-chevron i::before{content: \"\"; position: absolute; border-right: 1.4px solid; border-bottom: 1.4px solid; border-color: inherit; height: 6px; width: 6px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); transition: all 0.2s ease-in-out; top: 8px;}.cky-accordion.cky-accordion-active .cky-accordion-chevron i::before{-webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg);}.cky-audit-table{background: #f4f4f4; border-radius: 6px;}.cky-audit-table .cky-empty-cookies-text{color: inherit; font-size: 12px; line-height: 24px; margin: 0; padding: 10px;}.cky-audit-table .cky-cookie-des-table{font-size: 12px; line-height: 24px; font-weight: normal; padding: 15px 10px; border-bottom: 1px solid; border-bottom-color: inherit; margin: 0;}.cky-audit-table .cky-cookie-des-table:last-child{border-bottom: none;}.cky-audit-table .cky-cookie-des-table li{list-style-type: none; display: flex; padding: 3px 0;}.cky-audit-table .cky-cookie-des-table li:first-child{padding-top: 0;}.cky-cookie-des-table li div:first-child{width: 100px; font-weight: 600; word-break: break-word; word-wrap: break-word;}.cky-cookie-des-table li div:last-child{flex: 1; word-break: break-word; word-wrap: break-word; margin-left: 8px;}.cky-footer-shadow{display: block; width: 100%; height: 40px; background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%); position: absolute; bottom: calc(100% - 1px);}.cky-footer-wrapper{position: relative;}.cky-prefrence-btn-wrapper{display: flex; flex-wrap: wrap; align-items: center; justify-content: center; padding: 22px 24px; border-top: 1px solid;}.cky-prefrence-btn-wrapper .cky-btn{flex: auto; max-width: 100%; text-shadow: none; box-shadow: none;}.cky-btn-preferences{color: #1863dc; background: transparent; border: 2px solid #1863dc;}.cky-preference-header,.cky-preference-body-wrapper,.cky-preference-content-wrapper,.cky-accordion-wrapper,.cky-accordion,.cky-accordion-wrapper,.cky-footer-wrapper,.cky-prefrence-btn-wrapper{border-color: inherit;}@media (max-width: 845px){.cky-modal{max-width: calc(100% - 16px);}}@media (max-width: 576px){.cky-modal{max-width: 100%;}.cky-preference-center{max-height: 100vh;}.cky-prefrence-btn-wrapper{flex-direction: column;}.cky-accordion.cky-accordion-active .cky-accordion-body{padding-right: 0;}.cky-prefrence-btn-wrapper .cky-btn{width: 100%; margin: 10px 0 0 0;}.cky-prefrence-btn-wrapper .cky-btn-reject{order: 3;}.cky-prefrence-btn-wrapper .cky-btn-accept{order: 1; margin-top: 0;}.cky-prefrence-btn-wrapper .cky-btn-preferences{order: 2;}}@media (max-width: 425px){.cky-accordion-chevron{margin-right: 15px;}.cky-notice-btn-wrapper{margin-top: 0;}.cky-accordion.cky-accordion-active .cky-accordion-body{padding: 0 15px;}}@media (max-width: 352px){.cky-preference-header .cky-preference-title{font-size: 16px;}.cky-preference-header{padding: 16px 24px;}.cky-preference-content-wrapper *, .cky-accordion-header-des *{font-size: 12px;}.cky-preference-content-wrapper, .cky-preference-content-wrapper .cky-show-more, .cky-accordion-header .cky-always-active, .cky-accordion-header-des, .cky-preference-content-wrapper .cky-show-desc-btn, .cky-notice-des a.cky-policy{font-size: 12px;}.cky-accordion-header .cky-accordion-btn{font-size: 14px;}}.cky-switch{display: flex;}.cky-switch input[type=\"checkbox\"]{position: relative; width: 44px; height: 24px; margin: 0; background: #d0d5d2; -webkit-appearance: none; border-radius: 50px; cursor: pointer; outline: 0; border: none; top: 0;}.cky-switch input[type=\"checkbox\"]:checked{background: #1863dc;}.cky-switch input[type=\"checkbox\"]:before{position: absolute; content: \"\"; height: 20px; width: 20px; left: 2px; bottom: 2px; border-radius: 50%; background-color: white; -webkit-transition: 0.4s; transition: 0.4s; margin: 0;}.cky-switch input[type=\"checkbox\"]:after{display: none;}.cky-switch input[type=\"checkbox\"]:checked:before{-webkit-transform: translateX(20px); -ms-transform: translateX(20px); transform: translateX(20px);}@media (max-width: 425px){.cky-switch input[type=\"checkbox\"]{width: 38px; height: 21px;}.cky-switch input[type=\"checkbox\"]:before{height: 17px; width: 17px;}.cky-switch input[type=\"checkbox\"]:checked:before{-webkit-transform: translateX(17px); -ms-transform: translateX(17px); transform: translateX(17px);}}.cky-consent-bar .cky-banner-btn-close{position: absolute; right: 9px; top: 5px; background: none; border: none; cursor: pointer; padding: 0; margin: 0; min-height: 0; line-height: 0; height: 24px; width: 24px; text-shadow: none; box-shadow: none;}.cky-consent-bar .cky-banner-btn-close img{height: 9px; width: 9px; margin: 0;}.cky-notice-group{font-size: 14px; line-height: 24px; font-weight: 400; color: #212121;}.cky-notice-btn-wrapper .cky-btn-do-not-sell{font-size: 14px; line-height: 24px; padding: 6px 0; margin: 0; font-weight: 500; background: none; border-radius: 2px; border: none; cursor: pointer; text-align: left; color: #1863dc; background: transparent; border-color: transparent; box-shadow: none; text-shadow: none;}.cky-consent-bar .cky-banner-btn-close:focus-visible,.cky-notice-btn-wrapper .cky-btn-do-not-sell:focus-visible,.cky-opt-out-btn-wrapper .cky-btn:focus-visible,.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox:focus-visible{outline: 2px solid #1863dc; outline-offset: 2px;}@media (max-width: 440px){.cky-consent-container{width: 100%;}}@media (max-width: 352px){.cky-notice-des a.cky-policy, .cky-notice-btn-wrapper .cky-btn-do-not-sell{font-size: 12px;}}.cky-opt-out-wrapper{padding: 12px 0;}.cky-opt-out-wrapper .cky-opt-out-checkbox-wrapper{display: flex; align-items: center;}.cky-opt-out-checkbox-wrapper .cky-opt-out-checkbox-label{font-size: 16px; font-weight: 700; line-height: 24px; margin: 0 0 0 12px; cursor: pointer;}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox{background-color: #ffffff; border: 1px solid black; width: 20px; height: 18.5px; margin: 0; -webkit-appearance: none; position: relative; display: flex; align-items: center; justify-content: center; border-radius: 2px; cursor: pointer;}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox:checked{background-color: #1863dc; border: none;}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox:checked::after{left: 6px; bottom: 4px; width: 7px; height: 13px; border: solid #ffffff; border-width: 0 3px 3px 0; border-radius: 2px; -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); content: \"\"; position: absolute; box-sizing: border-box;}.cky-opt-out-checkbox-wrapper.cky-disabled .cky-opt-out-checkbox-label,.cky-opt-out-checkbox-wrapper.cky-disabled input[type=\"checkbox\"].cky-opt-out-checkbox{cursor: no-drop;}.cky-gpc-wrapper{margin: 0 0 0 32px;}.cky-footer-wrapper .cky-opt-out-btn-wrapper{display: flex; flex-wrap: wrap; align-items: center; justify-content: center; padding: 22px 24px;}.cky-opt-out-btn-wrapper .cky-btn{flex: auto; max-width: 100%; text-shadow: none; box-shadow: none;}.cky-opt-out-btn-wrapper .cky-btn-cancel{border: 1px solid #dedfe0; background: transparent; color: #858585;}.cky-opt-out-btn-wrapper .cky-btn-confirm{background: #1863dc; color: #ffffff; border: 1px solid #1863dc;}@media (max-width: 352px){.cky-opt-out-checkbox-wrapper .cky-opt-out-checkbox-label{font-size: 14px;}.cky-gpc-wrapper .cky-gpc-desc, .cky-gpc-wrapper .cky-gpc-desc *{font-size: 12px;}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox{width: 16px; height: 16px;}.cky-opt-out-checkbox-wrapper input[type=\"checkbox\"].cky-opt-out-checkbox:checked::after{left: 5px; bottom: 4px; width: 3px; height: 9px;}.cky-gpc-wrapper{margin: 0 0 0 28px;}}.video-placeholder-youtube{background-size: 100% 100%; background-position: center; background-repeat: no-repeat; background-color: #b2b0b059; position: relative; display: flex; align-items: center; justify-content: center; max-width: 100%;}.video-placeholder-text-youtube{text-align: center; align-items: center; padding: 10px 16px; background-color: #000000cc; color: #ffffff; border: 1px solid; border-radius: 2px; cursor: pointer;}.video-placeholder-normal{background-image: url(\"\/wp-content\/plugins\/cookie-law-info\/lite\/frontend\/images\/placeholder.svg\"); background-size: 80px; background-position: center; background-repeat: no-repeat; background-color: #b2b0b059; position: relative; display: flex; align-items: flex-end; justify-content: center; max-width: 100%;}.video-placeholder-text-normal{align-items: center; padding: 10px 16px; text-align: center; border: 1px solid; border-radius: 2px; cursor: pointer;}.cky-rtl{direction: rtl; text-align: right;}.cky-rtl .cky-banner-btn-close{left: 9px; right: auto;}.cky-rtl .cky-notice-btn-wrapper .cky-btn:last-child{margin-right: 8px;}.cky-rtl .cky-notice-btn-wrapper .cky-btn:first-child{margin-right: 0;}.cky-rtl .cky-notice-btn-wrapper{margin-left: 0; margin-right: 15px;}.cky-rtl .cky-prefrence-btn-wrapper .cky-btn{margin-right: 8px;}.cky-rtl .cky-prefrence-btn-wrapper .cky-btn:first-child{margin-right: 0;}.cky-rtl .cky-accordion .cky-accordion-chevron i::before{border: none; border-left: 1.4px solid; border-top: 1.4px solid; left: 12px;}.cky-rtl .cky-accordion.cky-accordion-active .cky-accordion-chevron i::before{-webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -ms-transform: rotate(-135deg); -o-transform: rotate(-135deg); transform: rotate(-135deg);}@media (max-width: 768px){.cky-rtl .cky-notice-btn-wrapper{margin-right: 0;}}@media (max-width: 576px){.cky-rtl .cky-notice-btn-wrapper .cky-btn:last-child{margin-right: 0;}.cky-rtl .cky-prefrence-btn-wrapper .cky-btn{margin-right: 0;}.cky-rtl .cky-accordion.cky-accordion-active .cky-accordion-body{padding: 0 22px 0 0;}}@media (max-width: 425px){.cky-rtl .cky-accordion.cky-accordion-active .cky-accordion-body{padding: 0 15px 0 0;}}.cky-rtl .cky-opt-out-btn-wrapper .cky-btn{margin-right: 12px;}.cky-rtl .cky-opt-out-btn-wrapper .cky-btn:first-child{margin-right: 0;}.cky-rtl .cky-opt-out-checkbox-wrapper .cky-opt-out-checkbox-label{margin: 0 12px 0 0;}"};
         </script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js?ver=3.3.6"
+            src="https://centrocucciolimilano.it/wp-content/plugins/cookie-law-info/lite/frontend/js/script.min.js?ver=3.3.6"
             id="cookie-law-info-js"></script>
         <script id="ahc_front_js-js-extra">
             var ahc_ajax_front = {
@@ -10818,21 +10818,21 @@
             };
         </script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/visitors-traffic-real-time-statistics/js/front.js?ver=6.8.3"
+            src="https://centrocucciolimilano.it/wp-content/plugins/visitors-traffic-real-time-statistics/js/front.js?ver=6.8.3"
             id="ahc_front_js-js"></script>
         <!--[if IE]>
-        <script src="https://cachorrossanos.es/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=4.6.11"
+        <script src="https://centrocucciolimilano.it/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=4.6.11"
                 id="astra-flexibility-js"></script>
         <script id="astra-flexibility-js-after">
             flexibility(document.documentElement);
         </script>
         <![endif]-->
-        <script src="https://cachorrossanos.es/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+        <script src="https://centrocucciolimilano.it/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
                 id="jquery-core-js"></script>
-        <script src="https://cachorrossanos.es/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+        <script src="https://centrocucciolimilano.it/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
                 id="jquery-migrate-js"></script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.4.3"
+            src="https://centrocucciolimilano.it/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.4.3"
             id="wc-jquery-blockui-js" data-wp-strategy="defer"></script>
         <script id="wc-add-to-cart-js-extra">
             var wc_add_to_cart_params = {
@@ -10845,12 +10845,12 @@
             };
         </script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=10.4.3"
+            src="https://centrocucciolimilano.it/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=10.4.3"
             id="wc-add-to-cart-js" defer="" data-wp-strategy="defer"></script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.10.4.3"
+            src="https://centrocucciolimilano.it/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.10.4.3"
             id="wc-js-cookie-js" data-wp-strategy="defer"></script>
-        <script src="https://cachorrossanos.es/wp-content/plugins/simple-tags/assets/frontend/js/frontend.js?ver=3.42.0"
+        <script src="https://centrocucciolimilano.it/wp-content/plugins/simple-tags/assets/frontend/js/frontend.js?ver=3.42.0"
                 id="taxopress-frontend-js-js"></script>
 
         <!-- Google tag (gtag.js) snippet added by Site Kit -->
@@ -10896,16 +10896,16 @@
                 }
             };
         </script>
-        <link rel="https://api.w.org/" href="https://cachorrossanos.es/wp-json/">
+        <link rel="https://api.w.org/" href="https://centrocucciolimilano.it/wp-json/">
         <link rel="alternate" title="JSON" type="application/json"
-              href="https://cachorrossanos.es/wp-json/wp/v2/pages/541">
-        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cachorrossanos.es/xmlrpc.php?rsd">
+              href="https://centrocucciolimilano.it/wp-json/wp/v2/pages/541">
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://centrocucciolimilano.it/xmlrpc.php?rsd">
         <meta name="generator" content="WordPress 6.8.3">
-        <link rel="shortlink" href="https://cachorrossanos.es/?p=541">
+        <link rel="shortlink" href="https://centrocucciolimilano.it/?p=541">
         <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-              href="https://cachorrossanos.es/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcachorrossanos.es%2Fpagina-de-exito%2F">
+              href="https://centrocucciolimilano.it/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcachorrossanos.es%2Fpagina-de-exito%2F">
         <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-              href="https://cachorrossanos.es/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcachorrossanos.es%2Fpagina-de-exito%2F&amp;format=xml">
+              href="https://centrocucciolimilano.it/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcachorrossanos.es%2Fpagina-de-exito%2F&amp;format=xml">
         <meta name="generator" content="Site Kit by Google 1.167.0"><!-- HFCM by 99 Robots - Snippet # 1: pagina -->
         <!-- Event snippet for order conversion page -->
         <script>
@@ -10998,9 +10998,9 @@
             _wsm.push(['enableLinkTracking']);
             _wsm.push(['enableHeartBeatTimer']);
             (function () {
-                var u = "https://cachorrossanos.es/wp-content/plugins/wp-stats-manager/";
-                _wsm.push(['setUrlReferrer', "https://cachorrossanos.es/cachorros-disponibles/tina-hembra-chihuahua/"]);
-                _wsm.push(['setTrackerUrl', "https://cachorrossanos.es/?wmcAction=wmcTrack"]);
+                var u = "https://centrocucciolimilano.it/wp-content/plugins/wp-stats-manager/";
+                _wsm.push(['setUrlReferrer', "https://centrocucciolimilano.it/cachorros-disponibles/tina-hembra-chihuahua/"]);
+                _wsm.push(['setTrackerUrl', "https://centrocucciolimilano.it/?wmcAction=wmcTrack"]);
                 _wsm.push(['setSiteId', "1"]);
                 _wsm.push(['setPageId', "541"]);
                 _wsm.push(['setWpUserId', "0"]);
@@ -11113,7 +11113,7 @@
             }
         </style>
         <script>document.addEventListener('wpcf7mailsent', function (event) {
-                window.location.href = 'https://cachorrossanos.es/pagina-de-exito/';
+                window.location.href = '/pagina-de-exito/';
             }, false);
         </script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11121,16 +11121,17 @@
         <link class="brz-link brz-link-bunny-fonts-preconnect" rel="preconnect" href="https://fonts.bunny.net/"
               crossorigin="">
         <link rel="icon"
-              href="https://cachorrossanos.es/wp-content/uploads/2025/09/cropped-orange-and-black-playful-pets-logo-1-32x32.webp"
+              href="{{ asset('/wp-content/logo/logo.png') }}"
               sizes="32x32">
         <link rel="icon"
-              href="https://cachorrossanos.es/wp-content/uploads/2025/09/cropped-orange-and-black-playful-pets-logo-1-192x192.webp"
+              href="{{ asset('/wp-content/logo/logo.png') }}"
               sizes="192x192">
         <link rel="apple-touch-icon"
-              href="https://cachorrossanos.es/wp-content/uploads/2025/09/cropped-orange-and-black-playful-pets-logo-1-180x180.webp">
+              href="{{ asset('/wp-content/logo/logo.png') }}"
+              sizes="180x180">
         <meta name="msapplication-TileImage"
-              content="https://cachorrossanos.es/wp-content/uploads/2025/09/cropped-orange-and-black-playful-pets-logo-1-270x270.webp">
-        <script src="https://cachorrossanos.es/wp-includes/js/wp-emoji-release.min.js?ver=6.8.3" defer=""></script>
+              content="{{ asset('/wp-content/logo/logo.png') }}">
+        <script src="/wp-includes/js/wp-emoji-release.min.js?ver=6.8.3" defer=""></script>
         <style id="cky-style">.cky-overlay {
                 background: #000000;
                 opacity: 0.4;
@@ -12557,14 +12558,14 @@
         <div class="cky-btn-revisit-wrapper cky-revisit-bottom-left" data-cky-tag="revisit-consent"
              data-tooltip="Preferencias de consentimiento" style="background-color:#0056A7">
             <button class="cky-btn-revisit" aria-label="Preferencias de consentimiento"><img
-                    src="https://cachorrossanos.es/wp-content/plugins/cookie-law-info/lite/frontend/images/revisit.svg"
+                    src="https://centrocucciolimilano.it/wp-content/plugins/cookie-law-info/lite/frontend/images/revisit.svg"
                     alt="Revisit consent button"></button>
         </div>
         <div class="cky-consent-container cky-hide cky-box-bottom-left" tabindex="0" aria-label="We value your privacy"
              role="region">
             <div class="cky-consent-bar" data-cky-tag="notice" style="background-color:#FFFFFF;border-color:#F4F4F4">
                 <button class="cky-banner-btn-close" data-cky-tag="close-button" aria-label="Close"><img
-                        src="https://cachorrossanos.es/wp-content/plugins/cookie-law-info/lite/frontend/images/close.svg"
+                        src="https://centrocucciolimilano.it/wp-content/plugins/cookie-law-info/lite/frontend/images/close.svg"
                         alt="Close"></button>
                 <div class="cky-notice"><p class="cky-title" role="heading" aria-level="1" data-cky-tag="title"
                                            style="color:#212121">Valoramos tu privacidad</p>
@@ -12572,7 +12573,7 @@
                         <div class="cky-notice-des" data-cky-tag="description" style="color:#212121"><p>Utilizamos
                                 cookies para mejorar tu experiencia de navegación, mostrarte anuncios o contenido
                                 personalizados y analizar nuestro tráfico. Al hacer clic en "Aceptar todo", aceptas el
-                                uso de cookies.&nbsp;<a href="https://cachorrossanos.es/politica-de-privacidad"
+                                uso de cookies.&nbsp;<a href="https://centrocucciolimilano.it/politica-de-privacidad"
                                                         class="cky-policy" aria-label="Política de cookies"
                                                         target="_blank" rel="noopener" data-cky-tag="readmore-button"
                                                         style="color: rgb(24, 99, 220); background-color: transparent; border-color: transparent; text-decoration-color: rgb(24, 99, 220);">Política
@@ -12603,7 +12604,7 @@
                 <div class="cky-preference-header"><span class="cky-preference-title" role="heading" aria-level="1"
                                                          data-cky-tag="detail-title" style="color:#212121">Personalizar las preferencias de consentimiento</span>
                     <button class="cky-btn-close" aria-label="Close" data-cky-tag="detail-close"><img
-                            src="https://cachorrossanos.es/wp-content/plugins/cookie-law-info/lite/frontend/images/close.svg"
+                            src="https://centrocucciolimilano.it/wp-content/plugins/cookie-law-info/lite/frontend/images/close.svg"
                             alt="Close"></button>
                 </div>
                 <div class="cky-preference-body-wrapper">
@@ -12757,36 +12758,36 @@
                 <ul id="rmp-menu-2694" class="rmp-menu" role="menubar" aria-label="Primary Menu">
                     <li id="rmp-menu-item-568"
                         class=" menu-item menu-item-type-post_type menu-item-object-page menu-item-home rmp-menu-item rmp-menu-top-level-item"
-                        role="none"><a href="https://cachorrossanos.es/" class="rmp-menu-item-link menu-link"
+                        role="none"><a href="https://centrocucciolimilano.it/" class="rmp-menu-item-link menu-link"
                                        role="menuitem">Bienvenido</a></li>
                     <li id="rmp-menu-item-2038"
                         class=" menu-item menu-item-type-post_type menu-item-object-page rmp-menu-item rmp-menu-top-level-item"
-                        role="none"><a href="https://cachorrossanos.es/quienes-somos/"
+                        role="none"><a href="https://centrocucciolimilano.it/quienes-somos/"
                                        class="rmp-menu-item-link menu-link" role="menuitem">Quiénes somos</a></li>
                     <li id="rmp-menu-item-564"
                         class=" menu-item menu-item-type-post_type menu-item-object-page rmp-menu-item rmp-menu-top-level-item"
-                        role="none"><a href="https://cachorrossanos.es/cachorros-en-venta/"
+                        role="none"><a href="https://centrocucciolimilano.it/cachorros-en-venta/"
                                        class="rmp-menu-item-link menu-link" role="menuitem">Cachorros en Venta</a></li>
                     <li id="rmp-menu-item-2614"
                         class=" menu-item menu-item-type-post_type menu-item-object-page rmp-menu-item rmp-menu-top-level-item"
-                        role="none"><a href="https://cachorrossanos.es/envio-de-cachorros/"
+                        role="none"><a href="https://centrocucciolimilano.it/envio-de-cachorros/"
                                        class="rmp-menu-item-link menu-link" role="menuitem">Envío de cachorros</a></li>
                     <li id="rmp-menu-item-2613"
                         class=" menu-item menu-item-type-post_type menu-item-object-page rmp-menu-item rmp-menu-top-level-item"
-                        role="none"><a href="https://cachorrossanos.es/garantia-sanitaria/"
+                        role="none"><a href="https://centrocucciolimilano.it/garantia-sanitaria/"
                                        class="rmp-menu-item-link menu-link" role="menuitem">Garantía sanitaria</a></li>
                     <li id="rmp-menu-item-563"
                         class=" menu-item menu-item-type-post_type menu-item-object-page rmp-menu-item rmp-menu-top-level-item"
-                        role="none"><a href="https://cachorrossanos.es/referencias/"
+                        role="none"><a href="https://centrocucciolimilano.it/referencias/"
                                        class="rmp-menu-item-link menu-link" role="menuitem">Referencias</a></li>
                     <li id="rmp-menu-item-562"
                         class=" menu-item menu-item-type-post_type menu-item-object-page rmp-menu-item rmp-menu-top-level-item"
-                        role="none"><a href="https://cachorrossanos.es/contacto/" class="rmp-menu-item-link menu-link"
+                        role="none"><a href="https://centrocucciolimilano.it/contacto/" class="rmp-menu-item-link menu-link"
                                        role="menuitem">Contacto</a></li>
                 </ul>
             </div>
             <div id="rmp-search-box-2694" class="rmp-search-box">
-                <form action="https://cachorrossanos.es/" class="rmp-search-form" role="search">
+                <form action="https://centrocucciolimilano.it/" class="rmp-search-form" role="search">
                     <input type="search" name="s" title="Search" placeholder="Search" class="rmp-search-box">
                 </form>
             </div>
@@ -12811,37 +12812,37 @@
                         <ul class="brz-menu__ul brz-mm-listview" data-menu-items-active="">
                             <li data-menu-item-id="a683d8ac85938acdeb5d295f25096e57"
                                 class="brz-menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-home brz-mm-listitem">
-                                <a class="brz-a brz-mm-listitem__text" target="" href="https://cachorrossanos.es/"
+                                <a class="brz-a brz-mm-listitem__text" target="" href="https://centrocucciolimilano.it/"
                                    title=""><span class="brz-span">Bienvenido</span></a></li>
                             <li data-menu-item-id="14f9e2ef7cd458ed77456ae2f54c5d1f"
                                 class="brz-menu__item menu-item menu-item-type-post_type menu-item-object-page brz-mm-listitem">
                                 <a class="brz-a brz-mm-listitem__text" target=""
-                                   href="https://cachorrossanos.es/quienes-somos/" title=""><span class="brz-span">Quiénes somos</span></a>
+                                   href="https://centrocucciolimilano.it/quienes-somos/" title=""><span class="brz-span">Quiénes somos</span></a>
                             </li>
                             <li data-menu-item-id="97447a8085e321d32df1e9b434fde684"
                                 class="brz-menu__item menu-item menu-item-type-post_type menu-item-object-page brz-mm-listitem">
                                 <a class="brz-a brz-mm-listitem__text" target=""
-                                   href="https://cachorrossanos.es/cachorros-en-venta/" title=""><span class="brz-span">Cachorros en Venta</span></a>
+                                   href="https://centrocucciolimilano.it/cachorros-en-venta/" title=""><span class="brz-span">Cachorros en Venta</span></a>
                             </li>
                             <li data-menu-item-id="83eff94135d476c55149cf02f9892ffe"
                                 class="brz-menu__item menu-item menu-item-type-post_type menu-item-object-page brz-mm-listitem">
                                 <a class="brz-a brz-mm-listitem__text" target=""
-                                   href="https://cachorrossanos.es/envio-de-cachorros/" title=""><span class="brz-span">Envío de cachorros</span></a>
+                                   href="https://centrocucciolimilano.it/envio-de-cachorros/" title=""><span class="brz-span">Envío de cachorros</span></a>
                             </li>
                             <li data-menu-item-id="66e50e232dc1b770473831dd8bc786e2"
                                 class="brz-menu__item menu-item menu-item-type-post_type menu-item-object-page brz-mm-listitem">
                                 <a class="brz-a brz-mm-listitem__text" target=""
-                                   href="https://cachorrossanos.es/garantia-sanitaria/" title=""><span class="brz-span">Garantía sanitaria</span></a>
+                                   href="https://centrocucciolimilano.it/garantia-sanitaria/" title=""><span class="brz-span">Garantía sanitaria</span></a>
                             </li>
                             <li data-menu-item-id="f782fa2ae400c664894b7182de1d471e"
                                 class="brz-menu__item menu-item menu-item-type-post_type menu-item-object-page brz-mm-listitem">
                                 <a class="brz-a brz-mm-listitem__text" target=""
-                                   href="https://cachorrossanos.es/referencias/" title=""><span class="brz-span">Referencias</span></a>
+                                   href="https://centrocucciolimilano.it/referencias/" title=""><span class="brz-span">Referencias</span></a>
                             </li>
                             <li data-menu-item-id="04b636121ae1c29180173d3f1ff5dc35"
                                 class="brz-menu__item menu-item menu-item-type-post_type menu-item-object-page brz-mm-listitem">
                                 <a class="brz-a brz-mm-listitem__text" target=""
-                                   href="https://cachorrossanos.es/contacto/" title=""><span
+                                   href="https://centrocucciolimilano.it/contacto/" title=""><span
                                         class="brz-span">Contacto</span></a></li>
                         </ul>
                     </div>
@@ -12871,20 +12872,20 @@
                                         <div id="" class="brz-css-1g0ch8l brz-css-1nonm3i brz-wrapper">
                                             <div class="brz-image brz-css-1cz5wsm brz-css-ns1clm"
                                                  data-brz-custom-id="n_GqXAtWzvhW"><a class="brz-a"
-                                                                                      href="https://cachorrossanos.es/"
+                                                                                      href="https://centrocucciolimilano.it/"
                                                                                       target="_self" rel="noopener"
                                                                                       data-brz-link-type="page">
                                                     <picture
                                                         class="brz-picture brz-d-block brz-p-relative brz-css-1cjdxs0 brz-css-11xw55z">
                                                         <source
-                                                            srcset="https://cachorrossanos.es/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-205x205x15x46x175x112x1757510723.webp 1x, https://cachorrossanos.es/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-410x410x30x92x350x224x1757510723.webp 2x"
+                                                            srcset="https://centrocucciolimilano.it/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-205x205x15x46x175x112x1757510723.webp 1x, https://centrocucciolimilano.it/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-410x410x30x92x350x224x1757510723.webp 2x"
                                                             media="(min-width: 992px)">
                                                         <source
-                                                            srcset="https://cachorrossanos.es/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-68x68x5x15x58x37x1757510723.webp 1x, https://cachorrossanos.es/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-136x136x10x30x116x74x1757510723.webp 2x"
+                                                            srcset="https://centrocucciolimilano.it/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-68x68x5x15x58x37x1757510723.webp 1x, https://centrocucciolimilano.it/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-136x136x10x30x116x74x1757510723.webp 2x"
                                                             media="(min-width: 768px)">
                                                         <img decoding="async" class="brz-img"
-                                                             srcset="https://cachorrossanos.es/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-134x134x17x31x100x72x1757510723.webp 1x, https://cachorrossanos.es/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-268x268x34x62x200x144x1757510723.webp 2x"
-                                                             src="https://cachorrossanos.es/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-205x205x15x46x175x112x1757510723.webp"
+                                                             srcset="https://centrocucciolimilano.it/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-134x134x17x31x100x72x1757510723.webp 1x, https://centrocucciolimilano.it/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-268x268x34x62x200x144x1757510723.webp 2x"
+                                                             src="https://centrocucciolimilano.it/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-205x205x15x46x175x112x1757510723.webp"
                                                              loading="lazy"
                                                              alt="{{brizy_dc_image_alt imageSrc=" wp-61730744a146ec2b3c33bd7303f756a4.webp"}}"=
                                                         "" title="Centro Cuccioli Milano" draggable="false"></picture>
@@ -12923,43 +12924,43 @@
                                                                         <li data-menu-item-id="a683d8ac85938acdeb5d295f25096e57"
                                                                             class="brz-menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-home">
                                                                             <a class="brz-a" target=""
-                                                                               href="https://cachorrossanos.es/"
+                                                                               href="https://centrocucciolimilano.it/"
                                                                                title=""><span class="brz-span">Bienvenido</span></a>
                                                                         </li>
                                                                         <li data-menu-item-id="14f9e2ef7cd458ed77456ae2f54c5d1f"
                                                                             class="brz-menu__item menu-item menu-item-type-post_type menu-item-object-page">
                                                                             <a class="brz-a" target=""
-                                                                               href="https://cachorrossanos.es/quienes-somos/"
+                                                                               href="https://centrocucciolimilano.it/quienes-somos/"
                                                                                title=""><span class="brz-span">Quiénes somos</span></a>
                                                                         </li>
                                                                         <li data-menu-item-id="97447a8085e321d32df1e9b434fde684"
                                                                             class="brz-menu__item menu-item menu-item-type-post_type menu-item-object-page">
                                                                             <a class="brz-a" target=""
-                                                                               href="https://cachorrossanos.es/cachorros-en-venta/"
+                                                                               href="https://centrocucciolimilano.it/cachorros-en-venta/"
                                                                                title=""><span class="brz-span">Cachorros en Venta</span></a>
                                                                         </li>
                                                                         <li data-menu-item-id="83eff94135d476c55149cf02f9892ffe"
                                                                             class="brz-menu__item menu-item menu-item-type-post_type menu-item-object-page">
                                                                             <a class="brz-a" target=""
-                                                                               href="https://cachorrossanos.es/envio-de-cachorros/"
+                                                                               href="https://centrocucciolimilano.it/envio-de-cachorros/"
                                                                                title=""><span class="brz-span">Envío de cachorros</span></a>
                                                                         </li>
                                                                         <li data-menu-item-id="66e50e232dc1b770473831dd8bc786e2"
                                                                             class="brz-menu__item menu-item menu-item-type-post_type menu-item-object-page">
                                                                             <a class="brz-a" target=""
-                                                                               href="https://cachorrossanos.es/garantia-sanitaria/"
+                                                                               href="https://centrocucciolimilano.it/garantia-sanitaria/"
                                                                                title=""><span class="brz-span">Garantía sanitaria</span></a>
                                                                         </li>
                                                                         <li data-menu-item-id="f782fa2ae400c664894b7182de1d471e"
                                                                             class="brz-menu__item menu-item menu-item-type-post_type menu-item-object-page">
                                                                             <a class="brz-a" target=""
-                                                                               href="https://cachorrossanos.es/referencias/"
+                                                                               href="https://centrocucciolimilano.it/referencias/"
                                                                                title=""><span class="brz-span">Referencias</span></a>
                                                                         </li>
                                                                         <li data-menu-item-id="04b636121ae1c29180173d3f1ff5dc35"
                                                                             class="brz-menu__item menu-item menu-item-type-post_type menu-item-object-page">
                                                                             <a class="brz-a" target=""
-                                                                               href="https://cachorrossanos.es/contacto/"
+                                                                               href="https://centrocucciolimilano.it/contacto/"
                                                                                title=""><span
                                                                                     class="brz-span">Contacto</span></a>
                                                                         </li>
@@ -13095,14 +13096,14 @@
                                                 <picture
                                                     class="brz-picture brz-d-block brz-p-relative brz-css-d-image-gk_ihu_djujb-picture brz-css-115widl">
                                                     <source
-                                                        srcset="https://cachorrossanos.es/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-442x442x41x101x360x240x1757510723.webp 1x, https://cachorrossanos.es/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-884x884x82x202x720x480x1757510723.webp 2x"
+                                                        srcset="https://centrocucciolimilano.it/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-442x442x41x101x360x240x1757510723.webp 1x, https://centrocucciolimilano.it/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-884x884x82x202x720x480x1757510723.webp 2x"
                                                         media="(min-width: 992px)">
                                                     <source
-                                                        srcset="https://cachorrossanos.es/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-278x278x26x64x226x150x1757510723.webp 1x, https://cachorrossanos.es/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-556x556x52x128x452x300x1757510723.webp 2x"
+                                                        srcset="https://centrocucciolimilano.it/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-278x278x26x64x226x150x1757510723.webp 1x, https://centrocucciolimilano.it/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-556x556x52x128x452x300x1757510723.webp 2x"
                                                         media="(min-width: 768px)">
                                                     <img decoding="async" class="brz-img"
-                                                         srcset="https://cachorrossanos.es/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-138x138x13x23x112x92x1757510723.webp 1x, https://cachorrossanos.es/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-276x276x26x46x224x184x1757510723.webp 2x"
-                                                         src="https://cachorrossanos.es/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-442x442x41x101x360x240x1757510723.webp"
+                                                         srcset="https://centrocucciolimilano.it/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-138x138x13x23x112x92x1757510723.webp 1x, https://centrocucciolimilano.it/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-276x276x26x46x224x184x1757510723.webp 2x"
+                                                         src="https://centrocucciolimilano.it/wp-content/uploads/brizy/imgs/orange_and_black_playful_pets_logo__1_-removebg-preview-442x442x41x101x360x240x1757510723.webp"
                                                          loading="lazy"
                                                          alt="{{brizy_dc_image_alt imageSrc=" wp-61730744a146ec2b3c33bd7303f756a4.webp"}}"=
                                                     "" title="Centro Cuccioli Milano" draggable="false"></picture>
@@ -13139,31 +13140,31 @@
                                                         data-uniq-id="oF2n_" data-generated-css="brz-css-ieTTs"><a
                                                             class="link--page brz-cp-color8"
                                                             style="color: rgb(255, 255, 255);"
-                                                            href="https://cachorrossanos.es/cachorros-en-venta/"
+                                                            href="https://centrocucciolimilano.it/cachorros-en-venta/"
                                                             data-brz-link-type="page">Venta de cachorros</a></p>
                                                     <p class="brz-tp-lg-empty brz-ff-lexend_deca brz-ft-google brz-fs-lg-16 brz-fss-lg-px brz-fw-lg-400 brz-ls-lg-0 brz-lh-lg-1_9 brz-vfw-lg-400 brz-fwdth-lg-100 brz-fsft-lg-0 brz-text-xs-center brz-css-eMnlj"
                                                        data-uniq-id="rauzW" data-generated-css="brz-css-ld0f9"><a
                                                             class="link--page brz-cp-color8"
                                                             style="color: rgb(255, 255, 255);"
-                                                            href="https://cachorrossanos.es/quienes-somos/"
+                                                            href="https://centrocucciolimilano.it/quienes-somos/"
                                                             data-brz-link-type="page">Quiénes somos </a></p>
                                                     <p class="brz-tp-lg-empty brz-ff-lexend_deca brz-ft-google brz-fs-lg-16 brz-fss-lg-px brz-fw-lg-400 brz-ls-lg-0 brz-lh-lg-1_9 brz-vfw-lg-400 brz-fwdth-lg-100 brz-fsft-lg-0 brz-text-xs-center brz-css-pe4mW"
                                                        data-uniq-id="quZuy" data-generated-css="brz-css-gs4Ce"><a
                                                             class="link--page brz-cp-color8"
                                                             style="color: rgb(255, 255, 255);"
-                                                            href="https://cachorrossanos.es/contacto/"
+                                                            href="https://centrocucciolimilano.it/contacto/"
                                                             data-brz-link-type="page">Contacto</a></p>
                                                     <p class="brz-tp-lg-empty brz-ff-lexend_deca brz-ft-google brz-fs-lg-16 brz-fss-lg-px brz-fw-lg-400 brz-ls-lg-0 brz-lh-lg-1_9 brz-vfw-lg-400 brz-fwdth-lg-100 brz-fsft-lg-0 brz-text-xs-center brz-css-oJ_2T"
                                                        data-uniq-id="pG_ul" data-generated-css="brz-css-cVNBE"><a
                                                             class="link--page brz-cp-color8"
                                                             style="color: rgba(var(--brz-global-color8),1);"
-                                                            href="https://cachorrossanos.es/politica-de-privacidad/"
+                                                            href="https://centrocucciolimilano.it/politica-de-privacidad/"
                                                             data-brz-link-type="page">Política de privacidad</a></p>
                                                     <p class="brz-tp-lg-empty brz-ff-lexend_deca brz-ft-google brz-fs-lg-16 brz-fss-lg-px brz-fw-lg-400 brz-ls-lg-0 brz-lh-lg-1_9 brz-vfw-lg-400 brz-fwdth-lg-100 brz-fsft-lg-0 brz-text-xs-center brz-css-wXj2b"
                                                        data-uniq-id="tbDME" data-generated-css="brz-css-xh5dC"><a
                                                             class="link--page brz-cp-color8"
                                                             style="color: rgba(var(--brz-global-color8),1);"
-                                                            href="https://cachorrossanos.es/politica-de-devoluciones/"
+                                                            href="https://centrocucciolimilano.it/politica-de-devoluciones/"
                                                             data-brz-link-type="page">Política de devoluciones</a><span
                                                             class="brz-cp-color8"
                                                             style="color: rgba(var(--brz-global-color8),1);"> </span>
@@ -13208,14 +13209,14 @@
             <div class="cky-btn-revisit-wrapper cky-revisit-hide" data-cky-tag="revisit-consent"
                  data-tooltip="Preferencias de consentimiento" style="background-color:#0056A7">
                 <button class="cky-btn-revisit" aria-label="Preferencias de consentimiento"><img
-                        src="https://cachorrossanos.es/wp-content/plugins/cookie-law-info/lite/frontend/images/revisit.svg"
+                        src="https://centrocucciolimilano.it/wp-content/plugins/cookie-law-info/lite/frontend/images/revisit.svg"
                         alt="Revisit consent button"></button>
             </div>
             <div class="cky-consent-container cky-hide" tabindex="0">
                 <div class="cky-consent-bar" data-cky-tag="notice"
                      style="background-color:#FFFFFF;border-color:#F4F4F4">
                     <button class="cky-banner-btn-close" data-cky-tag="close-button" aria-label="Close"><img
-                            src="https://cachorrossanos.es/wp-content/plugins/cookie-law-info/lite/frontend/images/close.svg"
+                            src="https://centrocucciolimilano.it/wp-content/plugins/cookie-law-info/lite/frontend/images/close.svg"
                             alt="Close"></button>
                     <div class="cky-notice"><p class="cky-title" role="heading" aria-level="1" data-cky-tag="title"
                                                style="color:#212121">Valoramos tu privacidad</p>
@@ -13250,7 +13251,7 @@
                     <div class="cky-preference-header"><span class="cky-preference-title" role="heading" aria-level="1"
                                                              data-cky-tag="detail-title" style="color:#212121">Personalizar las preferencias de consentimiento</span>
                         <button class="cky-btn-close" aria-label="Close" data-cky-tag="detail-close"><img
-                                src="https://cachorrossanos.es/wp-content/plugins/cookie-law-info/lite/frontend/images/close.svg"
+                                src="https://centrocucciolimilano.it/wp-content/plugins/cookie-law-info/lite/frontend/images/close.svg"
                                 alt="Close"></button>
                     </div>
                     <div class="cky-preference-body-wrapper">
@@ -13536,7 +13537,7 @@
             })();
         </script>
         <link rel="stylesheet" id="wc-blocks-style-css"
-              href="https://cachorrossanos.es/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-10.4.3"
+              href="https://centrocucciolimilano.it/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-10.4.3"
               media="all">
         <script id="astra-theme-js-js-extra">
             var astra = {
@@ -13547,16 +13548,16 @@
                 "is_header_footer_builder_active": "1"
             };
         </script>
-        <script src="https://cachorrossanos.es/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.6.11"
+        <script src="https://centrocucciolimilano.it/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=4.6.11"
                 id="astra-theme-js-js"></script>
-        <script src="https://cachorrossanos.es/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"
+        <script src="https://centrocucciolimilano.it/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"
                 id="wp-hooks-js"></script>
-        <script src="https://cachorrossanos.es/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+        <script src="https://centrocucciolimilano.it/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
                 id="wp-i18n-js"></script>
         <script id="wp-i18n-js-after">
             wp.i18n.setLocaleData({'text direction\u0004ltr': ['ltr']});
         </script>
-        <script src="https://cachorrossanos.es/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.3"
+        <script src="https://centrocucciolimilano.it/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.3"
                 id="swv-js"></script>
         <script id="contact-form-7-js-before">
             var wpcf7 = {
@@ -13567,13 +13568,13 @@
                 "cached": 1
             };
         </script>
-        <script src="https://cachorrossanos.es/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.3"
+        <script src="https://centrocucciolimilano.it/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.3"
                 id="contact-form-7-js"></script>
         <script id="rtrar.appLocal-js-extra">
             var rtafr = {"rules": ""};
         </script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/real-time-auto-find-and-replace/assets/js/rtafar.local.js?ver=1.7.8"
+            src="https://centrocucciolimilano.it/wp-content/plugins/real-time-auto-find-and-replace/assets/js/rtafar.local.js?ver=1.7.8"
             id="rtrar.appLocal-js"></script>
         <script id="rmp_menu_scripts-js-extra">
             var rmp_menu = {
@@ -13865,7 +13866,7 @@
             };
         </script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/responsive-menu/v4.0.0/assets/js/rmp-menu.min.js?ver=4.6.0"
+            src="https://centrocucciolimilano.it/wp-content/plugins/responsive-menu/v4.0.0/assets/js/rmp-menu.min.js?ver=4.6.0"
             id="rmp_menu_scripts-js"></script>
         <script id="tmip-local-stats-js-extra">
             var tmipLocalStats = {
@@ -13897,7 +13898,7 @@
             };
         </script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/tracemyip-visitor-analytics-ip-tracking-control/includes/local_stats/assets/js/ls-js-admin.js?ver=1.2"
+            src="https://centrocucciolimilano.it/wp-content/plugins/tracemyip-visitor-analytics-ip-tracking-control/includes/local_stats/assets/js/ls-js-admin.js?ver=1.2"
             id="tmip-local-stats-js"></script>
         <script src="https://cdn.canvasjs.com/canvasjs.min.js" id="canvasjs-free-js"></script>
         <script id="woocommerce-js-extra">
@@ -13909,7 +13910,7 @@
             };
         </script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=10.4.3"
+            src="https://centrocucciolimilano.it/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=10.4.3"
             id="woocommerce-js" data-wp-strategy="defer"></script>
         <script id="hostinger-reach-subscription-block-view-js-extra">
             var hostinger_reach_subscription_block_data = {
@@ -13922,7 +13923,7 @@
             };
         </script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription-view.js?ver=1764726093"
+            src="https://centrocucciolimilano.it/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription-view.js?ver=1764726093"
             id="hostinger-reach-subscription-block-view-js"></script>
         <script id="wd-asl-ajaxsearchlite-js-before">
             window.ASL = typeof window.ASL !== 'undefined' ? window.ASL : {};
@@ -13997,7 +13998,7 @@
             };
         </script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/ajax-search-lite/js/min/plugin/merged/asl.min.js?ver=4780"
+            src="https://centrocucciolimilano.it/wp-content/plugins/ajax-search-lite/js/min/plugin/merged/asl.min.js?ver=4780"
             id="wd-asl-ajaxsearchlite-js"></script>
         <script id="chaty-front-end-js-extra">
             var chaty_settings = {
@@ -14129,10 +14130,10 @@
             };
         </script>
         <script defer=""
-                src="https://cachorrossanos.es/wp-content/plugins/chaty/js/cht-front-script.min.js?ver=3.4.91768225561"
+                src="https://centrocucciolimilano.it/wp-content/plugins/chaty/js/cht-front-script.min.js?ver=3.4.91768225561"
                 id="chaty-front-end-js"></script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.4.3"
+            src="https://centrocucciolimilano.it/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.4.3"
             id="sourcebuster-js-js"></script>
         <script id="wc-order-attribution-js-extra">
             var wc_order_attribution = {
@@ -14165,7 +14166,7 @@
             };
         </script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.4.3"
+            src="https://centrocucciolimilano.it/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.4.3"
             id="wc-order-attribution-js"></script>
         <script id="wp-statistics-tracker-js-extra">
             var WP_Statistics_Tracker_Object = {
@@ -14202,7 +14203,7 @@
                 "customEventAjaxUrl": "https:\/\/cachorrossanos.es\/wp-admin\/admin-ajax.php?action=wp_statistics_custom_event&nonce=be75b51faf"
             };
         </script>
-        <script src="https://cachorrossanos.es/wp-content/plugins/wp-statistics/assets/js/tracker.js?ver=14.15.6"
+        <script src="https://centrocucciolimilano.it/wp-content/plugins/wp-statistics/assets/js/tracker.js?ver=14.15.6"
                 id="wp-statistics-tracker-js"></script>
         <script id="wp_slimstat-js-extra">
             var SlimStatParams = {
@@ -14217,10 +14218,10 @@
                 "wp_rest_nonce": "c1052ac8ff"
             };
         </script>
-        <script defer="" src="https://cachorrossanos.es/wp-content/plugins/wp-slimstat/wp-slimstat.min.js?ver=5.3.5"
+        <script defer="" src="https://centrocucciolimilano.it/wp-content/plugins/wp-slimstat/wp-slimstat.min.js?ver=5.3.5"
                 id="wp_slimstat-js"></script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-7-40476021fb6e59177033.js"
+            src="https://centrocucciolimilano.it/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-7-40476021fb6e59177033.js"
             id="googlesitekit-events-provider-contact-form-7-js" defer=""></script>
         <script id="googlesitekit-events-provider-woocommerce-js-before">
             window._googlesitekit.wcdata = window._googlesitekit.wcdata || {};
@@ -14230,22 +14231,22 @@
             window._googlesitekit.wcdata.eventsToTrack = ["add_to_cart", "purchase"];
         </script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-woocommerce-56777fd664fb7392edc2.js"
+            src="https://centrocucciolimilano.it/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-woocommerce-56777fd664fb7392edc2.js"
             id="googlesitekit-events-provider-woocommerce-js" defer=""></script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-wpforms-ed443a3a3d45126a22ce.js"
+            src="https://centrocucciolimilano.it/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-wpforms-ed443a3a3d45126a22ce.js"
             id="googlesitekit-events-provider-wpforms-js" defer=""></script>
         <script
-            src="https://cachorrossanos.es/wp-content/plugins/real-time-auto-find-and-replace/assets/js/rtafar.app.min.js?ver=1.7.8"
+            src="https://centrocucciolimilano.it/wp-content/plugins/real-time-auto-find-and-replace/assets/js/rtafar.app.min.js?ver=1.7.8"
             id="rtrar.app-js"></script>
         <script class="brz-script brz-script-preview-lib" defer="true" data-brz-group="group-jq"
-                src="https://cachorrossanos.es/wp-content/plugins/brizy/public/editor-build/prod/editor/js/group-jq.min.js?ver=344-wp"
+                src="https://centrocucciolimilano.it/wp-content/plugins/brizy/public/editor-build/prod/editor/js/group-jq.min.js?ver=344-wp"
                 id="brizy-asset-group-jq-20-js"></script>
         <script class="brz-script brz-script-preview-lib-pro" defer="true" data-brz-group="group-1_2"
-                src="https://cachorrossanos.es/wp-content/plugins/brizy-pro/public/editor-build/prod/js/group-1_2.pro.min.js?ver=216-wp"
+                src="https://centrocucciolimilano.it/wp-content/plugins/brizy-pro/public/editor-build/prod/js/group-1_2.pro.min.js?ver=216-wp"
                 id="brizy-asset-group-1_2-21-js"></script>
         <script class="brz-script brz-script-preview-pro" defer="true"
-                src="https://cachorrossanos.es/wp-content/plugins/brizy-pro/public/editor-build/prod/js/preview.pro.min.js?ver=216-wp"
+                src="https://centrocucciolimilano.it/wp-content/plugins/brizy-pro/public/editor-build/prod/js/preview.pro.min.js?ver=216-wp"
                 id="brizy-asset-main-30-js"></script>
         <script>
             /(trident|msie)/i.test(navigator.userAgent) && document.getElementById && window.addEventListener && window.addEventListener("hashchange", function () {
