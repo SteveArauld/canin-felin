@@ -3,361 +3,397 @@
 @section('title', __('contact.title'))
 
 @push('styles')
-    <title>{{ __("contact.page_title") }}</title>
-    @include('pages.style')
-    @vite(['resources/css/contacto.css'])
+<style>
+    .contact-header {
+      
+        color: black;
+        padding: 60px 0;
+        border-radius: 0 0 30px 30px;
+        margin-bottom: 50px;
+    }
+    
+    .contact-form-container {
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.1);
+        padding: 40px;
+        margin-bottom: 50px;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .form-control, .form-select {
+        border-radius: 12px;
+        padding: 12px 16px;
+        border: 2px solid #e5e7eb;
+        transition: all 0.3s ease;
+    }
+    
+    .form-control:focus, .form-select:focus {
+        border-color: #667eea;
+        box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    }
+    
+    .form-control.is-invalid:focus {
+        border-color: #dc2626;
+        box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1);
+    }
+    
+    .btn-submit {
+        background: linear-gradient(135deg, #eabc66 0%, #a2894b 100%);
+        border: none;
+        border-radius: 5px;
+        padding: 14px 30px;
+        font-weight: 600;
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+    
+    .btn-submit:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px -5px rgba(102, 126, 234, 0.4);
+    }
+    
+    /* Toast Notification */
+    .toast-container-custom {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 9999;
+        max-width: 380px;
+        width: 100%;
+    }
+    
+    .custom-toast {
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 12px;
+        overflow: hidden;
+        animation: slideIn 0.3s ease-out;
+    }
+    
+    .toast-success { border-left: 4px solid #10b981; }
+    .toast-error { border-left: 4px solid #ef4444; }
+    
+    .toast-content {
+        display: flex;
+        align-items: flex-start;
+        padding: 16px;
+        gap: 12px;
+    }
+    
+    .toast-icon {
+        flex-shrink: 0;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .toast-success .toast-icon { background: #10b981; color: white; }
+    .toast-error .toast-icon { background: #ef4444; color: white; }
+    
+    .toast-message {
+        flex: 1;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #1f2937;
+    }
+    
+    .toast-message strong {
+        display: block;
+        margin-bottom: 4px;
+        font-size: 15px;
+    }
+    
+    .toast-close {
+        cursor: pointer;
+        background: none;
+        border: none;
+        font-size: 20px;
+        color: #9ca3af;
+    }
+    
+    @keyframes slideIn {
+        from { transform: translateX(100%); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+    }
+    
+    @keyframes slideOut {
+        from { transform: translateX(0); opacity: 1; }
+        to { transform: translateX(100%); opacity: 0; }
+    }
+    
+    @media (max-width: 768px) {
+        .contact-form-container {
+            padding: 25px;
+            margin: 0 15px;
+        }
+        .contact-header {
+            padding: 40px 0;
+        }
+    }
+</style>
 @endpush
 
 @section('content')
-    <div class="brz brz-root__container brz-reset-all brz-root__container-page">
-        @include('layouts.partials.navbar.public')
+<!-- Toast Container -->
+<div id="toastContainer" class="toast-container-custom"></div>
 
-        <section id="ohdqqbcvdjckfrtjwietuvooftiqkaolrjpp_ohdqqbcvdjckfrtjwietuvooftiqkaolrjpp"
-                 class="brz-section brz-css-1j900ij brz-css-1jhb22r">
-            <div class="brz-section__content brz-section--boxed brz-css-r021fl brz-css-11xf3yu"
-                 data-brz-custom-id="jijmksokfoezaoksntbgbtnzdtajskvbgzcm">
-                <div class="brz-bg">
-                    <div class="brz-bg-color"></div>
-                    <div class="brz-bg-shape brz-bg-shape__top"></div>
-                    <div class="brz-bg-shape brz-bg-shape__bottom"></div>
-                </div>
-                <div class="brz-container brz-css-2msc2l brz-css-womic4">
-                    <div id="" class="brz-css-1fju8k8 brz-css-8kddmi brz-wrapper">
-                        <div class="brz-rich-text brz-rich-text__custom brz-css-1k9bkry brz-css-1p2skhq"
-                             data-brz-custom-id="e0Ae3NmeF2sW">
-                            <div data-brz-translate-text="1">
-                                <p class="brz-fsft-lg-0 brz-fwdth-lg-100 brz-vfw-lg-400 brz-lh-lg-1_3 brz-ls-lg-m_1_5 brz-fw-lg-700 brz-fss-lg-px brz-fs-lg-46 brz-ft-google brz-ff-comfortaa brz-tp-lg-empty brz-text-lg-center brz-css-i6mMC"
-                                   data-generated-css="brz-css-lDYpd" data-uniq-id="fVIS_">
-                                    <span class="brz-cp-color8" style="color: rgba(var(--brz-global-color8),1);">
-                                        {{ __("contact.main_title") }}
-                                    </span>
-                                </p>
-                            </div>
+<!-- En-tête -->
+<section class="contact-header">
+    <div class="container text-center">
+        <h1 class="display-4 fw-bold mb-3">{{ __('contact.title') }}</h1>
+        <p class="lead mb-0">{{ __('contact.subtitle') }}</p>
+    </div>
+</section>
+
+<!-- Formulaire de contact -->
+<section class="mb-5">
+    <div class="container">
+        <div class="contact-form-container">
+            <h2 class="h3 fw-bold mb-4 text-center">{{ __('contact.send_message') }}</h2>
+            
+            <form id="contactForm" method="POST" action="#">
+                @csrf
+                
+                <div class="row g-3">
+                    <!-- Nom complet -->
+                    <div class="col-md-6">
+                        <label class="form-label fw-semibold">
+                            {{ __('contact.full_name') }} <span class="text-danger">*</span>
+                        </label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-light border-end-0">
+                                <i class="bi bi-person"></i>
+                            </span>
+                            <input type="text" 
+                                   class="form-control border-start-0" 
+                                   name="nom"
+                                   id="nom"
+                                   placeholder="{{ __('contact.enter_full_name') }}"
+                                   required>
+                        </div>
+                        <div class="invalid-feedback">{{ __('contact.fill_name') }}</div>
+                    </div>
+                    
+                    <!-- Email -->
+                    <div class="col-md-6">
+                        <label class="form-label fw-semibold">
+                            {{ __('contact.email') }} <span class="text-danger">*</span>
+                        </label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-light border-end-0">
+                                <i class="bi bi-envelope"></i>
+                            </span>
+                            <input type="email" 
+                                   class="form-control border-start-0" 
+                                   name="email"
+                                   id="email"
+                                   placeholder="{{ __('contact.enter_email') }}"
+                                   required>
+                        </div>
+                        <div class="invalid-feedback">{{ __('contact.valid_email') }}</div>
+                    </div>
+                    
+                    <!-- Téléphone -->
+                    <div class="col-md-6">
+                        <label class="form-label fw-semibold">
+                            {{ __('contact.phone_number') }}
+                        </label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-light border-end-0">
+                                <i class="bi bi-telephone"></i>
+                            </span>
+                            <input type="tel" 
+                                   class="form-control border-start-0" 
+                                   name="telephone"
+                                   id="telephone"
+                                   placeholder="{{ __('contact.enter_phone') }}">
                         </div>
                     </div>
-                    <div id="" class="brz-css-1fju8k8 brz-css-7d0rja brz-wrapper">
-                        <div class="brz-rich-text brz-rich-text__custom brz-css-1k9bkry brz-css-1fc9ry9"
-                             data-brz-custom-id="svBMgPNax282">
-                            <div data-brz-translate-text="1">
-                                <p class="brz-text-lg-center ql-align-center brz-fss-lg-px brz-fw-lg-400 brz-ls-lg-0 brz-lh-lg-1_9 brz-vfw-lg-400 brz-fwdth-lg-100 brz-fsft-lg-0 brz-tp-lg-empty brz-ff-overpass brz-ft-google brz-fs-lg-19 brz-css-rDY52"
-                                   data-generated-css="brz-css-zS320" data-uniq-id="wd73l"><br></p>
-                                <p class="ql-align-center brz-text-lg-center brz-fss-lg-px brz-fw-lg-400 brz-ls-lg-0 brz-lh-lg-1_9 brz-vfw-lg-400 brz-fwdth-lg-100 brz-fsft-lg-0 brz-tp-lg-empty brz-ff-overpass brz-ft-google brz-fs-lg-19 brz-css-nBUyG"
-                                   data-generated-css="brz-css-q_jHP" data-uniq-id="db96M">
-                                    <span class="brz-cp-color8" style="color: rgba(var(--brz-global-color8),1);">
-                                        {{ __("contact.subtitle_1") }}
-                                    </span>
-                                </p>
-                                <p class="ql-align-center brz-text-lg-center brz-fss-lg-px brz-fw-lg-400 brz-ls-lg-0 brz-lh-lg-1_9 brz-vfw-lg-400 brz-fwdth-lg-100 brz-fsft-lg-0 brz-tp-lg-empty brz-ff-overpass brz-ft-google brz-fs-lg-19 brz-css-jhnJs"
-                                   data-generated-css="brz-css-o7ocg" data-uniq-id="wrDTA">
-                                    <span class="brz-cp-color8" style="color: rgba(var(--brz-global-color8),1);">
-                                        {{ __("contact.subtitle_2") }}
-                                    </span>
-                                </p>
-                                <p class="ql-align-center brz-text-lg-center brz-fss-lg-px brz-fw-lg-400 brz-ls-lg-0 brz-lh-lg-1_9 brz-vfw-lg-400 brz-fwdth-lg-100 brz-fsft-lg-0 brz-tp-lg-empty brz-ff-overpass brz-ft-google brz-fs-lg-19 brz-css-ukEyN"
-                                   data-generated-css="brz-css-p5uEw" data-uniq-id="vFwpS">
-                                    <span class="brz-cp-color8" style="color: rgba(var(--brz-global-color8),1);">
-                                        {{ __("contact.description") }}
-                                    </span>
-                                </p>
-                                <p class="brz-text-lg-center brz-fss-lg-px brz-fw-lg-400 brz-ls-lg-0 brz-lh-lg-1_9 brz-vfw-lg-400 brz-fwdth-lg-100 brz-fsft-lg-0 brz-tp-lg-empty brz-ff-overpass brz-ft-google brz-fs-lg-19 brz-css-gS0JA"
-                                   data-generated-css="brz-css-umlRz" data-uniq-id="nMZoV"><br></p>
-                            </div>
+                    
+                    <!-- Sujet -->
+                    <div class="col-md-6">
+                        <label class="form-label fw-semibold">
+                            {{ __('contact.subject') }} <span class="text-danger">*</span>
+                        </label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-light border-end-0">
+                                <i class="bi bi-chat-dots"></i>
+                            </span>
+                            <select class="form-select border-start-0" name="sujet" id="sujet" required>
+                                <option value="">{{ __('contact.select_subject') }}</option>
+                                <option value="adoption">{{ __('contact.adoption') }}</option>
+                                <option value="information">{{ __('contact.information') }}</option>
+                                <option value="complaint">{{ __('contact.complaint') }}</option>
+                                <option value="other">{{ __('contact.other') }}</option>
+                            </select>
+                        </div>
+                        <div class="invalid-feedback">{{ __('contact.select_subject_valid') }}</div>
+                    </div>
+                    
+                    <!-- Message -->
+                    <div class="col-12">
+                        <label class="form-label fw-semibold">
+                            {{ __('contact.message') }} <span class="text-danger">*</span>
+                        </label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-light border-end-0 align-items-start pt-3">
+                                <i class="bi bi-pencil"></i>
+                            </span>
+                            <textarea class="form-control border-start-0" 
+                                      name="message"
+                                      id="message"
+                                      rows="5"
+                                      placeholder="{{ __('contact.enter_message') }}"
+                                      required></textarea>
+                        </div>
+                        <div class="invalid-feedback">{{ __('contact.fill_message') }}</div>
+                    </div>
+                    
+                    <!-- Checkbox consentement -->
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="consent" required>
+                            <label class="form-check-label text-secondary" for="consent">
+                                {{ __('contact.consent') }}
+                            </label>
+                            <div class="invalid-feedback">{{ __('contact.consent_required') }}</div>
                         </div>
                     </div>
-                    <div class="brz-row__container brz-css-1oqodef brz-css-1gdgha0"
-                         data-brz-custom-id="wvwamwegxtxikahiooxgwnlzihujcwuircwu">
-                        <div class="brz-row brz-css-1wsvgr4 brz-css-1sj9nhp brz-css-13i7f6z">
-                            <div class="brz-columns brz-css-j6e0g3 brz-css-18jqjq5"
-                                 data-brz-custom-id="qbxpbatkncyazypjcvjfrbbtgdllydmqpjeu">
-                                <div class="brz-bg">
-                                    <div class="brz-bg-color"></div>
-                                </div>
-                                <div class="brz-column__items brz-css-ic1xgo brz-css-1jzy4h9">
-                                    <div id="" class="brz-css-1fju8k8 brz-css-71q8sd brz-wrapper">
-                                        <div class="brz-rich-text brz-rich-text__custom brz-css-1k9bkry brz-css-2yfdwu"
-                                             data-brz-custom-id="mHZ3AAe_iHP7">
-                                            <div data-brz-translate-text="1">
-                                                <h6 class="brz-text-lg-center brz-tp-lg-heading6 brz-css-oWYun"
-                                                    data-uniq-id="cj2_Z" data-generated-css="brz-css-fokrG">
-                                                    <span style="color: rgba(var(--brz-global-color2),1);" class="brz-cp-color2">
-                                                        {{ __("contact.form_title") }}
-                                                    </span>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="" class="brz-css-1fju8k8 brz-css-6qauh7 brz-wrapper">
-                                        <div class="brz-wp-shortcode brz-css-ree8oo brz-css-1jpxpkv"
-                                             data-brz-custom-id="tm_EdeOOMDwH">
-                                            <div>
-                                                <div class="wpforms-container wpforms-container-full wpforms-render-modern"
-                                                     id="wpforms-2818">
-                                                    <form id="wpforms-form-2818"
-                                                          class="wpforms-validate wpforms-form wpforms-ajax-form"
-                                                          data-formid="2818" method="post" enctype="multipart/form-data"
-                                                          action="#"
-                                                          data-token="642c68c171b48dad54d67d0a9ae74ea5"
-                                                          data-token-time="1768010952">
-                                                        <noscript class="wpforms-error-noscript">
-                                                            {{ __("contact.form_noscript") }}
-                                                        </noscript>
-                                                        <div id="wpforms-error-noscript" style="display: none;">
-                                                            {{ __("contact.form_noscript") }}
-                                                        </div>
-                                                        <div class="wpforms-field-container">
-                                                            <div id="wpforms-2818-field_1-container"
-                                                                 class="wpforms-field wpforms-field-name"
-                                                                 data-field-id="1">
-                                                                <label class="wpforms-field-label" for="wpforms-2818-field_1">
-                                                                    {{ __("contact.form_name") }}
-                                                                    <span class="wpforms-required-label" aria-hidden="true">
-                                                                        {{ __("contact.form_name_required") }}
-                                                                    </span>
-                                                                </label>
-                                                                <input type="text" id="wpforms-2818-field_1"
-                                                                       class="wpforms-field-medium wpforms-field-required"
-                                                                       name="wpforms[fields][1]"
-                                                                       aria-errormessage="wpforms-2818-field_1-error"
-                                                                       required>
-                                                            </div>
-                                                            <div id="wpforms-2818-field_4-container"
-                                                                 class="wpforms-field wpforms-field-text"
-                                                                 data-field-type="text" data-field-id="4">
-                                                                <label class="wpforms-field-label" for="wpforms-2818-field_4">
-                                                                    {{ __("contact.form_whatsapp_comment") }}
-                                                                </label>
-                                                                <input type="text" id="wpforms-2818-field_4"
-                                                                       class="wpforms-field-medium"
-                                                                       name="wpforms[fields][4]">
-                                                            </div>
-                                                            <div id="wpforms-2818-field_7-container"
-                                                                 class="wpforms-field wpforms-field-text"
-                                                                 data-field-id="7">
-                                                                <label class="wpforms-field-label" for="wpforms-2818-field_7">
-                                                                    {{ __("contact.form_puppy_breed") }}
-                                                                    <span class="wpforms-required-label" aria-hidden="true">
-                                                                        {{ __("contact.form_puppy_breed_required") }}
-                                                                    </span>
-                                                                </label>
-                                                                <input type="text" id="wpforms-2818-field_7"
-                                                                       class="wpforms-field-medium wpforms-field-required"
-                                                                       name="wpforms[fields][7]"
-                                                                       aria-errormessage="wpforms-2818-field_7-error"
-                                                                       required>
-                                                            </div>
-                                                            <div id="wpforms-2818-field_8-container"
-                                                                 class="wpforms-field wpforms-field-text"
-                                                                 data-field-id="8">
-                                                                <label class="wpforms-field-label" for="wpforms-2818-field_8">
-                                                                    {{ __("contact.form_puppy_name") }}
-                                                                    <span class="wpforms-required-label" aria-hidden="true">
-                                                                        {{ __("contact.form_puppy_name_required") }}
-                                                                    </span>
-                                                                </label>
-                                                                <input type="text" id="wpforms-2818-field_8"
-                                                                       class="wpforms-field-medium wpforms-field-required"
-                                                                       name="wpforms[fields][8]"
-                                                                       aria-errormessage="wpforms-2818-field_8-error"
-                                                                       required>
-                                                            </div>
-                                                            <div id="wpforms-2818-field_2-container"
-                                                                 class="wpforms-field wpforms-field-email"
-                                                                 data-field-id="2">
-                                                                <label class="wpforms-field-label" for="wpforms-2818-field_2">
-                                                                    {{ __("contact.form_email") }}
-                                                                    <span class="wpforms-required-label" aria-hidden="true">
-                                                                        {{ __("contact.form_email_required") }}
-                                                                    </span>
-                                                                </label>
-                                                                <input type="email" id="wpforms-2818-field_2"
-                                                                       class="wpforms-field-medium wpforms-field-required"
-                                                                       name="wpforms[fields][2]" spellcheck="false"
-                                                                       aria-errormessage="wpforms-2818-field_2-error"
-                                                                       required>
-                                                            </div>
-                                                            <div id="wpforms-2818-field_6-container"
-                                                                 class="wpforms-field wpforms-field-number"
-                                                                 data-field-id="6">
-                                                                <label class="wpforms-field-label" for="wpforms-2818-field_6">
-                                                                    {{ __("contact.form_whatsapp_number") }}
-                                                                    <span class="wpforms-required-label" aria-hidden="true">
-                                                                        {{ __("contact.form_whatsapp_number_required") }}
-                                                                    </span>
-                                                                </label>
-                                                                <input type="number" id="wpforms-2818-field_6"
-                                                                       class="wpforms-field-medium wpforms-field-required"
-                                                                       name="wpforms[fields][6]" step="any"
-                                                                       aria-errormessage="wpforms-2818-field_6-error"
-                                                                       required>
-                                                            </div>
-                                                            <div id="wpforms-2818-field_5-container"
-                                                                 class="wpforms-field wpforms-field-text"
-                                                                 data-field-id="5">
-                                                                <label class="wpforms-field-label" for="wpforms-2818-field_5">
-                                                                    {{ __("contact.form_city_region") }}
-                                                                    <span class="wpforms-required-label" aria-hidden="true">
-                                                                        {{ __("contact.form_city_region_required") }}
-                                                                    </span>
-                                                                </label>
-                                                                <input type="text" id="wpforms-2818-field_5"
-                                                                       class="wpforms-field-medium wpforms-field-required"
-                                                                       name="wpforms[fields][5]"
-                                                                       aria-errormessage="wpforms-2818-field_5-error"
-                                                                       required>
-                                                            </div>
-                                                            <div id="wpforms-2818-field_3-container"
-                                                                 class="wpforms-field wpforms-field-textarea"
-                                                                 data-field-id="3">
-                                                                <label class="wpforms-field-label" for="wpforms-2818-field_3">
-                                                                    {{ __("contact.form_message") }}
-                                                                </label>
-                                                                <textarea id="wpforms-2818-field_3"
-                                                                          class="wpforms-field-medium"
-                                                                          name="wpforms[fields][3]"
-                                                                          aria-errormessage="wpforms-2818-field_3-error"></textarea>
-                                                            </div>
-                                                        </div>
-                                                        <div class="wpforms-submit-container">
-                                                            <input type="hidden" name="wpforms[id]" value="2818">
-                                                            <input type="hidden" name="page_title" value="Contacto">
-                                                            <input type="hidden" name="page_url" value="/contacto/">
-                                                            <input type="hidden" name="url_referer" value="/quienes-somos/">
-                                                            <input type="hidden" name="page_id" value="535">
-                                                            <input type="hidden" name="wpforms[post_id]" value="535">
-                                                            <button type="submit" name="wpforms[submit]"
-                                                                    id="wpforms-submit-2818" class="wpforms-submit"
-                                                                    data-alt-text="{{ __("contact.form_submitting") }}"
-                                                                    data-submit-text="{{ __("contact.form_submit") }}"
-                                                                    aria-live="assertive" value="wpforms-submit">
-                                                                {{ __("contact.form_submit") }}
-                                                            </button>
-                                                            <img decoding="async"
-                                                                 src="/wp-content/plugins/wpforms-lite/assets/images/submit-spin.html"
-                                                                 class="wpforms-submit-spinner" style="display: none;"
-                                                                 width="26" height="26" alt="{{ __("contact.form_loading") }}">
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    
+                    <!-- Bouton submit -->
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-submit text-white w-100" id="submitBtn">
+                            <i class="bi bi-send me-2"></i>
+                            <span class="btn-text">{{ __('contact.send') }}</span>
+                            <span class="spinner-border spinner-border-sm ms-2 d-none" role="status"></span>
+                        </button>
                     </div>
                 </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- JavaScript de simulation -->
+<script>
+    // Système de toasts
+    function showToast(type, title, message) {
+        const container = document.getElementById('toastContainer');
+        if (!container) return;
+        
+        const toastId = 'toast_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+        const icons = { success: '✓', error: '✗' };
+        
+        const toast = document.createElement('div');
+        toast.className = `custom-toast toast-${type}`;
+        toast.id = toastId;
+        toast.innerHTML = `
+            <div class="toast-content">
+                <div class="toast-icon">${icons[type]}</div>
+                <div class="toast-message">
+                    <strong>${title}</strong>
+                    <span>${message}</span>
+                </div>
+                <button class="toast-close" onclick="closeToast('${toastId}')">×</button>
             </div>
-        </section>
-
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                const form = document.getElementById('wpforms-form-2818');
-
-                if (form) {
-                    // 🔥 On injecte les traductions Laravel ici
-                    const translations = {
-                        validationRequired: @json(__('form.validation.required')),
-                        sending: @json(__('form.sending')),
-                        success: @json(__('form.success'))
-                    };
-
-                    form.addEventListener('submit', function (e) {
-                        e.preventDefault();
-
-                        const submitBtn = document.getElementById('wpforms-submit-2818');
-                        const originalText = submitBtn.textContent;
-
-                        // ✅ Validation
-                        const requiredFields = form.querySelectorAll('[required]');
-                        let isValid = true;
-
-                        requiredFields.forEach(field => {
-                            if (!field.value.trim()) {
-                                isValid = false;
-                                field.style.borderColor = '#ff4444';
-                                field.style.backgroundColor = '#fff8f8';
-                            } else {
-                                field.style.borderColor = '';
-                                field.style.backgroundColor = '';
-                            }
-                        });
-
-                        if (!isValid) {
-                            showNotification(translations.validationRequired, 'error');
-                            return;
-                        }
-
-                        // 🔄 Loading
-                        submitBtn.disabled = true;
-                        submitBtn.textContent = translations.sending;
-
-                        // 🚀 Simulation envoi
-                        setTimeout(function () {
-                            submitBtn.disabled = false;
-                            submitBtn.textContent = originalText;
-                            form.reset();
-
-                            showNotification(translations.success, 'success');
-                        }, 1500);
-                    });
-
-                    function showNotification(message, type) {
-                        const oldNotification = document.querySelector('.form-notification');
-                        if (oldNotification) oldNotification.remove();
-
-                        const notification = document.createElement('div');
-                        notification.className = `form-notification form-notification-${type}`;
-                        notification.textContent = message;
-
-                        notification.style.cssText = `
-                position: fixed;
-                top: 20px;
-                right: 20px;
-                padding: 15px 25px;
-                border-radius: 5px;
-                color: white;
-                font-weight: 500;
-                z-index: 9999;
-                animation: slideIn 0.3s ease;
-                box-shadow: 0 3px 10px rgba(0,0,0,0.2);
-            `;
-
-                        notification.style.backgroundColor = type === 'success' ? '#25D366' : '#ff4444';
-
-                        document.body.appendChild(notification);
-
-                        const style = document.createElement('style');
-                        style.textContent = `
-                @keyframes slideIn {
-                    from { transform: translateX(100%); opacity: 0; }
-                    to { transform: translateX(0); opacity: 1; }
-                }
-                @keyframes fadeOut {
-                    from { transform: translateX(0); opacity: 1; }
-                    to { transform: translateX(100%); opacity: 0; }
-                }
-            `;
-                        document.head.appendChild(style);
-
-                        setTimeout(function () {
-                            notification.style.animation = 'fadeOut 0.3s ease';
-                            setTimeout(function () {
-                                notification.remove();
-                                style.remove();
-                            }, 300);
-                        }, 4000);
-                    }
-
-                    // 🎯 Reset styles erreur
-                    form.querySelectorAll('input, textarea').forEach(field => {
-                        field.addEventListener('input', function () {
-                            this.style.borderColor = '';
-                            this.style.backgroundColor = '';
-                        });
-                    });
+        `;
+        
+        container.appendChild(toast);
+        setTimeout(() => closeToast(toastId), 5000);
+    }
+    
+    function closeToast(toastId) {
+        const toast = document.getElementById(toastId);
+        if (toast) {
+            toast.style.animation = 'slideOut 0.3s ease-out forwards';
+            setTimeout(() => toast.remove(), 300);
+        }
+    }
+    
+    // Validation email
+    function validateEmail(email) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('contactForm');
+        const emailInput = document.getElementById('email');
+        
+        // Validation en temps réel
+        if (emailInput) {
+            emailInput.addEventListener('blur', function() {
+                if (this.value && !validateEmail(this.value)) {
+                    this.classList.add('is-invalid');
+                } else {
+                    this.classList.remove('is-invalid');
                 }
             });
-        </script>
-        @include('layouts.partials.footer.public')
-    </div>
+        }
+        
+        // Soumission du formulaire (simulation)
+        if (form) {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                let hasError = false;
+                
+                // Vérifier tous les champs requis
+                form.querySelectorAll('[required]').forEach(field => {
+                    if (!field.value.trim()) {
+                        field.classList.add('is-invalid');
+                        hasError = true;
+                    } else {
+                        field.classList.remove('is-invalid');
+                    }
+                });
+                
+                // Vérifier email
+                if (emailInput && emailInput.value && !validateEmail(emailInput.value)) {
+                    emailInput.classList.add('is-invalid');
+                    hasError = true;
+                }
+                
+                if (hasError) {
+                    showToast('error', '{{ __("contact.error_title") }}', '{{ __("contact.fill_all_fields") }}');
+                    return false;
+                }
+                
+                // Simuler l'envoi
+                const submitBtn = document.getElementById('submitBtn');
+                const btnText = submitBtn.querySelector('.btn-text');
+                const spinner = submitBtn.querySelector('.spinner-border');
+                
+                submitBtn.disabled = true;
+                btnText.textContent = '{{ __("contact.sending") }}';
+                spinner.classList.remove('d-none');
+                
+                // Simuler un délai d'envoi
+                setTimeout(() => {
+                    // Réinitialiser le formulaire
+                    form.reset();
+                    
+                    // Réactiver le bouton
+                    submitBtn.disabled = false;
+                    btnText.textContent = '{{ __("contact.send") }}';
+                    spinner.classList.add('d-none');
+                    
+                    // Afficher le message de succès
+                    showToast('success', '{{ __("contact.success_title") }}', '{{ __("contact.success_message") }}');
+                    
+                    // Retirer les classes is-invalid
+                    form.querySelectorAll('.is-invalid').forEach(field => {
+                        field.classList.remove('is-invalid');
+                    });
+                }, 2000);
+            });
+        }
+    });
+</script>
 @endsection

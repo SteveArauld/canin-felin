@@ -1,10 +1,10 @@
 # CachorrosDirecto
 
-![Logo du projet](public/wp-content/logo/logo.png)
+![Logo du projet](public/assets/logo/logo.png)
 
 ## Description
 
-CachorrosDirecto est une application Laravel 12 pour un site multilingue de présentation et de vente de chiots. Le projet propose une page d'accueil avec chiots mâles et femelles, des fiches détaillées par chiot, un filtrage par race, une page de vente, une recherche avec suggestions et un formulaire de commande par email.
+CachorrosDirecto est une application Laravel 12 pour un site multilingue de présentation et de vente de chiens. Le projet propose une page d'accueil avec chiots mâles et femelles, des fiches détaillées par chiot, un filtrage par race, une page de vente, une recherche avec suggestions et un formulaire de commande par email.
 
 ## Fonctionnalités principales
 
@@ -26,16 +26,16 @@ CachorrosDirecto est une application Laravel 12 pour un site multilingue de pré
 - `app/Mail/OrderConfirmationMail.php` : message email de confirmation pour le client et l'administrateur.
 - `routes/web.php` : routes publiques et multilingues.
 - `resources/views/` : vues Blade pour l'interface utilisateur.
-- `public/wp-content/logo/` : logo du site et favicon.
-- `config/` : configuration de l'application et listes de races / chiots.
+- `public/assets/logo/` : logo du site et favicon.
+- `config/` : configuration de l'application et listes de races / chiens.
 
 ## Pages et routes importantes
 
 - `/{lang}` : page d'accueil.
 - `/{lang}/cachorros-disponibles/{slug}` : fiche détaillée d'un chiot.
-- `/{lang}/cachorrosraza/{slug}` : liste des chiots par race.
+- `/{lang}/chiens.par-race/{slug}` : liste des chiots par race.
 - `/{lang}/cachorros-en-venta` : page de vente principale.
-- `/search` : recherche de chiots.
+- `/search` : recherche de chiens.
 - `/search/autocomplete` : autocomplétion de recherche.
 - `/search/race-details` : chargement des détails d'une race.
 - `/{lang}/order/{slug}` : envoi de commande.
@@ -129,7 +129,7 @@ Assurez-vous que la configuration SMTP est correcte dans le fichier `.env`.
 
 ## Logo
 
-Le logo du projet est présent dans `public/wp-content/logo/logo.png` et est utilisé dans l'en-tête et le pied de page du site.
+Le logo du projet est présent dans `public/assets/logo/logo.png` et est utilisé dans l'en-tête et le pied de page du site.
 
 ## Notes de déploiement
 

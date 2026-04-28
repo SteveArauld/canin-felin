@@ -1,164 +1,270 @@
 @extends('layouts.app')
 
-@section('title', __('Avisos legais'))
+@section('title', __('returns_policy.page_title'))
 
 @push('styles')
-    <title>{{ __('returns_policy.meta_title') }}</title>
-    @include('pages.style')
-    @vite(['resources/css/devoluciones.css'])
 @endpush
 
 @section('content')
-    <div class="brz brz-root__container brz-reset-all brz-root__container-page">
+<!-- Hero Section -->
+<section class="py-5 py-md-6 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <h1 class="display-4 fw-bold text-center text-dark mb-4">
+                    {{ __('returns_policy.page_title') }}
+                </h1>
+                
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body p-4">
+                        <p class="text-secondary mb-0">
+                            {{ __('returns_policy.intro_1') }}
+                            <strong>{{ __('returns_policy.company_name') }}</strong>
+                            {{ __('returns_policy.intro_2') }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-        @include('layouts.partials.navbar.public')
-
-        <section id="31076cf06fffce30c6ae_gM2vRfMlr8Be" class="brz-section brz-css-1ux9ltk brz-css-1uf6qag">
-            <div class="brz-section__content brz-section--boxed brz-css-iy0c1t brz-css-10qzzye"
-                 data-brz-custom-id="uBho81XtXMK0">
-                <div class="brz-container brz-css-bgshhl brz-css-di3x0j">
-                    <div id="" class="brz-css-q4ljrt brz-css-ov3n0i brz-wrapper">
-                        <div class="brz-rich-text brz-rich-text__custom brz-css-1kvy90o brz-css-9sz6y7"
-                             data-brz-custom-id="mUV1Xw4U9GmP">
-                            <div data-brz-translate-text="1">
-                                <p data-generated-css="brz-css-loNZQ" data-uniq-id="vgJvv"
-                                   class="brz-tp-lg-empty brz-ff-lexend_deca brz-ft-google brz-fs-lg-34 brz-fss-lg-px brz-fw-lg-700 brz-ls-lg-m_1_5 brz-lh-lg-1_3 brz-vfw-lg-400 brz-fwdth-lg-100 brz-fsft-lg-0 brz-css-pJuTK">
-                                    <span style="color: rgba(var(--brz-global-color2),1);" class="brz-cp-color2">{{ __('returns_policy.page_title') }}</span>
-                                </p>
-                                <p class="brz-tp-lg-paragraph brz-css-lAvUJ" data-generated-css="brz-css-ckxg_"
-                                   data-uniq-id="rb7nz"><span class="brz-cp-color7"> </span></p>
-                                <p class="brz-tp-lg-paragraph brz-css-qzheH" data-generated-css="brz-css-n7JTf"
-                                   data-uniq-id="cOMv6">
-                                    <span class="brz-cp-color7">{{ __('returns_policy.intro_1') }}</span>
-                                    <strong class="brz-cp-color7">{{ __('returns_policy.company_name') }}</strong>
-                                    <span class="brz-cp-color7">{{ __('returns_policy.intro_2') }}</span>
-                                </p>
-                                <h3 class="brz-tp-lg-heading3 brz-css-faWdH" data-generated-css="brz-css-l9N94"
-                                    data-uniq-id="qZN4A"><span class="brz-cp-color7"> </span></h3>
-                                <p data-generated-css="brz-css-xups7" data-uniq-id="o1YVj"
-                                   class="brz-tp-lg-empty brz-ff-lexend_deca brz-ft-google brz-fs-lg-34 brz-fss-lg-px brz-fw-lg-700 brz-ls-lg-m_1_5 brz-lh-lg-1_4 brz-vfw-lg-400 brz-fwdth-lg-100 brz-fsft-lg-0 brz-css-fN7ta">
-                                    <span style="color: rgba(var(--brz-global-color2),1);" class="brz-cp-color2">{{ __('returns_policy.general_conditions.title') }}</span>
-                                </p>
-                                <h3 data-generated-css="brz-css-oPVDQ" data-uniq-id="tc_9p"
-                                    class="brz-tp-lg-heading3 brz-css-wiN98"><span class="brz-cp-color7"> </span></h3>
-                                <p class="brz-tp-lg-paragraph brz-css-qoQ8J" data-generated-css="brz-css-nv3X6"
-                                   data-uniq-id="yT62x">
-                                    <span class="brz-cp-color7">{{ __('returns_policy.general_conditions.description') }}</span>
-                                </p>
-                                <h3 class="brz-tp-lg-heading3 brz-css-gMQQn" data-generated-css="brz-css-eHZb9"
-                                    data-uniq-id="oJ64C"><span class="brz-cp-color7"> </span></h3>
-                                <p data-generated-css="brz-css-sV1Tf" data-uniq-id="wRY6O"
-                                   class="brz-tp-lg-empty brz-ff-lexend_deca brz-ft-google brz-fs-lg-34 brz-fss-lg-px brz-fw-lg-700 brz-ls-lg-m_1_5 brz-lh-lg-1_4 brz-vfw-lg-400 brz-fwdth-lg-100 brz-fsft-lg-0 brz-css-vxylx">
-                                    <span style="color: rgba(var(--brz-global-color2),1);" class="brz-cp-color2">{{ __('returns_policy.health_guarantee.title') }}</span>
-                                </p>
-                                <h3 data-generated-css="brz-css-b5784" data-uniq-id="rGx5X"
-                                    class="brz-tp-lg-heading3 brz-css-nhGvm"><span class="brz-cp-color7"> </span></h3>
-                                <p class="brz-tp-lg-paragraph brz-css-yuQFH" data-generated-css="brz-css-p9nzV"
-                                   data-uniq-id="sZenM">
-                                    <span class="brz-cp-color7">{{ __('returns_policy.health_guarantee.delivered_with') }}</span>
-                                </p>
-                                <p data-generated-css="brz-css-z0ieJ" data-uniq-id="yM_lM"
-                                   class="brz-tp-lg-paragraph brz-css-gDnaW"><br></p>
-                                <ul>
-                                    <li class="brz-tp-lg-paragraph brz-bcp-color7 brz-css-c8gLG"
-                                        data-generated-css="brz-css-ogHRF" data-uniq-id="mZJBE">
-                                        <span class="brz-cp-color7">{{ __('returns_policy.health_guarantee.health_card') }}</span>
-                                    </li>
-                                </ul>
-                                <p data-generated-css="brz-css-j6Xgm" data-uniq-id="pzAUE"
-                                   class="brz-tp-lg-paragraph brz-css-gKDhe"><br></p>
-                                <ul>
-                                    <li class="brz-tp-lg-paragraph brz-bcp-color7 brz-css-nzehn"
-                                        data-generated-css="brz-css-vP_En" data-uniq-id="zcQ0Q">
-                                        <span class="brz-cp-color7">{{ __('returns_policy.health_guarantee.vaccinations') }}</span>
-                                    </li>
-                                </ul>
-                                <p data-generated-css="brz-css-pWLfK" data-uniq-id="oGxrj"
-                                   class="brz-tp-lg-paragraph brz-css-cp56s"><br></p>
-                                <ul>
-                                    <li class="brz-tp-lg-paragraph brz-bcp-color7 brz-css-wcOqE"
-                                        data-generated-css="brz-css-xxhVf" data-uniq-id="tgoCy">
-                                        <span class="brz-cp-color7">{{ __('returns_policy.health_guarantee.vet_certificate') }}</span>
-                                    </li>
-                                </ul>
-                                <p data-generated-css="brz-css-zlw3A" data-uniq-id="b32D6"
-                                   class="brz-tp-lg-paragraph brz-css-lDBmN"><br></p>
-                                <p data-generated-css="brz-css-hYelY" data-uniq-id="kNonA"
-                                   class="brz-tp-lg-paragraph brz-css-xUT7i"><br></p>
-                                <p class="brz-tp-lg-paragraph brz-css-xpNUz" data-generated-css="brz-css-l_fxh"
-                                   data-uniq-id="pejlU">
-                                    <span class="brz-cp-color7">{{ __('returns_policy.health_guarantee.within_1') }}</span>
-                                    <strong class="brz-cp-color7">{{ __('returns_policy.health_guarantee.120_hours') }}</strong>
-                                    <span class="brz-cp-color7">{{ __('returns_policy.health_guarantee.within_2') }}</span>
-                                </p>
-                                <p data-generated-css="brz-css-cjzN_" data-uniq-id="cHF0H"
-                                   class="brz-tp-lg-paragraph brz-css-i5jW7"><br></p>
-                                <ul>
-                                    <li class="brz-tp-lg-paragraph brz-bcp-color7 brz-css-vzSAm"
-                                        data-generated-css="brz-css-leUvQ" data-uniq-id="xHs7y">
-                                        <span class="brz-cp-color7">{{ __('returns_policy.health_guarantee.replacement_option') }}</span>
-                                    </li>
-                                </ul>
-                                <p data-generated-css="brz-css-eprq_" data-uniq-id="w2FFv"
-                                   class="brz-tp-lg-paragraph brz-css-kFs5l"><br></p>
-                                <ul>
-                                    <li data-generated-css="brz-css-rOzjY" data-uniq-id="qvCi6"
-                                        class="brz-tp-lg-paragraph brz-bcp-color7 brz-css-y2BK4">
-                                        <span class="brz-cp-color7">{{ __('returns_policy.health_guarantee.compensation_option') }}</span>
-                                    </li>
-                                </ul>
-                                <p data-generated-css="brz-css-cdnsh" data-uniq-id="k5AU2"
-                                   class="brz-tp-lg-paragraph brz-css-pNajO"><br></p>
-                                <p data-generated-css="brz-css-hgkK1" data-uniq-id="fHSPl"
-                                   class="brz-tp-lg-empty brz-ff-lexend_deca brz-ft-google brz-fs-lg-28 brz-fss-lg-px brz-fw-lg-700 brz-ls-lg-m_1_5 brz-lh-lg-1_4 brz-vfw-lg-400 brz-fwdth-lg-100 brz-fsft-lg-0 brz-css-rf6i4">
-                                    <span style="color: rgba(var(--brz-global-color2),1);" class="brz-cp-color2">{{ __('returns_policy.exclusions.title') }}</span>
-                                </p>
-                                <h3 data-generated-css="brz-css-kq33r" data-uniq-id="sG5Th"
-                                    class="brz-tp-lg-heading3 brz-css-uA68_"><span class="brz-cp-color7"> </span></h3>
-                                <p class="brz-tp-lg-paragraph brz-css-zDUoY" data-generated-css="brz-css-l4UMm"
-                                   data-uniq-id="yrDEU">
-                                    <span class="brz-cp-color7">{{ __('returns_policy.exclusions.guarantee_not_covers') }}</span>
-                                </p>
-                                <p data-generated-css="brz-css-dOrRu" data-uniq-id="g6u0h"
-                                   class="brz-tp-lg-paragraph brz-css-kMAKf"><br></p>
-                                <ul>
-                                    <li class="brz-tp-lg-paragraph brz-bcp-color7 brz-css-rBdHb"
-                                        data-generated-css="brz-css-hosCs" data-uniq-id="xBEyP">
-                                        <span class="brz-cp-color7">{{ __('returns_policy.exclusions.health_issues') }}</span>
-                                    </li>
-                                </ul>
-                                <p data-generated-css="brz-css-dcUOP" data-uniq-id="zSDQu"
-                                   class="brz-tp-lg-paragraph brz-css-eblUS"><br></p>
-                                <ul>
-                                    <li class="brz-tp-lg-paragraph brz-bcp-color7 brz-css-m3tjd"
-                                        data-generated-css="brz-css-m1JX4" data-uniq-id="akPaL">
-                                        <span class="brz-cp-color7">{{ __('returns_policy.exclusions.adaptation_issues') }}</span>
-                                    </li>
-                                </ul>
-                                <p data-generated-css="brz-css-mPT1V" data-uniq-id="nvSya"
-                                   class="brz-tp-lg-paragraph brz-css-s64Xr"><br></p>
-                                <p data-generated-css="brz-css-buFbG" data-uniq-id="cWlMy"
-                                   class="brz-tp-lg-paragraph brz-css-obYL6"><br></p>
-                                <p data-generated-css="brz-css-w2ZYL" data-uniq-id="kCk9K"
-                                   class="brz-tp-lg-empty brz-ff-lexend_deca brz-ft-google brz-fs-lg-34 brz-fss-lg-px brz-fw-lg-700 brz-ls-lg-m_1_5 brz-lh-lg-1_4 brz-vfw-lg-400 brz-fwdth-lg-100 brz-fsft-lg-0 brz-css-khw0V">
-                                    <span style="color: rgba(var(--brz-global-color2),1);" class="brz-cp-color2">{{ __('returns_policy.transport_delivery.title') }}</span>
-                                </p>
-                                <h3 data-generated-css="brz-css-znG4v" data-uniq-id="h4zW2"
-                                    class="brz-tp-lg-heading3 brz-css-yjL_n"><span class="brz-cp-color7"> </span></h3>
-                                <p class="brz-tp-lg-paragraph brz-css-xvBIr" data-generated-css="brz-css-f0H6Z"
-                                   data-uniq-id="yWqtB">
-                                    <span class="brz-cp-color7">{{ __('returns_policy.transport_delivery.description_1') }}</span>
-                                    <strong class="brz-cp-color7">{{ __('returns_policy.transport_delivery.company_name') }}</strong>
-                                    <span class="brz-cp-color7">{{ __('returns_policy.transport_delivery.description_2') }}</span>
-                                </p>
+<!-- Contenu principal -->
+<section class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                
+                <!-- Conditions générales -->
+                <div class="card border-0 shadow-sm mb-4">
+                    <div class="card-body p-4 p-md-5">
+                        <h2 class="h3 fw-bold mb-4" style="color: var(--accent-orange);">
+                            <i class="bi bi-file-text me-2"></i>
+                            {{ __('returns_policy.general_conditions.title') }}
+                        </h2>
+                        
+                        <p class="text-secondary">
+                            {{ __('returns_policy.general_conditions.description') }}
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Garantie santé -->
+                <div class="card border-0 shadow-sm mb-4">
+                    <div class="card-body p-4 p-md-5">
+                        <h2 class="h3 fw-bold mb-4" style="color: var(--accent-orange);">
+                            <i class="bi bi-shield-check me-2"></i>
+                            {{ __('returns_policy.health_guarantee.title') }}
+                        </h2>
+                        
+                        <p class="text-secondary mb-4">
+                            {{ __('returns_policy.health_guarantee.delivered_with') }}
+                        </p>
+                        
+                        <div class="row g-3 mb-4">
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-start">
+                                    <i class="bi bi-file-medical fs-4 me-3" style="color: var(--accent-orange);"></i>
+                                    <span>{{ __('returns_policy.health_guarantee.health_card') }}</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-start">
+                                    <i class="bi bi-shield fs-4 me-3" style="color: var(--accent-orange);"></i>
+                                    <span>{{ __('returns_policy.health_guarantee.vaccinations') }}</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-start">
+                                    <i class="bi bi-award fs-4 me-3" style="color: var(--accent-orange);"></i>
+                                    <span>{{ __('returns_policy.health_guarantee.vet_certificate') }}</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="alert alert-info border-0 bg-light">
+                            <i class="bi bi-info-circle-fill me-2"></i>
+                            {{ __('returns_policy.health_guarantee.within_1') }}
+                            <strong>{{ __('returns_policy.health_guarantee.120_hours') }}</strong>
+                            {{ __('returns_policy.health_guarantee.within_2') }}
+                        </div>
+                        
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-start">
+                                    <i class="bi bi-arrow-repeat fs-4 me-3" style="color: var(--accent-orange);"></i>
+                                    <span>{{ __('returns_policy.health_guarantee.replacement_option') }}</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-start">
+                                    <i class="bi bi-cash-stack fs-4 me-3" style="color: var(--accent-orange);"></i>
+                                    <span>{{ __('returns_policy.health_guarantee.compensation_option') }}</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
+                <!-- Exclusions -->
+                <div class="card border-0 shadow-sm mb-4">
+                    <div class="card-body p-4 p-md-5">
+                        <h2 class="h3 fw-bold mb-4" style="color: var(--accent-orange);">
+                            <i class="bi bi-exclamation-triangle me-2"></i>
+                            {{ __('returns_policy.exclusions.title') }}
+                        </h2>
+                        
+                        <p class="text-secondary mb-4">
+                            {{ __('returns_policy.exclusions.guarantee_not_covers') }}
+                        </p>
+                        
+                        <ul class="list-unstyled">
+                            <li class="mb-3 d-flex">
+                                <i class="bi bi-x-circle text-danger me-3 mt-1"></i>
+                                <span>{{ __('returns_policy.exclusions.health_issues') }}</span>
+                            </li>
+                            <li class="mb-3 d-flex">
+                                <i class="bi bi-x-circle text-danger me-3 mt-1"></i>
+                                <span>{{ __('returns_policy.exclusions.adaptation_issues') }}</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Transport et livraison -->
+                <div class="card border-0 shadow-sm mb-4">
+                    <div class="card-body p-4 p-md-5">
+                        <h2 class="h3 fw-bold mb-4" style="color: var(--accent-orange);">
+                            <i class="bi bi-truck me-2"></i>
+                            {{ __('returns_policy.transport_delivery.title') }}
+                        </h2>
+                        
+                        <p class="text-secondary">
+                            {{ __('returns_policy.transport_delivery.description_1') }}
+                            <strong>{{ __('returns_policy.transport_delivery.company_name') }}</strong>
+                            {{ __('returns_policy.transport_delivery.description_2') }}
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Protection des données -->
+                <div class="card border-0 shadow-sm mb-4">
+                    <div class="card-body p-4 p-md-5">
+                        <h2 class="h3 fw-bold mb-4" style="color: var(--accent-orange);">
+                            <i class="bi bi-lock me-2"></i>
+                            {{ __('returns_policy.data_protection.title') }}
+                        </h2>
+                        
+                        <p class="text-secondary mb-3">
+                            {{ __('returns_policy.data_protection.description') }}
+                        </p>
+                        
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-start">
+                                    <i class="bi bi-check-circle-fill text-success me-3 mt-1"></i>
+                                    <span>{{ __('returns_policy.data_protection.right_access') }}</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-start">
+                                    <i class="bi bi-check-circle-fill text-success me-3 mt-1"></i>
+                                    <span>{{ __('returns_policy.data_protection.right_rectification') }}</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-start">
+                                    <i class="bi bi-check-circle-fill text-success me-3 mt-1"></i>
+                                    <span>{{ __('returns_policy.data_protection.right_deletion') }}</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-start">
+                                    <i class="bi bi-check-circle-fill text-success me-3 mt-1"></i>
+                                    <span>{{ __('returns_policy.data_protection.right_portability') }}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Propriété intellectuelle -->
+                <div class="card border-0 shadow-sm mb-4">
+                    <div class="card-body p-4 p-md-5">
+                        <h2 class="h3 fw-bold mb-4" style="color: var(--accent-orange);">
+                            <i class="bi bi-c-circle me-2"></i>
+                            {{ __('returns_policy.intellectual_property.title') }}
+                        </h2>
+                        
+                        <p class="text-secondary">
+                            {{ __('returns_policy.intellectual_property.description') }}
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Loi applicable -->
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body p-4 p-md-5">
+                        <h2 class="h3 fw-bold mb-4" style="color: var(--accent-orange);">
+                            <i class="bi bi-bank me-2"></i>
+                            {{ __('returns_policy.applicable_law.title') }}
+                        </h2>
+                        
+                        <p class="text-secondary mb-4">
+                            {{ __('returns_policy.applicable_law.description') }}
+                        </p>
+                        
+                        <div class="alert alert-light border">
+                            <i class="bi bi-envelope me-2"></i>
+                            <strong>{{ __('returns_policy.contact.email') }}:</strong> contact@pattesplules.fr
+                            <br>
+                            <i class="bi bi-whatsapp me-2"></i>
+                            <strong>{{ __('returns_policy.contact.whatsapp') }}:</strong> +39 350 872 4295
+                        </div>
+                    </div>
+                </div>
+                
             </div>
-        </section>
-
-        @include('layouts.partials.footer.public')
-
+        </div>
     </div>
+</section>
+
+<!-- Contact CTA -->
+<section class="py-5 bg-dark text-white">
+    <div class="container text-center">
+        <h3 class="h2 fw-bold mb-3">{{ __('returns_policy.questions_title') }}</h3>
+        <p class="lead mb-4 opacity-75">{{ __('returns_policy.questions_description') }}</p>
+        
+        <div class="d-flex flex-wrap justify-content-center gap-3">
+            <a href="https://wa.me/393508724295" class="btn btn-success btn-lg px-5 py-3 rounded">
+                <i class="bi bi-whatsapp me-2"></i>
+                WhatsApp
+            </a>
+            <a href="{{ route('contact', ['lang' => app()->getLocale()]) }}" class="btn btn-outline-light btn-lg px-5 py-3 rounded">
+                <i class="bi bi-envelope me-2"></i>
+                {{ __('returns_policy.contact_us') }}
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+
+
+<!-- Styles personnalisés -->
+<style>
+    .py-md-6 {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    
+    .card {
+        border-radius: 1rem;
+        overflow: hidden;
+    }
+    
+    .bg-light {
+        background-color: #f8f9fa !important;
+    }
+</style>
 @endsection

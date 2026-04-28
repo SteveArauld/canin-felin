@@ -6,47 +6,104 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class OrderRequest extends FormRequest
 {
-    public function authorize()
+    /**
+     * Determine if the user is authorized to make this request.
+     */
+    public function authorize(): bool
     {
         return true;
     }
 
-    public function rules()
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array<mixed>|string>
+     */
+    public function rules(): array
     {
         return [
-            'nombre' => 'required|string|max:255',
+            'nom' => 'nullable|string|max:255',
+            'race_animal' => 'required|string|max:255',
+            'nom_animal' => 'required|string|max:255',
             'email' => 'required|email|max:255',
             'whatsapp' => 'required|string|max:20',
-            'ciudad' => 'required|string|max:255',
-            'comentario' => 'nullable|string|max:1000',
-            'raza_cachorro' => 'required|string|max:255',
-            'nombre_cachorro' => 'required|string|max:255',
+            'ville' => 'required|string|max:255',
+            'commentaire' => 'nullable|string|max:1000',
+            'slug_animal' => 'required|string|max:255',
+            'image_animal' => 'nullable|string|max:255',
+            'type_animal' => 'nullable|string|in:chien,chat,perroquet', // Ajout pour distinguer l'espèce
         ];
     }
 
-    public function messages()
+    /**
+     * Get the error messages for the defined validation rules.
+     *
+     * @return array<string, string>
+     */
+    public function messages(): array
     {
         return [
-            'nombre.required' => 'El nombre es obligatorio.',
-            'nombre.string' => 'El nombre debe ser texto.',
-            'nombre.max' => 'El nombre no debe exceder 255 caracteres.',
-            'email.required' => 'El correo electrónico es obligatorio.',
-            'email.email' => 'El correo electrónico debe ser válido.',
-            'email.max' => 'El correo electrónico no debe exceder 255 caracteres.',
-            'whatsapp.required' => 'El número de WhatsApp es obligatorio.',
-            'whatsapp.string' => 'El número de WhatsApp debe ser texto.',
-            'whatsapp.max' => 'El número de WhatsApp no debe exceder 20 caracteres.',
-            'ciudad.required' => 'La ciudad/región es obligatoria.',
-            'ciudad.string' => 'La ciudad/región debe ser texto.',
-            'ciudad.max' => 'La ciudad/región no debe exceder 255 caracteres.',
-            'comentario.string' => 'El comentario debe ser texto.',
-            'comentario.max' => 'El comentario no debe exceder 1000 caracteres.',
-            'raza_cachorro.required' => 'La raza del cachorro es obligatoria.',
-            'raza_cachorro.string' => 'La raza del cachorro debe ser texto.',
-            'raza_cachorro.max' => 'La raza del cachorro no debe exceder 255 caracteres.',
-            'nombre_cachorro.required' => 'El nombre del cachorro es obligatorio.',
-            'nombre_cachorro.string' => 'El nombre del cachorro debe ser texto.',
-            'nombre_cachorro.max' => 'El nombre del cachorro no debe exceder 255 caracteres.',
+            // Nom du client
+            'nom.string' => 'Le nom doit être du texte.',
+            'nom.max' => 'Le nom ne doit pas dépasser 255 caractères.',
+
+            // Race/Espèce de l'animal
+            'race_animal.required' => 'La race ou l\'espèce de l\'animal est obligatoire.',
+            'race_animal.string' => 'La race ou l\'espèce doit être du texte.',
+            'race_animal.max' => 'La race ou l\'espèce ne doit pas dépasser 255 caractères.',
+
+            // Nom de l'animal
+            'nom_animal.required' => 'Le nom de l\'animal est obligatoire.',
+            'nom_animal.string' => 'Le nom de l\'animal doit être du texte.',
+            'nom_animal.max' => 'Le nom de l\'animal ne doit pas dépasser 255 caractères.',
+
+            // Email
+            'email.required' => 'L\'adresse e-mail est obligatoire.',
+            'email.email' => 'L\'adresse e-mail doit être valide.',
+            'email.max' => 'L\'adresse e-mail ne doit pas dépasser 255 caractères.',
+
+            // WhatsApp
+            'whatsapp.required' => 'Le numéro WhatsApp est obligatoire.',
+            'whatsapp.string' => 'Le numéro WhatsApp doit être du texte.',
+            'whatsapp.max' => 'Le numéro WhatsApp ne doit pas dépasser 20 caractères.',
+
+            // Ville/Région
+            'ville.required' => 'La ville ou la région est obligatoire.',
+            'ville.string' => 'La ville ou la région doit être du texte.',
+            'ville.max' => 'La ville ou la région ne doit pas dépasser 255 caractères.',
+
+            // Commentaire
+            'commentaire.string' => 'Le commentaire doit être du texte.',
+            'commentaire.max' => 'Le commentaire ne doit pas dépasser 1000 caractères.',
+
+            // Slug
+            'slug_animal.required' => 'L\'identifiant de l\'animal est requis.',
+            'slug_animal.string' => 'L\'identifiant de l\'animal doit être du texte.',
+            'slug_animal.max' => 'L\'identifiant de l\'animal ne doit pas dépasser 255 caractères.',
+
+            // Type d'animal (optionnel)
+            'type_animal.in' => 'Le type d\'animal doit être : chien, chat ou perroquet.',
+        ];
+    }
+
+    /**
+     * Get custom attributes for validator errors.
+     *
+     * @return array<string, string>
+     */
+    public function attributes(): array
+    {
+        return [
+            'nom' => 'nom',
+            'race_animal' => 'race ou espèce de l\'animal',
+            'nom_animal' => 'nom de l\'animal',
+            'email' => 'adresse e-mail',
+            'whatsapp' => 'numéro WhatsApp',
+            'ville' => 'ville ou région',
+            'commentaire' => 'commentaire',
+            'slug_animal' => 'identifiant de l\'animal',
+            'image_animal' => 'image de l\'animal',
+            'type_animal' => 'type d\'animal',
         ];
     }
 }

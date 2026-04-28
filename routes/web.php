@@ -1,69 +1,65 @@
 <?php
 
-use App\Http\Controllers\CachorroController;
+
+use App\Http\Controllers\PayementController;
+
+use App\Http\Controllers\AnimalController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\SearchController;
 use Illuminate\Support\Facades\Route;
 
-// Redirection automatique vers la langue par défaut
+
+
 Route::get('/', function () {
     return redirect(config('app.locale'));
 });
 
 
+Route::get('/recherche', [SearchController::class, 'search'])->name('search');
+Route::get('/recherche/autocompletion', [SearchController::class, 'autocomplete'])->name('search.autocomplete');
 
-Route::get('/ricerca', [CachorroController::class, 'search'])->name('search');
-Route::get('/ricerca/autocompletamento', [CachorroController::class, 'autocomplete'])->name('search.autocomplete');
-Route::get('/ricerca/dettagli-razza', [CachorroController::class, 'raceDetails'])->name('search.race-details');
+Route::group([ 'prefix' => '{lang}','middleware' => 'setLocale','where' => ['lang' => implode('|', array_keys(config('languages')))]], function () {
 
-Route::group([ 'prefix' => '{lang}','middleware' => 'setLocale','where' => ['lang' => implode('|', array_keys(config('languages')))],],
-    function () {
-
-        Route::get('/', [CachorroController::class, 'home'])->name('home');
-
-        Route::get('/cuccioli-disponibili/{slug}', [CachorroController::class, 'show'])->name('cachorros.show');
-
-        Route::get('/cuccioli-per-razza/{slug}', [CachorroController::class, 'cachorrosraza'])->name('cachorrosraza');
-
-        Route::post('/ordine/{slug}', [CachorroController::class, 'processOrder'])->name('order.process');
-
-        Route::get('/cuccioli-in-vendita', [CachorroController::class, 'venta'])->name('venta');
+    Route::get('/', [\App\Http\Controllers\HomeController::class, 'home'])->name('home');
 
 
+    Route::get('/chiots-en-vente', [AnimalController::class, 'vente'])->name('chiens.vente');
+    Route::get('/chats-en-vente', [AnimalController::class, 'vente'])->name('chats.vente');
+    Route::get('/perroquets-en-vente', [AnimalController::class, 'vente'])->name('perroquets.vente');
+    
 
-        Route::get('/chi-siamo', function () {
-            return view('pages.quienes');
-        })->name('quienes');
-
-
-        Route::get('/spedizione-cuccioli', function () {
-            return view('pages.envio');
-        })->name('envio');
-
-        Route::get('/garanzia-sanitaria', function () {
-            return view('pages.garantia');
-        })->name('garantia');
-
-        Route::get('/referenze', function () {
-            return view('pages.referencias');
-        })->name('referencias');
-
-        Route::get('/contatti', function () {
-            return view('pages.contacto');
-        })->name('contacto');
+   
+    Route::get('/chiots-disponibles/{slug}', [AnimalController::class, 'show'])->name('chiens.show');
+    Route::get('/chats-disponibles/{slug}', [AnimalController::class, 'show'])->name('chats.show');
+    Route::get('/perroquets-disponibles/{slug}', [AnimalController::class, 'show'])->name('perroquets.show');
 
 
 
-        Route::get('/politica-sulla-privacy', function () {
-            return view('pages.privacidad');
-        })->name('privacidad');
+    Route::get('/chiots-par-race/{slug}', [AnimalController::class, 'cachorrosraza'])->name('chiens.par-race');
+    Route::get('/chats-par-race/{slug}', [AnimalController::class, 'cachorrosraza'])->name('chats.par-race');
+    Route::get('/perroquets-par-race/{slug}', [AnimalController::class, 'cachorrosraza'])->name('perroquets.par-race');
 
-        Route::get('/politica-di-reso', function () {
-            return view('pages.devoluciones');
-        })->name('devoluciones');
 
-        Route::get('/politica-dei-cookie', function () {
-            return view('pages.cookies');
-        })->name('cookies');
 
-    }
-);
+    Route::get('/qui-sommes-nous',[HomeController::class, 'quiSommesNous'])->name('qui-sommes-nous');
+    Route::get('/livraison-chiots', [HomeController::class, 'livraisonChiots'])->name('livraison-chiots');
+    Route::get('/garantie-sanitaire', [HomeController::class, 'garantieSanitaire'])->name('garantie-sanitaire');
+    Route::get('/references', [HomeController::class, 'references'])->name('references');
+    Route::get('/contact',[HomeController::class, 'contact'])->name('contact');
+    Route::get('/politique-confidentialite',[HomeController::class, 'politiqueConfidentialite'])->name('politique-confidentialite');
+    Route::get('/politique-retour', [HomeController::class, 'politiqueRetour'])->name('politique-retour');
+
+
+
+
+   
+    Route::post('/commande/{slug}', [\App\Http\Controllers\OrderController::class, 'processOrder'])->name('commande.process');
+// Route pour afficher les détails d'un animal
+Route::get('/animal/{slug}', [AnimalController::class, 'show'])
+    ->name('animal.show');
+
+  Route::get('/races/{slugs}', [AnimalController::class, 'multiRaces'])
+    ->name('races.multiples')
+    ->where('slugs', '.*');
+});
+
