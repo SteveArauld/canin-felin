@@ -216,10 +216,10 @@
                         
                         <div class="alert alert-light border">
                             <i class="bi bi-envelope me-2"></i>
-                            <strong>{{ __('returns_policy.contact.email') }}:</strong> contact@pattesplules.fr
+                            <strong>{{ __('returns_policy.contact.email') }}:</strong> contact@canin-felin.com
                             <br>
-                            <i class="bi bi-whatsapp me-2"></i>
-                            <strong>{{ __('returns_policy.contact.whatsapp') }}:</strong> +39 350 872 4295
+                            <!-- <i class="bi bi-whatsapp me-2"></i>
+                            <strong>{{ __('returns_policy.contact.whatsapp') }}:</strong> +39 350 872 4295 -->
                         </div>
                     </div>
                 </div>
