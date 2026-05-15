@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Session expirée - Pattes et Plules')
+@section('title', 'Session expirée - Canin-Felin')
 
 @push('styles')
     <style>

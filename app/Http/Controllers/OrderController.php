@@ -36,7 +36,7 @@ class OrderController extends Controller
 
 
             // Envoyer l'email de notification à l'admin
-            $adminEmail = env('ADMIN_EMAIL', 'contact@centrecaninfrancais.fr');
+            $adminEmail = env('ADMIN_EMAIL', 'contact@Canin-Felin.com');
             Mail::to($adminEmail)
                 ->send(new OrderConfirmationMail($orderData, $animal, true));
 

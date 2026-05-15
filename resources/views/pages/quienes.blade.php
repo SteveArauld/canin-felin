@@ -374,7 +374,7 @@
                                     'local_shelters_support',
                                     'educational_programs',
                                     'rescue_collaborations',
-                                    'communuity_engagement',
+                            
                                     'environmental_responsibility',
                                     'sustainable_practices',
                                     'waste_management',

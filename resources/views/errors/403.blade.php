@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Accès interdit - Pattes et Plules')
+@section('title', 'Accès interdit - Canin-Felin')
 
 @push('styles')
     <style>

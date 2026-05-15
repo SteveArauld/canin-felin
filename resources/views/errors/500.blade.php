@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Erreur serveur - Pattes et Plules')
+@section('title', 'Erreur serveur - Canin-Felin')
 
 @push('styles')
     <style>
@@ -171,7 +171,7 @@
                                    class="btn btn-sm btn-success rounded px-3" target="_blank">
                                     <i class="bi bi-whatsapp me-1"></i> WhatsApp
                                 </a>
-                                <a href="mailto:contact@centrecaninfrancais.fr"
+                                <a href="mailto:contact@Canin-Felin.com"
                                    class="btn btn-sm btn-outline-secondary rounded px-3">
                                     <i class="bi bi-envelope me-1"></i> Email
                                 </a>

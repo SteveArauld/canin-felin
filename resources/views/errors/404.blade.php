@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Page non trouvée - Pattes et Plules')
+@section('title', 'Page non trouvée - Canin-Felin')
 
 @push('styles')
     <style>

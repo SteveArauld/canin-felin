@@ -32,7 +32,7 @@
     </style>
 </head>
 <body>
-        <!-- Barre de contact (uniquement homepage) -->
+        <!-- Barre de contact (uniquement homepage)
         @if(request()->is('/') || Route::currentRouteName() === 'home')
             <div class="bg-light py-2 border-bottom d-none d-md-block">
                 <div class="container">
@@ -47,15 +47,15 @@
                         </div>
                         <div class="col-md-6">
                             <a class="btn btn-outline-primary w-100 d-flex align-items-center justify-content-center gap-2 py-2"
-                               href="mailto:contact@pattesplules.fr">
+                               href="mailto:contact@canin-felin.com">
                                 <i class="bi bi-envelope fs-5"></i>
-                                <span>contact@pattesplules.fr</span>
+                                <span>contact@canin-felin.com</span>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-        @endif
+        @endif -->
      @include('layouts.partials.navbar.public')
 
 

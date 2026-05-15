@@ -1,7 +1,7 @@
 {{-- layouts/partials/footer/public.blade.php --}}
 
 <!-- BOUTON WHATSAPP FLOTTANT (toujours visible) -->
-<a href="https://wa.me/393508724295?text={{ urlencode(__('whatsapp_message')) }}"
+<!-- <a href="https://wa.me/393508724295?text={{ urlencode(__('whatsapp_message')) }}"
    class="floating-whatsapp"
    target="_blank"
    rel="noopener noreferrer"
@@ -9,7 +9,7 @@
     <i class="bi bi-whatsapp"></i>
     <span class="whatsapp-tooltip">{{ __('footer.whatsapp_button') }}</span>
     <span class="whatsapp-pulse"></span>
-</a>
+</a> -->
 
 <!-- BOUTON SCROLL TO TOP -->
 <button id="scrollToTopBtn"
@@ -32,11 +32,8 @@
                      alt="{{ __('footer.logo_alt') }}"
                      width="80">
 
-                <h5 class="h6 fw-bold">Pattes Plules</h5>
-                <p class="small text-secondary mb-0">
-                    NIF : B74839261<br>
-                    Registro Núcleo Zoológico : FR410490000237
-                </p>
+                <h5 class="h6 fw-bold">Canin-Felin</h5>
+              
             </div>
 
             <!-- Colonne 2 : Description -->
@@ -88,15 +85,15 @@
             <div class="col-md-6 col-lg-3">
                 <h5 class="h6 fw-bold">{{ __('footer.contact') }}</h5>
                 <div class="d-flex flex-column gap-2">
-                    <a href="https://wa.me/393508724295?text={{ urlencode(__('whatsapp_message')) }}"
+                    <!-- <a href="https://wa.me/393508724295?text={{ urlencode(__('whatsapp_message')) }}"
                        class="btn btn-success btn-sm d-inline-flex align-items-center gap-2">
                         <i class="bi bi-whatsapp"></i>
                         WhatsApp
-                    </a>
-                    <a href="mailto:contact@pattesplules.fr"
+                    </a> -->
+                    <a href="mailto:contact@canin-felin.com"
                        class="btn btn-outline-primary btn-sm d-inline-flex align-items-center gap-2">
                         <i class="bi bi-envelope"></i>
-                        contact@pattesplules.fr
+                        contact@canin-felin.com
                     </a>
                 </div>
             </div>
@@ -110,14 +107,7 @@
                     <em><strong>{{ __('footer.copyright') }}</strong></em>
                 </p>
             </div>
-            <div class="col-md-6 text-md-end mt-2 mt-md-0">
-                <button type="button"
-                        class="btn btn-link text-secondary text-decoration-none small p-0"
-                        data-bs-toggle="modal"
-                        data-bs-target="#cookiesModal">
-                    {{ __('footer.cookies_link') }}
-                </button>
-            </div>
+   
         </div>
     </div>
 </footer>
