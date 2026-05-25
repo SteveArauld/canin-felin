@@ -153,21 +153,21 @@
                                  class="d-block w-100 object-fit-cover" 
                                  alt="Chiots et chatons" 
                                  style="height: 450px;"
-                                 onerror="this.src='{{ asset('/assets/uploads/2025/12/1_allie/1_allie_1.jpg') }}'">
+                                 onerror="this.src='{{ asset('/assets/uploads/image1.jpg') }}'">
                         </div>
                         <div class="carousel-item">
                             <img src="{{ asset('assets/uploads/2025/12/1649436703748.jpg') }}" 
                                  class="d-block w-100 object-fit-cover" 
                                  alt="Animaux d'élevage" 
                                  style="height: 450px;"
-                                 onerror="this.src='{{ asset('/assets/uploads/2025/12/4_asley/4_asley_1.jpg') }}'">
+                                 onerror="this.src='{{ asset('/assets/uploads/image1.jpg') }}'">
                         </div>
                         <div class="carousel-item">
                             <img src="{{ asset('assets/uploads/2025/12/white-background-animals-dog-cat-baby-animals-wallpaper-preview.jpg') }}" 
                                  class="d-block w-100 object-fit-cover" 
                                  alt="Bébés animaux" 
                                  style="height: 450px;"
-                                 onerror="this.src='{{ asset('/assets/uploads/2025/12/7_alice/7_alice_1.jpg') }}'">
+                                 onerror="this.src='{{ asset('/assets/uploads/image1.jpg') }}'">
                         </div>  
                     </div>
                     <!-- <button class="carousel-control-prev" type="button" data-bs-target="#chiensCarousel" data-bs-slide="prev">
@@ -244,25 +244,25 @@
                 <div id="chatsCarousel" class="carousel slide carousel-fade shadow-lg rounded-4 overflow-hidden" data-bs-ride="carousel">
                     <div class="carousel-inner rounded-4">
                         <div class="carousel-item active">
-                            <img src="{{ asset('/assets/uploads/2025/12/121_adalice/121_adalice_1.jpg') }}" 
+                            <img src="{{ asset('/assets/uploads/image2.jpg') }}" 
                                  class="d-block w-100 object-fit-cover" 
                                  alt="Chatons d'élevage" 
                                  style="height: 450px;"
-                                 onerror="this.src='{{ asset('/assets/uploads/2025/12/121_adalice/121_adalice_1.jpg') }}'">
+                                 onerror="this.src='{{ asset('/assets/uploads/image2.jpg') }}'">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset('/assets/uploads/2025/12/121_adalice/121_adalice_1.jpg') }}" 
+                            <img src="{{ asset('/assets/uploads/image2.jpg') }}" 
                                  class="d-block w-100 object-fit-cover" 
                                  alt="Chats de race" 
                                  style="height: 450px;"
-                                 onerror="this.src='{{ asset('/assets/uploads/2025/12/121_adalice/121_adalice_1.jpg') }}'">
+                                 onerror="this.src='{{ asset('/assets/uploads/image2.jpg') }}'">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{ asset('/assets/uploads/2025/12/97_anona/97_anona_1.jp') }}" 
+                            <img src="{{ asset('/assets/uploads/image2.jpg') }}" 
                                  class="d-block w-100 object-fit-cover" 
                                  alt="Chatons disponibles" 
                                  style="height: 450px;"
-                                 onerror="this.src='{{ asset('/assets/uploads/2025/12/97_anona/97_anona_1.jp') }}'">
+                                 onerror="this.src='{{ asset('/assets/uploads/image2.jpg') }}'">
                         </div>
                     </div>
                     <!-- <button class="carousel-control-prev" type="button" data-bs-target="#chatsCarousel" data-bs-slide="prev">
