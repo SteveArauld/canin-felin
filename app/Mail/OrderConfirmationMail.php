@@ -5,8 +5,6 @@ namespace App\Mail;
 use App\Models\Animal;
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
-use Illuminate\Mail\Mailables\Content;
-use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
 class OrderConfirmationMail extends Mailable
@@ -24,31 +22,29 @@ class OrderConfirmationMail extends Mailable
         $this->isAdmin = $isAdmin;
     }
 
-    public function envelope(): Envelope
+    /**
+     * Build the message.
+     *
+     * @return $this
+     */
+    public function build()
     {
+        // Récupérer l'adresse et le nom depuis .env
+        $fromAddress = env('MAIL_FROM_ADDRESS', 'contact@canin-felin.com');
+        $fromName = env('MAIL_FROM_NAME', 'élevages d\'animaux ASSOCIU FERRU DI CAVALLU');
+
+        // Définir le sujet selon le type d'email
         $subject = $this->isAdmin
             ? 'Nouvelle demande d\'adoption - ' . $this->animal->nom
             : 'Confirmation de votre demande - ' . $this->animal->nom;
 
-        return new Envelope(
-            subject: $subject,
-        );
-    }
-
-    public function content(): Content
-    {
-        return new Content(
-            view: 'emails.order-confirmation',
-            with: [
-                'orderData' => $this->orderData,
-                'animal' => $this->animal,
-                'isAdmin' => $this->isAdmin,
-            ],
-        );
-    }
-
-    public function attachments(): array
-    {
-        return [];
+        return $this->from($fromAddress, $fromName)
+                    ->subject($subject)
+                    ->view('emails.order-confirmation')
+                    ->with([
+                        'orderData' => $this->orderData,
+                        'animal' => $this->animal,
+                        'isAdmin' => $this->isAdmin,
+                    ]);
     }
 }

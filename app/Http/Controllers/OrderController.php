@@ -30,24 +30,21 @@ class OrderController extends Controller
                 $orderData['whatsapp'] = $orderData['whatsapp'][0] ?? '';
             }
 
-
-
-            Mail::to($orderData['email'])->send(new OrderConfirmationMail($orderData, $animal, false));
-
+            // Envoyer l'email de confirmation au client
+            Mail::to($orderData['email'])
+                ->send(new OrderConfirmationMail($orderData, $animal, false));
 
             // Envoyer l'email de notification à l'admin
-            $adminEmail = env('ADMIN_EMAIL', 'contact@Canin-Felin.com');
+            $adminEmail = env('ADMIN_EMAIL', 'contact@canin-felin.com');
             Mail::to($adminEmail)
                 ->send(new OrderConfirmationMail($orderData, $animal, true));
-
-            // Optionnel : Sauvegarder la commande dans la base de données
-            // Order::create([...]);
 
             return redirect()->back()
                 ->with('success', __('controller.order.success'));
 
         } catch (\Exception $e) {
             Log::error('Order processing error: ' . $e->getMessage());
+            Log::error('Trace: ' . $e->getTraceAsString());
 
             return redirect()->back()
                 ->withInput()
