@@ -123,4 +123,8 @@ class HomeController extends Controller
         return view('pages.devoluciones');
     }
 
+     public function politiqueConfidentialite(){
+        return view('pages.privacidad');
+    }
+
 }

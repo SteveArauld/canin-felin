@@ -147,82 +147,7 @@
                     </div>
                 </div>
                 
-                <!-- Protection des données -->
-                <div class="card border-0 shadow-sm mb-4">
-                    <div class="card-body p-4 p-md-5">
-                        <h2 class="h3 fw-bold mb-4" style="color: var(--accent-orange);">
-                            <i class="bi bi-lock me-2"></i>
-                            {{ __('returns_policy.data_protection.title') }}
-                        </h2>
-                        
-                        <p class="text-secondary mb-3">
-                            {{ __('returns_policy.data_protection.description') }}
-                        </p>
-                        
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-start">
-                                    <i class="bi bi-check-circle-fill text-success me-3 mt-1"></i>
-                                    <span>{{ __('returns_policy.data_protection.right_access') }}</span>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-start">
-                                    <i class="bi bi-check-circle-fill text-success me-3 mt-1"></i>
-                                    <span>{{ __('returns_policy.data_protection.right_rectification') }}</span>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-start">
-                                    <i class="bi bi-check-circle-fill text-success me-3 mt-1"></i>
-                                    <span>{{ __('returns_policy.data_protection.right_deletion') }}</span>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-start">
-                                    <i class="bi bi-check-circle-fill text-success me-3 mt-1"></i>
-                                    <span>{{ __('returns_policy.data_protection.right_portability') }}</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Propriété intellectuelle -->
-                <div class="card border-0 shadow-sm mb-4">
-                    <div class="card-body p-4 p-md-5">
-                        <h2 class="h3 fw-bold mb-4" style="color: var(--accent-orange);">
-                            <i class="bi bi-c-circle me-2"></i>
-                            {{ __('returns_policy.intellectual_property.title') }}
-                        </h2>
-                        
-                        <p class="text-secondary">
-                            {{ __('returns_policy.intellectual_property.description') }}
-                        </p>
-                    </div>
-                </div>
-                
-                <!-- Loi applicable -->
-                <div class="card border-0 shadow-sm">
-                    <div class="card-body p-4 p-md-5">
-                        <h2 class="h3 fw-bold mb-4" style="color: var(--accent-orange);">
-                            <i class="bi bi-bank me-2"></i>
-                            {{ __('returns_policy.applicable_law.title') }}
-                        </h2>
-                        
-                        <p class="text-secondary mb-4">
-                            {{ __('returns_policy.applicable_law.description') }}
-                        </p>
-                        
-                        <div class="alert alert-light border">
-                            <i class="bi bi-envelope me-2"></i>
-                            <strong>{{ __('returns_policy.contact.email') }}:</strong> contact@canin-felin.com
-                            <br>
-                            <!-- <i class="bi bi-whatsapp me-2"></i>
-                            <strong>{{ __('returns_policy.contact.whatsapp') }}:</strong> +39 350 872 4295 -->
-                        </div>
-                    </div>
-                </div>
+            
                 
             </div>
         </div>
@@ -232,8 +157,7 @@
 <!-- Contact CTA -->
 <section class="py-5 bg-dark text-white">
     <div class="container text-center">
-        <h3 class="h2 fw-bold mb-3">{{ __('returns_policy.questions_title') }}</h3>
-        <p class="lead mb-4 opacity-75">{{ __('returns_policy.questions_description') }}</p>
+      
         
         <div class="d-flex flex-wrap justify-content-center gap-3">
             <a href="https://wa.me/393508724295" class="btn btn-success btn-lg px-5 py-3 rounded">
@@ -242,7 +166,7 @@
             </a>
             <a href="{{ route('contact', ['lang' => app()->getLocale()]) }}" class="btn btn-outline-light btn-lg px-5 py-3 rounded">
                 <i class="bi bi-envelope me-2"></i>
-                {{ __('returns_policy.contact_us') }}
+                {{ __('Contact') }}
             </a>
         </div>
     </div>
