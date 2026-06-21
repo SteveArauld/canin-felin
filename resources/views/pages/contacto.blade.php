@@ -5,7 +5,6 @@
 @push('styles')
 <style>
     .contact-header {
-      
         color: black;
         padding: 60px 0;
         border-radius: 0 0 30px 30px;
@@ -48,6 +47,7 @@
         font-weight: 600;
         font-size: 16px;
         transition: all 0.3s ease;
+        color: white;
     }
     
     .btn-submit:hover {
@@ -158,7 +158,7 @@
         <div class="contact-form-container">
             <h2 class="h3 fw-bold mb-4 text-center">{{ __('contact.send_message') }}</h2>
             
-            <form id="contactForm" method="POST" action="#">
+            <form id="contactForm" method="POST" action="{{ route('contact.send') }}">
                 @csrf
                 
                 <div class="row g-3">
@@ -176,6 +176,7 @@
                                    name="nom"
                                    id="nom"
                                    placeholder="{{ __('contact.enter_full_name') }}"
+                                   value="{{ old('nom') }}"
                                    required>
                         </div>
                         <div class="invalid-feedback">{{ __('contact.fill_name') }}</div>
@@ -195,6 +196,7 @@
                                    name="email"
                                    id="email"
                                    placeholder="{{ __('contact.enter_email') }}"
+                                   value="{{ old('email') }}"
                                    required>
                         </div>
                         <div class="invalid-feedback">{{ __('contact.valid_email') }}</div>
@@ -213,7 +215,8 @@
                                    class="form-control border-start-0" 
                                    name="telephone"
                                    id="telephone"
-                                   placeholder="{{ __('contact.enter_phone') }}">
+                                   placeholder="{{ __('contact.enter_phone') }}"
+                                   value="{{ old('telephone') }}">
                         </div>
                     </div>
                     
@@ -228,10 +231,10 @@
                             </span>
                             <select class="form-select border-start-0" name="sujet" id="sujet" required>
                                 <option value="">{{ __('contact.select_subject') }}</option>
-                                <option value="adoption">{{ __('contact.adoption') }}</option>
-                                <option value="information">{{ __('contact.information') }}</option>
-                                <option value="complaint">{{ __('contact.complaint') }}</option>
-                                <option value="other">{{ __('contact.other') }}</option>
+                                <option value="adoption" {{ old('sujet') == 'adoption' ? 'selected' : '' }}>{{ __('contact.adoption') }}</option>
+                                <option value="information" {{ old('sujet') == 'information' ? 'selected' : '' }}>{{ __('contact.information') }}</option>
+                                <option value="complaint" {{ old('sujet') == 'complaint' ? 'selected' : '' }}>{{ __('contact.complaint') }}</option>
+                                <option value="other" {{ old('sujet') == 'other' ? 'selected' : '' }}>{{ __('contact.other') }}</option>
                             </select>
                         </div>
                         <div class="invalid-feedback">{{ __('contact.select_subject_valid') }}</div>
@@ -251,7 +254,7 @@
                                       id="message"
                                       rows="5"
                                       placeholder="{{ __('contact.enter_message') }}"
-                                      required></textarea>
+                                      required>{{ old('message') }}</textarea>
                         </div>
                         <div class="invalid-feedback">{{ __('contact.fill_message') }}</div>
                     </div>
@@ -259,7 +262,7 @@
                     <!-- Checkbox consentement -->
                     <div class="col-12">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="consent" required>
+                            <input class="form-check-input" type="checkbox" name="consent" id="consent" required>
                             <label class="form-check-label text-secondary" for="consent">
                                 {{ __('contact.consent') }}
                             </label>
@@ -281,7 +284,6 @@
     </div>
 </section>
 
-<!-- JavaScript de simulation -->
 <script>
     // Système de toasts
     function showToast(type, title, message) {
@@ -337,63 +339,18 @@
             });
         }
         
-        // Soumission du formulaire (simulation)
-        if (form) {
-            form.addEventListener('submit', function(e) {
-                e.preventDefault();
-                
-                let hasError = false;
-                
-                // Vérifier tous les champs requis
-                form.querySelectorAll('[required]').forEach(field => {
-                    if (!field.value.trim()) {
-                        field.classList.add('is-invalid');
-                        hasError = true;
-                    } else {
-                        field.classList.remove('is-invalid');
-                    }
-                });
-                
-                // Vérifier email
-                if (emailInput && emailInput.value && !validateEmail(emailInput.value)) {
-                    emailInput.classList.add('is-invalid');
-                    hasError = true;
-                }
-                
-                if (hasError) {
-                    showToast('error', '{{ __("contact.error_title") }}', '{{ __("contact.fill_all_fields") }}');
-                    return false;
-                }
-                
-                // Simuler l'envoi
-                const submitBtn = document.getElementById('submitBtn');
-                const btnText = submitBtn.querySelector('.btn-text');
-                const spinner = submitBtn.querySelector('.spinner-border');
-                
-                submitBtn.disabled = true;
-                btnText.textContent = '{{ __("contact.sending") }}';
-                spinner.classList.remove('d-none');
-                
-                // Simuler un délai d'envoi
-                setTimeout(() => {
-                    // Réinitialiser le formulaire
-                    form.reset();
-                    
-                    // Réactiver le bouton
-                    submitBtn.disabled = false;
-                    btnText.textContent = '{{ __("contact.send") }}';
-                    spinner.classList.add('d-none');
-                    
-                    // Afficher le message de succès
-                    showToast('success', '{{ __("contact.success_title") }}', '{{ __("contact.success_message") }}');
-                    
-                    // Retirer les classes is-invalid
-                    form.querySelectorAll('.is-invalid').forEach(field => {
-                        field.classList.remove('is-invalid');
-                    });
-                }, 2000);
-            });
-        }
+        // Afficher les toasts selon la session
+        @if(session('success'))
+            showToast('success', '{{ __("contact.success_title") }}', '{{ session("success") }}');
+        @endif
+        
+        @if(session('error'))
+            showToast('error', '{{ __("contact.error_title") }}', '{{ session("error") }}');
+        @endif
+        
+        @if($errors->any())
+            showToast('error', '{{ __("contact.error_title") }}', '{{ __("contact.fill_all_fields") }}');
+        @endif
     });
 </script>
 @endsection

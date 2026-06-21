@@ -248,10 +248,7 @@
         <h2 class="h3 fw-bold mb-3">{{ __($categorie . '.need_help_title') }}</h2>
         <p class="lead mb-4 opacity-75">{{ __($categorie . '.need_help_description') }}</p>
         <div class="d-flex flex-wrap justify-content-center gap-3">
-            <!-- <a href="https://wa.me/0644695982" class="btn btn-success btn-lg px-4 rounded" target="_blank">
-                <i class="bi bi-whatsapp me-2"></i>
-                WhatsApp
-            </a> -->
+           
             <a href="{{ route('contact', ['lang' => app()->getLocale()]) }}" class="btn btn-outline-light btn-lg px-4 rounded">
                 <i class="bi bi-envelope me-2"></i>
                 {{ __($categorie . '.contact_us') }}

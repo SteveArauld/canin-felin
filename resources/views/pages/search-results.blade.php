@@ -429,10 +429,7 @@
             <h3 class="h4 fw-bold mb-3">{{ __('search.need_help_title') }}</h3>
             <p class="text-secondary mb-4">{{ __('search.need_help_description') }}</p>
             <div class="d-flex flex-wrap justify-content-center gap-3">
-                <a href="https://wa.me/0644695982?text={{ urlencode(__('whatsapp_message')) }}" class="btn btn-success px-4 py-2 rounded">
-                    <i class="bi bi-whatsapp me-2"></i>
-                    {{ __('search.contact_whatsapp') }}
-                </a>
+               
                 <a href="{{ route('contact', ['lang' => app()->getLocale()]) }}" class="btn btn-outline-dark px-4 py-2 rounded">
                     <i class="bi bi-envelope me-2"></i>
                     {{ __('search.contact_form') }}

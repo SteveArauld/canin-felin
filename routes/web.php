@@ -8,6 +8,8 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SearchController;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\ContactController;
+
 
 
 Route::get('/', function () {
@@ -17,6 +19,10 @@ Route::get('/', function () {
 
 Route::get('/recherche', [SearchController::class, 'search'])->name('search');
 Route::get('/recherche/autocompletion', [SearchController::class, 'autocomplete'])->name('search.autocomplete');
+
+
+Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
 
 Route::group([ 'prefix' => '{lang}','middleware' => 'setLocale','where' => ['lang' => implode('|', array_keys(config('languages')))]], function () {
 

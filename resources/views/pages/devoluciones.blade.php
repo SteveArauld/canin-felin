@@ -160,10 +160,7 @@
       
         
         <div class="d-flex flex-wrap justify-content-center gap-3">
-            <a href="https://wa.me/0644695982?text={{ urlencode(__('whatsapp_message')) }}" class="btn btn-success btn-lg px-5 py-3 rounded">
-                <i class="bi bi-whatsapp me-2"></i>
-                WhatsApp
-            </a>
+          
             <a href="{{ route('contact', ['lang' => app()->getLocale()]) }}" class="btn btn-outline-light btn-lg px-5 py-3 rounded">
                 <i class="bi bi-envelope me-2"></i>
                 {{ __('Contact') }}

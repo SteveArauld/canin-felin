@@ -46,12 +46,7 @@
                                     <span>{{ __('legal_notice.section_1.company_name') }}</span>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="d-flex">
-                                    <i class="bi bi-hash me-3" style="color: var(--accent-orange);"></i>
-                                    <span>{{ __('legal_notice.section_1.tax_id') }}</span>
-                                </div>
-                            </div>
+                       
                             <div class="col-md-6">
                                 <div class="d-flex">
                                     <i class="bi bi-geo-alt me-3" style="color: var(--accent-orange);"></i>
@@ -64,12 +59,7 @@
                                     <span>{{ __('legal_notice.section_1.phone') }}</span>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="d-flex">
-                                    <i class="bi bi-whatsapp me-3" style="color: var(--accent-orange);"></i>
-                                    <span>{{ __('legal_notice.section_1.whatsapp') }}</span>
-                                </div>
-                            </div>
+                           
                             <div class="col-md-6">
                                 <div class="d-flex">
                                     <i class="bi bi-envelope me-3" style="color: var(--accent-orange);"></i>
@@ -430,7 +420,6 @@
                             <div class="col-md-4">
                                 <h4 class="h6 fw-bold">{{ __('legal_notice.section_16.subsection_2.title') }}</h4>
                                 <p class="small mb-1"><i class="bi bi-envelope me-2"></i>{{ __('legal_notice.section_16.subsection_2.general_email') }}</p>
-                                <p class="small mb-1"><i class="bi bi-whatsapp me-2"></i>{{ __('legal_notice.section_16.subsection_2.whatsapp') }}</p>
                                 <p class="small"><i class="bi bi-telephone me-2"></i>{{ __('legal_notice.section_16.subsection_2.phone') }}</p>
                             </div>
                             <div class="col-md-4">
