@@ -313,7 +313,7 @@ $animalTypeIcon = match($animal->type ?? '') {
                             📍 <a href="{{ config('app.url') }}" style="color:#1e3a5f; text-decoration:none; font-weight:500;">{{ config('app.url') }}</a>
                         </p>
                         <p style="color:#94a3b8; font-size:12px; margin:10px 0 0 0;">
-                            📧 {{ env('ADMIN_EMAIL', 'contact@Canin-Felin.com') }} | 💬 +33 7 56 88 24 95
+                            📧 {{ env('ADMIN_EMAIL', 'contact@Canin-Felin.com') }} | 💬 06 44 69 59 82
                         </p>
                         <p style="color:#cbd5e1; font-size:11px; margin:18px 0 0 0; border-top:1px solid #e2e8f0; padding-top:18px;">
                             {{ __('email.footer.message') }}

@@ -50,9 +50,8 @@
         })(window, document, 'script', 'dataLayer', 'GTM-5WPBRX6J');
     </script>
     <!-- End Google Tag Manager -->
-    This code will be paste under
 
-<body> </body> section of the code for entire site.
+<body> </body> 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WPBRX6J"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

@@ -30,10 +30,10 @@
     "header.logo_alt": "Chiots en bonne santé",
     "header.logo_title": "Chiots en bonne santé",
 
-    "hero.title_part1": "Chiots en bonne santé",
-    "hero.title_part2": "à",
-    "hero.title_part3": "vendre",
-    "hero.subtitle_part1": "Achetez des chiots en bonne santé",
+    "hero.title_part1": "ASSOCIU FERRU",
+    "hero.title_part2": "DI",
+    "hero.title_part3": "CAVALLU",
+    "hero.subtitle_part1": "Élevage d'animaux - Chiots et chatons",
     "hero.subtitle_part2": "vaccinés, pucés et vermifugés",
     "hero.puppies_sale_button": "Chiots Disponibles",
 
@@ -802,7 +802,7 @@
     "legal_notice.section_14.description": "Si vous considérez que le traitement de vos données personnelles ne se conforme pas à la réglementation en vigueur, vous pouvez présenter une réclamation auprès de l'autorité de contrôle compétente :",
     "legal_notice.section_14.aepd": "Commission Nationale de l'Informatique et des Libertés (CNIL)",
     "legal_notice.section_14.aepd_address": "Adresse : 3 Place de Fontenoy - TSA 80715 - 75334 Paris Cedex 07",
-    "legal_notice.section_14.aepd_phone": "Téléphone : +33 1 53 73 22 22",
+    "legal_notice.section_14.aepd_phone": "Téléphone : 06 44 69 59 82",
     "legal_notice.section_14.aepd_website": "Site web : https://www.cnil.fr",
     "legal_notice.section_14.aepd_electronic": "Siège électronique : https://www.cnil.fr/fr/plaintes",
     "legal_notice.section_14.procedure.title": "Procédure :",
@@ -1280,7 +1280,7 @@
     "contact.form_email_placeholder": "jean.dupont@exemple.fr",
     "contact.form_whatsapp_number": "Numéro WhatsApp",
     "contact.form_whatsapp_placeholder": "33 6 12 34 56 78",
-    "contact.form_whatsapp_comment": "Veuillez saisir un numéro de téléphone valide (ex: +33 6 12 34 56 78)",
+    "contact.form_whatsapp_comment": "Veuillez saisir un numéro de téléphone valide (ex:  6 12 34 56 78)",
     "contact.form_city_region": "Ville / Région",
     "contact.form_city_placeholder": "Paris, Lyon, Marseille...",
     "contact.form_message": "Votre message",
@@ -1298,7 +1298,7 @@
     "form.sending": "Envoi en cours...",
     "form.error": "Une erreur est survenue. Veuillez réessayer.",
     "form.success": "Votre message a bien été envoyé ! Nous vous répondrons dans les plus brefs délais.",
-    "form.validation.whatsapp_invalid": "Veuillez saisir un numéro de téléphone valide (ex: +33 6 12 34 56 78)",
+    "form.validation.whatsapp_invalid": "Veuillez saisir un numéro de téléphone valide (ex:  6 12 34 56 78)",
     
 
     
