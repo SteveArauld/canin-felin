@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Page non trouvée - Canin-Felin')
+@section('title', 'Page non trouvée - élevages d'animaux ASSOCIU FERRU DI CAVALLU')
 
 @push('styles')
     <style>

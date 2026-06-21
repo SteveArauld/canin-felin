@@ -1,10 +1,10 @@
-# canin-felin
+# élevages d'animaux ASSOCIU FERRU DI CAVALLU
 
 ![Logo du projet](public/assets/logo/logo.png)
 
 ## Description
 
-canin-felin est une application Laravel 12 pour un site multilingue de présentation et de vente de chiens. Le projet propose une page d'accueil avec chiots mâles et femelles, des fiches détaillées par chiot, un filtrage par race, une page de vente, une recherche avec suggestions et un formulaire de commande par email.
+élevages d'animaux ASSOCIU FERRU DI CAVALLU est une application Laravel 12 pour un site multilingue de présentation et de vente de chiens. Le projet propose une page d'accueil avec chiots mâles et femelles, des fiches détaillées par chiot, un filtrage par race, une page de vente, une recherche avec suggestions et un formulaire de commande par email.
 
 ## Fonctionnalités principales
 
@@ -55,7 +55,7 @@ canin-felin est une application Laravel 12 pour un site multilingue de présenta
 
 ```bash
 git clone <url-du-repo>
-cd canin-felin
+cd élevages d'animaux ASSOCIU FERRU DI CAVALLU
 ```
 
 2. Installer les dépendances PHP :

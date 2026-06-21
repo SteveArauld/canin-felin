@@ -16,7 +16,6 @@
                     {{ __('legal_notice.privacy_policy') }}
                 </h1>
                 <p class="text-center text-secondary mb-2">{{ __('legal_notice.company_description') }}</p>
-                <p class="text-center text-muted small">{{ __('legal_notice.last_update') }}</p>
             </div>
         </div>
     </div>
@@ -80,44 +79,14 @@
                             <div class="col-md-6">
                                 <div class="d-flex">
                                     <i class="bi bi-globe me-3" style="color: var(--accent-orange);"></i>
-                                    <span>{{ __('legal_notice.section_1.website') }}</span>
+                                    <span>{{ __('legal_notice.section_1.website') }} 
+                                        <a href="{{ config('app.url') }}">{{ config('app.url') }}</a>
+                                    </span>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="d-flex">
-                                    <i class="bi bi-file-text me-3" style="color: var(--accent-orange);"></i>
-                                    <span>{{ __('legal_notice.section_1.breeder_license') }}</span>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="d-flex">
-                                    <i class="bi bi-journal me-3" style="color: var(--accent-orange);"></i>
-                                    <span>{{ __('legal_notice.section_1.commercial_register') }}</span>
-                                </div>
-                            </div>
+                          
                         </div>
                         
-                        <h3 class="h5 fw-bold mb-3">{{ __('legal_notice.section_1.applicable_law') }}</h3>
-                        <p class="text-secondary mb-3">{{ __('legal_notice.section_1.law_description') }}</p>
-                        
-                        <ul class="list-unstyled">
-                            <li class="mb-2 d-flex">
-                                <i class="bi bi-check-circle-fill text-success me-3 mt-1"></i>
-                                <span>{{ __('legal_notice.section_1.gdpr') }}</span>
-                            </li>
-                            <li class="mb-2 d-flex">
-                                <i class="bi bi-check-circle-fill text-success me-3 mt-1"></i>
-                                <span>{{ __('legal_notice.section_1.lopdgdd') }}</span>
-                            </li>
-                            <li class="mb-2 d-flex">
-                                <i class="bi bi-check-circle-fill text-success me-3 mt-1"></i>
-                                <span>{{ __('legal_notice.section_1.lssi_ce') }}</span>
-                            </li>
-                            <li class="mb-2 d-flex">
-                                <i class="bi bi-check-circle-fill text-success me-3 mt-1"></i>
-                                <span>{{ __('legal_notice.section_1.royal_decree') }}</span>
-                            </li>
-                        </ul>
                     </div>
                 </div>
                 
@@ -185,36 +154,7 @@
                     </div>
                 </div>
                 
-                <!-- Section 4 : Finalités du traitement -->
-                <div class="card border-0 shadow-sm mb-4">
-                    <div class="card-body p-4 p-md-5">
-                        <h2 class="h3 fw-bold mb-4" style="color: var(--accent-orange);">
-                            <i class="bi bi-bullseye me-2"></i>
-                            {{ __('legal_notice.section_4.title') }}
-                        </h2>
-                        
-                        <div class="table-responsive">
-                            <table class="table table-hover">
-                                <thead class="table-light">
-                                    <tr>
-                                        <th>{{ __('legal_notice.table.purpose') }}</th>
-                                        <th>{{ __('legal_notice.table.legal_basis') }}</th>
-                                        <th>{{ __('legal_notice.table.retention') }}</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @for($i = 1; $i <= 6; $i++)
-                                    <tr>
-                                        <td>{{ __('legal_notice.section_4.subsection_'.$i.'.purpose') }}</td>
-                                        <td>{{ __('legal_notice.section_4.subsection_'.$i.'.legal_basis') }}</td>
-                                        <td>{{ __('legal_notice.section_4.subsection_'.$i.'.retention') }}</td>
-                                    </tr>
-                                    @endfor
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
+           
                 
                 <!-- Section 5 : Destinataires -->
                 <div class="card border-0 shadow-sm mb-4">
@@ -508,7 +448,7 @@
                 <!-- Date de mise à jour -->
                 <div class="text-center text-muted small py-4">
                     <p>{{ __('legal_notice.section_19.effective_date') }}</p>
-                    <p>{{ __('legal_notice.section_19.last_update') }}</p>
+                 
                     <p>{{ __('legal_notice.section_19.footer_text') }}</p>
                     <p class="fst-italic">{{ __('legal_notice.section_19.tagline') }}</p>
                     <p>{{ __('legal_notice.section_19.contact_invitation') }}</p>

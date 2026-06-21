@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Erreur serveur - Canin-Felin')
+@section('title', 'Erreur serveur - élevages d'animaux ASSOCIU FERRU DI CAVALLU')
 
 @push('styles')
     <style>
@@ -167,11 +167,11 @@
                                 Le problème persiste ?
                             </p>
                             <div class="d-flex flex-wrap justify-content-center gap-2">
-                                <a href="https://wa.me/393508724295?text={{ urlencode('Bonjour, j\'ai une erreur 500 sur le site') }}"
+                                <a href="https://wa.me/0644695982?text={{ urlencode(__('whatsapp_message')) }}
                                    class="btn btn-sm btn-success rounded px-3" target="_blank">
                                     <i class="bi bi-whatsapp me-1"></i> WhatsApp
                                 </a>
-                                <a href="mailto:contact@Canin-Felin.com"
+                                <a href="mailto:contact@élevages d'animaux ASSOCIU FERRU DI CAVALLU.com"
                                    class="btn btn-sm btn-outline-secondary rounded px-3">
                                     <i class="bi bi-envelope me-1"></i> Email
                                 </a>

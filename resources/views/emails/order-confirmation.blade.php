@@ -48,7 +48,7 @@ $animalTypeIcon = match($animal->type ?? '') {
                             <tr>
                                 <td align="center" style="padding-bottom:20px;">
                                     <img src="{{ asset('assets/logo/logon.png') }}"
-                                         alt="Canin-Felin"
+                                         alt="élevages d'animaux ASSOCIU FERRU DI CAVALLU"
                                          width="180"
                                          style="width:180px; max-width:100%; height:auto;"
                                          class="logo"
@@ -301,13 +301,13 @@ $animalTypeIcon = match($animal->type ?? '') {
                 <tr>
                     <td bgcolor="#f8fafc" style="background:#f8fafc; border-top:1px solid #e2e8f0; padding:30px 30px; text-align:center; border-radius:0 0 28px 28px;">
                         <img src="{{ asset('images/logo-color.png') }}"
-                             alt="Canin-Felin"
+                             alt="élevages d'animaux ASSOCIU FERRU DI CAVALLU"
                              width="140"
                              style="width:140px; max-width:100%; height:auto; margin-bottom:18px;"
                              onerror="this.style.display='none'">
 
                         <p style="font-size:14px; font-weight:700; color:#1e3a5f; margin:0 0 8px 0; letter-spacing:-0.2px;">
-                            Canin-Felin - Éleveurs éthiques en France
+                            élevages d'animaux ASSOCIU FERRU DI CAVALLU - Éleveurs éthiques en France
                         </p>
                         <p style="color:#64748b; font-size:13px; margin:0 0 5px 0;">
                             📍 <a href="{{ config('app.url') }}" style="color:#1e3a5f; text-decoration:none; font-weight:500;">{{ config('app.url') }}</a>

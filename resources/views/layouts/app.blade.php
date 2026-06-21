@@ -65,10 +65,10 @@
                     <div class="row g-3 align-items-center">
                         <div class="col-md-6">
                             <a class="btn btn-outline-success w-100 d-flex align-items-center justify-content-center gap-2 py-2"
-                               href="https://wa.me/393508724295?text={{ urlencode(__('whatsapp_message')) }}"
+                               href="https://wa.me/0644695982?text={{ urlencode(__('whatsapp_message')) }}"
                                target="_blank">
                                 <i class="bi bi-whatsapp fs-5"></i>
-                                <span>WhatsApp: +39 350 872 4295</span>
+                                <span>WhatsApp: 0644695982</span>
                             </a>
                         </div>
                         <div class="col-md-6">

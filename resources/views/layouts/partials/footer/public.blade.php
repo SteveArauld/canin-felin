@@ -1,7 +1,7 @@
 {{-- layouts/partials/footer/public.blade.php --}}
 
 <!-- BOUTON WHATSAPP FLOTTANT (toujours visible) -->
-<!-- <a href="https://wa.me/393508724295?text={{ urlencode(__('whatsapp_message')) }}"
+<!-- <a href="https://wa.me/0644695982?text={{ urlencode(__('whatsapp_message')) }}"
    class="floating-whatsapp"
    target="_blank"
    rel="noopener noreferrer"
@@ -13,9 +13,9 @@
 
 <!-- BOUTON SCROLL TO TOP -->
 <button id="scrollToTopBtn"
-        class="scroll-to-top"
-        aria-label="{{ __('footer.scroll_to_top') }}"
-        title="{{ __('footer.scroll_to_top') }}">
+    class="scroll-to-top"
+    aria-label="{{ __('footer.scroll_to_top') }}"
+    title="{{ __('footer.scroll_to_top') }}">
     <i class="bi bi-chevron-up"></i>
 </button>
 
@@ -25,19 +25,19 @@
         <!-- Section principale -->
         <div class="row g-4 mb-4">
             <!-- Colonne 1 : Logo et infos -->
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-2">
                 <img class="mb-3"
-                     src="{{ asset('assets/logo/logo.png') }}"
-                     loading="lazy"
-                     alt="{{ __('footer.logo_alt') }}"
-                     width="80">
+                    src="{{ asset('assets/logo/logo.png') }}"
+                    loading="lazy"
+                    alt="{{ __('footer.logo_alt') }}"
+                    width="150">
 
-                <h5 class="h6 fw-bold">Canin-Felin</h5>
-              
+                <!-- <h5 class="h6 fw-bold">élevages d'animaux ASSOCIU FERRU DI CAVALLU</h5> -->
+
             </div>
 
             <!-- Colonne 2 : Description -->
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-5">
                 <h5 class="h6 fw-bold">{{ __('footer.about_us') }}</h5>
                 <p class="small text-secondary">
                     {{ __('footer.description') }}
@@ -50,31 +50,31 @@
                 <ul class="list-unstyled small">
                     <li class="mb-2">
                         <a href="{{ route('chiens.vente', ['lang' => app()->getLocale()]) }}"
-                           class="text-secondary text-decoration-none hover-link">
+                            class="text-secondary text-decoration-none hover-link">
                             {{ __('footer.sale_link') }}
                         </a>
                     </li>
                     <li class="mb-2">
                         <a href="{{ route('qui-sommes-nous', ['lang' => app()->getLocale()]) }}"
-                           class="text-secondary text-decoration-none hover-link">
+                            class="text-secondary text-decoration-none hover-link">
                             {{ __('footer.about_link') }}
                         </a>
                     </li>
                     <li class="mb-2">
                         <a href="{{ route('contact', ['lang' => app()->getLocale()]) }}"
-                           class="text-secondary text-decoration-none hover-link">
+                            class="text-secondary text-decoration-none hover-link">
                             {{ __('footer.contact_link') }}
                         </a>
                     </li>
                     <li class="mb-2">
                         <a href="{{ route('politique-confidentialite', ['lang' => app()->getLocale()]) }}"
-                           class="text-secondary text-decoration-none hover-link">
+                            class="text-secondary text-decoration-none hover-link">
                             {{ __('footer.privacy_link') }}
                         </a>
                     </li>
                     <li class="mb-2">
                         <a href="{{ route('politique-retour', ['lang' => app()->getLocale()]) }}"
-                           class="text-secondary text-decoration-none hover-link">
+                            class="text-secondary text-decoration-none hover-link">
                             {{ __('footer.returns_link') }}
                         </a>
                     </li>
@@ -82,25 +82,25 @@
             </div>
 
             <!-- Colonne 4 : Contact -->
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-2">
                 <h5 class="h6 fw-bold">{{ __('footer.contact') }}</h5>
                 <div class="d-flex flex-column gap-2">
-                    <!-- <a href="https://wa.me/393508724295?text={{ urlencode(__('whatsapp_message')) }}"
+                    <!-- <a href="https://wa.me/0644695982?text={{ urlencode(__('whatsapp_message')) }}"
                        class="btn btn-success btn-sm d-inline-flex align-items-center gap-2">
                         <i class="bi bi-whatsapp"></i>
                         WhatsApp
                     </a> -->
                     <a href="mailto:contact@canin-felin.com"
-                       class="btn btn-outline-primary btn-sm d-inline-flex align-items-center gap-2">
+                        class="btn btn-outline-primary btn-sm d-inline-flex align-items-center gap-2">
                         <i class="bi bi-envelope"></i>
                         contact@canin-felin.com
                     </a>
 
-                  <a href="tel:0644695982"
-   class="btn btn-outline-secondary btn-sm d-inline-flex align-items-center gap-2">
-    <i class="bi bi-phone"></i>
-    06 44 69 59 82
-</a>
+                    <a href="tel:0644695982"
+                        class="btn btn-outline-secondary btn-sm d-inline-flex align-items-center gap-2">
+                        <i class="bi bi-phone"></i>
+                        06 44 69 59 82
+                    </a>
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@
                     <em><strong>{{ __('footer.copyright') }}</strong></em>
                 </p>
             </div>
-   
+
         </div>
     </div>
 </footer>
@@ -168,6 +168,7 @@
             transform: scale(1);
             opacity: 0.6;
         }
+
         100% {
             transform: scale(1.5);
             opacity: 0;
@@ -364,7 +365,7 @@
                 // Si le footer est visible, ajuster la position du bouton
                 if (footerRect.top < windowHeight) {
                     const overlap = windowHeight - footerRect.top;
-                 //   scrollBtn.style.bottom = (overlap + 20) + 'px';
+                    //   scrollBtn.style.bottom = (overlap + 20) + 'px';
                 } else {
                     scrollBtn.style.bottom = '110px';
                 }

@@ -120,9 +120,7 @@
                         
                         <div class="mb-4">
                             <p class="text-center fw-bold">{{ __('about_us.licensed_operations_title') }}</p>
-                            <p class="text-center">{{ __('about_us.official_registration') }}</p>
-                            <p class="text-center">{{ __('about_us.center_license') }}</p>
-                            <p class="text-center">{{ __('about_us.vet_collaborations') }}</p>
+                         
                         </div>
                         
                         <!-- Affiliations professionnelles -->
@@ -206,32 +204,35 @@
                 ];
             @endphp
             
-            @foreach($phases as $index => $phase)
-            <div class="col-md-6 col-lg-4">
-                <div class="card h-100 border-0 shadow-sm hover-scale transition">
-                    <div class="card-body p-4">
-                        <div class="d-flex align-items-center mb-3">
-                            <div class="rounded-circle d-flex align-items-center justify-content-center me-3" 
-                                 style="width: 40px; height: 40px; background: var(--accent-orange); color: white; font-weight: bold;">
-                                {{ $index + 1 }}
-                            </div>
-                            <h4 class="h5 fw-bold mb-0" style="color: var(--accent-orange);">
-                                {{ __($phase['title']) }}
-                            </h4>
-                        </div>
-                        
-                        <ul class="list-unstyled ps-5">
-                            @foreach($phase['points'] as $point)
-                            <li class="mb-2 d-flex">
-                                <i class="bi bi-dot me-2"></i>
-                                <span class="text-secondary">{{ __('about_us.phase'.($index+1).'_'.$point) }}</span>
-                            </li>
-                            @endforeach
-                        </ul>
+       @foreach($phases as $index => $phase)
+    @php $phaseNumber = $index + 1; @endphp
+    <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 border-0 shadow-sm hover-scale transition">
+            <div class="card-body p-4">
+                {{-- En-tête avec numéro et titre --}}
+                <div class="d-flex align-items-start mb-3">
+                    <div class="rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0" 
+                         style="width: 40px; height: 40px; min-width: 40px; background: var(--accent-orange); color: white; font-weight: bold;">
+                        {{ $phaseNumber }}
                     </div>
+                    <h4 class="h5 fw-bold mb-0 lh-base" style="color: var(--accent-orange);">
+                        {{ __($phase['title']) }}
+                    </h4>
                 </div>
+                
+                {{-- Liste des points --}}
+                <ul class="list-unstyled ps-2">
+                    @foreach($phase['points'] as $pointKey)
+                        <li class="mb-2 d-flex align-items-start">
+                            <i class="bi bi-check2-circle me-2 mt-1 flex-shrink-0" style="color: var(--accent-orange); font-size: 0.85rem;"></i>
+                            <span class="text-secondary">{{ __('about_us.phase'.$phaseNumber.'_'.$pointKey) }}</span>
+                        </li>
+                    @endforeach
+                </ul>
             </div>
-            @endforeach
+        </div>
+    </div>
+@endforeach
         </div>
         
         <!-- Engagement et Garanties -->
