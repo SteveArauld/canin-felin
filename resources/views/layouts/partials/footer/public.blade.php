@@ -96,11 +96,11 @@
                         contact@canin-felin.com
                     </a>
 
-                    <a href="tel:0644695982"
+                    <!-- <a href="tel:0644695982"
                         class="btn btn-outline-secondary btn-sm d-inline-flex align-items-center gap-2">
                         <i class="bi bi-phone"></i>
                         06 44 69 59 82
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
