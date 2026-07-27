@@ -291,6 +291,7 @@
                               action="{{ route('commande.process', ['lang' => app()->getLocale(), 'slug' => $animal->slug]) }}"
                               class="needs-validation" novalidate>
                             @csrf
+                            @include('partials.antispam')
                             
                             <div class="row g-3">
                                 <!-- Nom complet -->

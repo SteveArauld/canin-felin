@@ -160,7 +160,8 @@
             
             <form id="contactForm" method="POST" action="{{ route('contact.send') }}">
                 @csrf
-                
+                @include('partials.antispam')
+
                 <div class="row g-3">
                     <!-- Nom complet -->
                     <div class="col-md-6">
@@ -348,7 +349,7 @@
             showToast('error', '{{ __("contact.error_title") }}', '{{ session("error") }}');
         @endif
         
-        @if($errors->any())
+        @if($errors->any() && !session('error'))
             showToast('error', '{{ __("contact.error_title") }}', '{{ __("contact.fill_all_fields") }}');
         @endif
     });

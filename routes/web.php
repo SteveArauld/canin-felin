@@ -22,7 +22,9 @@ Route::get('/recherche/autocompletion', [SearchController::class, 'autocomplete'
 
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
-Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
+Route::post('/contact', [ContactController::class, 'send'])
+    ->middleware(['antispam:contact', 'throttle:10,1'])
+    ->name('contact.send');
 
 Route::group([ 'prefix' => '{lang}','middleware' => 'setLocale','where' => ['lang' => implode('|', array_keys(config('languages')))]], function () {
 
@@ -59,7 +61,9 @@ Route::group([ 'prefix' => '{lang}','middleware' => 'setLocale','where' => ['lan
 
 
    
-    Route::post('/commande/{slug}', [\App\Http\Controllers\OrderController::class, 'processOrder'])->name('commande.process');
+    Route::post('/commande/{slug}', [\App\Http\Controllers\OrderController::class, 'processOrder'])
+        ->middleware(['antispam:order', 'throttle:10,1'])
+        ->name('commande.process');
 // Route pour afficher les détails d'un animal
 Route::get('/animal/{slug}', [AnimalController::class, 'show'])
     ->name('animal.show');

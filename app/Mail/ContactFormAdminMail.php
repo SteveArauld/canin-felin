@@ -21,8 +21,8 @@ class ContactFormAdminMail extends Mailable
     {
         return $this->from(config('mail.from.address'), config('mail.from.name'))
                     ->replyTo($this->data['email'], $this->data['nom'])
-                    ->subject('📩 Nouveau message de contact - ' . $this->data['sujet'])
-                    ->markdown('emails.contact-admin')
+                    ->subject(__('mail.contact_admin.subject', ['subject' => $this->data['sujet']]))
+                    ->view('emails.contact-admin')
                     ->with('data', $this->data);
     }
 }

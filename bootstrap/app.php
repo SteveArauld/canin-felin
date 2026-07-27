@@ -13,6 +13,7 @@ return Application::configure(basePath: dirname(__DIR__))
     ->withMiddleware(function (Middleware $middleware): void {
         $middleware->alias([
                  'setLocale' => \App\Http\Middleware\SetLocale::class,
+                 'antispam' => \App\Http\Middleware\PreventSpam::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {

@@ -20,8 +20,8 @@ class ContactFormMail extends Mailable
     public function build()
     {
         return $this->from(config('mail.from.address'), config('mail.from.name'))
-                    ->subject('✅ Confirmation de votre message - Élevage d\'animaux ASSOCIU FERRU DI CAVALLU')
-                    ->markdown('emails.contact-user')
+                    ->subject(__('mail.contact_user.subject') . ' — ' . config('company.name'))
+                    ->view('emails.contact-user')
                     ->with('data', $this->data);
     }
 }

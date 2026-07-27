@@ -29,16 +29,23 @@ class OrderConfirmationMail extends Mailable
      */
     public function build()
     {
-        // Récupérer l'adresse et le nom depuis .env
-        $fromAddress = env('MAIL_FROM_ADDRESS', 'contact@canin-felin.com');
-        $fromName = env('MAIL_FROM_NAME', 'élevages d\'animaux ASSOCIU FERRU DI CAVALLU');
+        $fromAddress = config('mail.from.address');
+        $fromName = config('mail.from.name') ?: config('company.name');
 
-        // Définir le sujet selon le type d'email
-        $subject = $this->isAdmin
-            ? 'Nouvelle demande d\'adoption - ' . $this->animal->nom
-            : 'Confirmation de votre demande - ' . $this->animal->nom;
+        // Le sujet dépend du destinataire : équipe interne ou client
+        $subject = __(
+            $this->isAdmin ? 'mail.order_admin.subject' : 'mail.order_user.subject',
+            ['animal' => $this->animal->nom]
+        );
 
-        return $this->from($fromAddress, $fromName)
+        $mail = $this->from($fromAddress, $fromName);
+
+        // La notification interne permet de répondre directement au client
+        if ($this->isAdmin && !empty($this->orderData['email'])) {
+            $mail->replyTo($this->orderData['email'], $this->orderData['nom'] ?? null);
+        }
+
+        return $mail
                     ->subject($subject)
                     ->view('emails.order-confirmation')
                     ->with([
