@@ -23,23 +23,17 @@
        value="{{ \App\Support\AntiSpam::timestampToken() }}">
 
 {{--
-    Filet de sécurité : si malgré tout un outil externe remplit le champ piège,
-    on le vide juste avant l'envoi. Un vrai visiteur n'est donc jamais bloqué,
-    tandis que les robots qui postent sans exécuter le JavaScript — la très
-    grande majorité du spam de formulaire — restent piégés.
+    Remise à zéro à l'ouverture de la page uniquement : c'est à ce moment que
+    l'autofill d'un navigateur agit. Le champ n'est volontairement PAS vidé à
+    l'envoi, sinon le piège ne servirait plus à rien : toute valeur présente au
+    moment de la soumission est donc bien le fait d'un robot, et la demande est
+    rejetée côté serveur.
 --}}
 <script>
     (function () {
         var field = document.getElementById('{{ \App\Support\AntiSpam::HONEYPOT_FIELD }}');
-        if (!field) return;
-
-        field.value = '';
-
-        var form = field.form;
-        if (form) {
-            form.addEventListener('submit', function () {
-                field.value = '';
-            });
+        if (field) {
+            field.value = '';
         }
     })();
 </script>
