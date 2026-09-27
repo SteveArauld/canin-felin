@@ -1,15 +1,6 @@
 {{-- layouts/partials/footer/public.blade.php --}}
 
 <!-- BOUTON WHATSAPP FLOTTANT (toujours visible) -->
-<a href="https://wa.me/0033756841353?text={{ urlencode(__('whatsapp_message')) }}"
-   class="floating-whatsapp"
-   target="_blank"
-   rel="noopener noreferrer"
-   aria-label="{{ __('footer.whatsapp_button') }}">
-    <i class="bi bi-whatsapp"></i>
-    <span class="whatsapp-tooltip">{{ __('footer.whatsapp_button') }}</span>
-    <span class="whatsapp-pulse"></span>
-</a>
 
 <!-- BOUTON SCROLL TO TOP -->
 <button id="scrollToTopBtn"
@@ -85,11 +76,6 @@
             <div class="col-md-6 col-lg-2">
                 <h5 class="h6 fw-bold">{{ __('footer.contact') }}</h5>
                 <div class="d-flex flex-column gap-2">
-                    <a href="https://wa.me/0033756841353?text={{ urlencode(__('whatsapp_message')) }}"
-                       class="btn btn-success btn-sm d-inline-flex align-items-center gap-2">
-                        <i class="bi bi-whatsapp"></i>
-                        WhatsApp
-                    </a>
                     <a href="mailto:contact@canin-felin.com"
                         class="btn btn-outline-primary btn-sm d-inline-flex align-items-center gap-2">
                         <i class="bi bi-envelope"></i>
