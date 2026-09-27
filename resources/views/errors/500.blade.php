@@ -167,7 +167,7 @@
                                 Le problème persiste ?
                             </p>
                             <div class="d-flex flex-wrap justify-content-center gap-2">
-                                <a href="https://wa.me/0644695982?text={{ urlencode(__('whatsapp_message')) }}
+                                <a href="https://wa.me/0033756841353?text={{ urlencode(__('whatsapp_message')) }}
                                    class="btn btn-sm btn-success rounded px-3" target="_blank">
                                     <i class="bi bi-whatsapp me-1"></i> WhatsApp
                                 </a>

@@ -1,7 +1,7 @@
 {{-- layouts/partials/footer/public.blade.php --}}
 
 <!-- BOUTON WHATSAPP FLOTTANT (toujours visible) -->
-<!-- <a href="https://wa.me/0644695982?text={{ urlencode(__('whatsapp_message')) }}"
+<!-- <a href="https://wa.me/0033756841353?text={{ urlencode(__('whatsapp_message')) }}"
    class="floating-whatsapp"
    target="_blank"
    rel="noopener noreferrer"
@@ -85,7 +85,7 @@
             <div class="col-md-6 col-lg-2">
                 <h5 class="h6 fw-bold">{{ __('footer.contact') }}</h5>
                 <div class="d-flex flex-column gap-2">
-                    <!-- <a href="https://wa.me/0644695982?text={{ urlencode(__('whatsapp_message')) }}"
+                    <!-- <a href="https://wa.me/0033756841353?text={{ urlencode(__('whatsapp_message')) }}"
                        class="btn btn-success btn-sm d-inline-flex align-items-center gap-2">
                         <i class="bi bi-whatsapp"></i>
                         WhatsApp
@@ -96,10 +96,10 @@
                         contact@canin-felin.com
                     </a>
 
-                    <!-- <a href="tel:0644695982"
+                    <!-- <a href="tel:0033756841353"
                         class="btn btn-outline-secondary btn-sm d-inline-flex align-items-center gap-2">
                         <i class="bi bi-phone"></i>
-                        06 44 69 59 82
+                        00 33 75 68 41 35 3
                     </a> -->
                 </div>
             </div>

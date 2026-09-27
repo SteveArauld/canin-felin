@@ -14,7 +14,7 @@ return [
     'tagline' => env('COMPANY_TAGLINE', 'Éleveurs éthiques en France'),
 
     'email' => env('ADMIN_EMAIL', 'contact@canin-felin.com'),
-    'phone' => env('COMPANY_PHONE', '06 44 69 59 82'),
+    'phone' => env('COMPANY_PHONE', '00 33 75 68 41 35 3'),
     'whatsapp' => env('COMPANY_WHATSAPP', '33644695982'),
 
     'logo' => 'assets/logo/logon.png',
